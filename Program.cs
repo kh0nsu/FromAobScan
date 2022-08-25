@@ -24,6 +24,7 @@ namespace aobScanExe
                 @"C:\temp\ds3\DarkSoulsIII_1.08_crashfix.exe",
                 @"C:\temp\ds3\DarkSoulsIII_1.12_crashfix.exe",
                 @"C:\temp\ds3\DarkSoulsIII_1.15.exe",
+                @"C:\temp\ds3\DarkSoulsIII_1.15.1.exe",
                 @"C:\temp\sekiro_1.06.unpacked.exe", //unpacked with steamless
             };
             foreach (var exe in gameExes)
@@ -157,6 +158,17 @@ namespace aobScanExe
 
                 //findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7); //doesn't work for DS3
 
+                //no AOB for enemy target draw (obfuscated)
+                //no AOB for repeating enemy actions DbgGetForceActIdx/DbgSetLastActIdx
+                //no AOB for freeCamPlayerControlPatchLoc
+                //no AOB for code cave (find manually at end of exe)
+                //no AOB for target hook location
+                //no AOB for font draw patch loc
+
+                findAddr(textSection, header.VirtualAddress, "40 53 55 56 41 54 41 56 48 83EC 20 49 8BE8 4C 8B41 ?? 4D 8BF1 48 8BF2 48 8BD9 4C 3BC2 0F82 ????????", "mod engine hook WIP take first");
+                findAddr(textSection, header.VirtualAddress, "74 68 48 8b cf 48 89 5c 24 30 E8", "loose params 1");
+                findAddr(textSection, header.VirtualAddress, "0F 85 C5 00 00 00 48 8D 4C 24 28 E8", "loose params 2");
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? 53 E9 ?? ?? ?? ?? E2 0C FFF1", "loose params 3");
             };
 
             Action doSekiroScan = () =>
