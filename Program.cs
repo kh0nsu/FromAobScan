@@ -8,34 +8,32 @@ using System.Reflection.PortableExecutable;
 //expect things to break in new patches.
 //aobs from pav, nord, myself, various CE tables etc. all technically fromsoft IP.
 
+//make sure sekiro is unpacked with steamless
+
 namespace aobScanExe
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var gameExes = new string[] {
-                @"C:\temp\er\eldenring_1.02.3.exe",
-                @"C:\temp\er\eldenring_1.03.2.exe",
-                @"C:\temp\er\eldenring_1.04.1.exe",
-                @"C:\temp\er\eldenring_1.05.0.exe",
-                @"C:\temp\er\eldenring_1.06.0.exe",
-                @"C:\temp\ds3\DarkSoulsIII_1.04_crashfix.exe",
-                @"C:\temp\ds3\DarkSoulsIII_1.08_crashfix.exe",
-                @"C:\temp\ds3\DarkSoulsIII_1.12_crashfix.exe",
-                @"C:\temp\ds3\DarkSoulsIII_1.15.exe",
-                @"C:\temp\ds3\DarkSoulsIII_1.15.1.exe",
-                @"C:\temp\sekiro_1.06.unpacked.exe", //unpacked with steamless
-            };
+            Console.Write("Enter test AOB, or blank to run all: ");
+            var testAob = Console.ReadLine();
+
+            Console.Write(@"Enter exe folder (default C:\fromexes): ");
+            var exesFolder = Console.ReadLine();
+            if (string.IsNullOrEmpty(exesFolder)) { exesFolder = @"C:\fromexes"; }
+
+            var gameExes = Directory.GetFiles(exesFolder, "*.exe");
+
             foreach (var exe in gameExes)
             {
                 Console.WriteLine("Processing exe: " + exe);
-                new Program().run(exe);
+                new Program().run(exe, testAob);
                 Console.WriteLine();
             }
             Console.ReadLine();
         }
-        public void run(string exe)
+        public void run(string exe, string testAob = null)
         {
             var strim = new FileStream(exe, FileMode.Open, FileAccess.Read, FileShare.Read);
             var headers = new PEHeaders(strim);
@@ -59,8 +57,8 @@ namespace aobScanExe
                     }
                 }
             }
-            Console.WriteLine($"First text section: offset {header.PointerToRawData} size {header.SizeOfRawData}, virtual addr hex {header.VirtualAddress:X2}");
-            Console.WriteLine($"Second text section: offset {header2.PointerToRawData} size {header2.SizeOfRawData}, virtual addr hex {header2.VirtualAddress:X2}");
+            //Console.WriteLine($"First text section: offset {header.PointerToRawData} size {header.SizeOfRawData}, virtual addr hex {header.VirtualAddress:X2}");
+            //Console.WriteLine($"Second text section: offset {header2.PointerToRawData} size {header2.SizeOfRawData}, virtual addr hex {header2.VirtualAddress:X2}");
             //read all in memory - faster than seeking through
             var textSection = new byte[header.SizeOfRawData];
             strim.Seek(header.PointerToRawData, SeekOrigin.Begin);
@@ -180,9 +178,17 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7);
             };
 
-            if (exe.ToLower().Contains("elden")) { doERScan(); }
-            if (exe.ToLower().Contains("darksoulsiii")) { doDS3Scan(); }
-            if (exe.ToLower().Contains("sekiro")) { doSekiroScan(); }
+            if (!string.IsNullOrEmpty(testAob))
+            {
+                findAddr(textSection, header.VirtualAddress, testAob, "Test AOB (section 1)");
+                findAddr(textSection2, header2.VirtualAddress, testAob, "Test AOB (section 2)");
+            }
+            else
+            {
+                if (exe.ToLower().Contains("elden")) { doERScan(); }
+                if (exe.ToLower().Contains("darksoulsiii")) { doDS3Scan(); }
+                if (exe.ToLower().Contains("sekiro")) { doSekiroScan(); }
+            }
         }
 
         //borrowed from https://github.com/Wulf2k/ER-Patcher.git
