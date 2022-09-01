@@ -171,6 +171,8 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? 53 E9 ?? ?? ?? ?? E2 0C FFF1", "loose params 3");
 
                 findAddr(textSection, header.VirtualAddress, "2943 08 837B 08 00 8983 ????0000 7F ?? 80BB ????0000 00 75 ??", "NPC part damage hook");
+
+                findAddr(textSection, header.VirtualAddress, "C783 ????0000 0000803F F3 0F108B ????0000", "Global Speed", justOffset: 2 + 4); //1.0f hardcoded in the asm
             };
 
             Action doSekiroScan = () =>
