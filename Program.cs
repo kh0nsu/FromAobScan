@@ -130,6 +130,9 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "894B 08 48 85F6 74 ?? 48 8D5424 ?? 48 8BCE E8 ???????? EB ??", "NPC part damage hook");
 
+                findAddr(textSection, header.VirtualAddress, "74 28 48 8B45 ?? 48 85C0 74 07 F3 0F1048 ?? EB 08 F3 0F100D ????????", "Weapon upgrade rune cost");//patch to EB (jmp)
+                findAddr(textSection, header.VirtualAddress, "8BF8 44 8BC3 48 8D55 ?? 48 8D4D ?? E8 ????????", "Weapon upgrade material cost"); //patch to 31 FF (xor edi,edi)
+
                 findAddr(textSection, header.VirtualAddress, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90", "codeCave_48_nops");
                 findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
             };
