@@ -157,11 +157,15 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B0D ???????? 48 85C9 74 0D 33C0 48 3981 ?? 000000 0F95C0 C3 32C0 C3", "AppMenu::NewMenuSystem", 3, 3 + 4);
                 findAddr(textSection, header.VirtualAddress, "48 8B0D ???????? 8B1B 8B38 48 85C9 75 26 4C 8D0D ???????? 4C 8D05 ???????? 48 8D0D ???????? BA ?? 000000 E8 ???????? 48 8B0D ???????? E8 ????????", "NS_SPRJ::SprjWorldAiManagerImp", 3, 3 + 4);
                 findAddr(textSection, header.VirtualAddress, "4053 56 4156 4883EC 40 440FB635 ???????? 4C896424 70 4C896C24 38 4C897C24 30 440FB63D ???????? ", "meshes off", 2 + 1 + 2 + 4 + 8 + 5 + 5 + 5 + 4, 2 + 1 + 2 + 4 + 8 + 5 + 5 + 5 + 4 + 4);
-                findAddr(textSection, header.VirtualAddress, "41 FF50 10 48 897C24 40 48 8B0D ???????? 48 85C9 75 4E 380D ???????? 74 17 4C 8D05 ???????? 8D51 41 48 8D0D ???????? E8 ????????", "usrInputMgrImplOff", 4 + 5 + 3, 4 + 5 + 3 + 4);
+                findAddr(textSection, header.VirtualAddress, "41 FF50 10 48 897C24 40 48 8B0D ???????? 48 85C9 75 4E 380D ???????? 74 17 4C 8D05 ???????? 8D51 41 48 8D0D ???????? E8 ????????", "usrInputMgrImplOff", 4 + 5 + 3, 4 + 5 + 3 + 4); //or do rtti search for DLUID::DLUserInputManagerImpl<DLKR::DLMultiThreadingPolicy>.
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8905 ???????? 48 8B05 ???????? E8 ???????? 4C 8B08 41 B8 01000000 48 8D15 ???????? 48 8BC8 41 FF51 08", "usrInputMgrImplOff (alternate aob)", 1 + 4 + 1 + 2, 1 + 4 + 1 + 2 + 4); //just in case
+                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 75 ?? 48 8B49 ?? 4C 8D05 ???????? BA ??000000 48 8B01 C74424 ?? ?? 000000 FF50 ??", "steam input stutter disable", 2); //always 24b but just in case. the actual stutter occurs from the virtual function call further down.
 
                 findAddr(textSection, header.VirtualAddress, "48 8B80 ????0000 48 8B08 48 8B51 ?? 48 8BC2 48 C1E8 ?? A8 01 75 09 48 C1EA ?? F6C2 01 74 07 B0 01 48 83C4 ??", "targetHookLoc"); //works in all except 1.04. longer than it needs to be.
                 //no AOB for code cave (find manually at end of exe)
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 0F287424 50 0F287C24 40 44 0F284424 30 48 83C4 60 5B", "fontDrawFirstPatchLoc"); //i honestly don't know what this does, other than preventing a crash.
+
+                
 
                 //note: ~8% of the first text section is obfuscated in the exe. take a live dump of it and patch the exe with it to get a 'live' exe for the following AOBs to work.
 
