@@ -159,19 +159,21 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "4053 56 4156 4883EC 40 440FB635 ???????? 4C896424 70 4C896C24 38 4C897C24 30 440FB63D ???????? ", "meshes off", 2 + 1 + 2 + 4 + 8 + 5 + 5 + 5 + 4, 2 + 1 + 2 + 4 + 8 + 5 + 5 + 5 + 4 + 4);
                 findAddr(textSection, header.VirtualAddress, "41 FF50 10 48 897C24 40 48 8B0D ???????? 48 85C9 75 4E 380D ???????? 74 17 4C 8D05 ???????? 8D51 41 48 8D0D ???????? E8 ????????", "usrInputMgrImplOff", 4 + 5 + 3, 4 + 5 + 3 + 4);
 
-                //findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7); //doesn't work for DS3
-
-                //no AOB for enemy target draw (obfuscated)
-                //no AOB for repeating enemy actions DbgGetForceActIdx/DbgSetLastActIdx
-                //no AOB for freeCamPlayerControlPatchLoc
+                findAddr(textSection, header.VirtualAddress, "48 8B80 ????0000 48 8B08 48 8B51 ?? 48 8BC2 48 C1E8 ?? A8 01 75 09 48 C1EA ?? F6C2 01 74 07 B0 01 48 83C4 ??", "targetHookLoc"); //works in all except 1.04. longer than it needs to be.
                 //no AOB for code cave (find manually at end of exe)
-                //no AOB for target hook location
-                //no AOB for font draw patch loc
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 0F287424 50 0F287C24 40 44 0F284424 30 48 83C4 60 5B", "fontDrawFirstPatchLoc"); //i honestly don't know what this does, other than preventing a crash.
+
+                //note: ~8% of the first text section is obfuscated in the exe. take a live dump of it and patch the exe with it to get a 'live' exe for the following AOBs to work.
+
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 05 40 32F6 EB 03 40 B6 01 A8 04 75 0D 803D ???????? 00", "Enemy Targeting Draw 1 (live exe)", 2, 2 + 4 + 1); //draw 2 is always this addr +1. also needs 'all debug drawing' enabled.
+                findAddr(textSection, header.VirtualAddress, "48 8B41 08 0FBE80 81B60000", "DbgGetForceActIdx (live exe)", justOffset: 4 + 3); //patch 81 to 82 to repeat enemy actions
+                findAddr(textSection, header.VirtualAddress, "8B83 ??000000 FFC8 83F8 01 0F87 ???????? 48 83BB ??000000 000F84 ???????? 83BB ??000000 00 0F85 ????????", "freeCamPlayerControlPatchLoc (live exe)"); //works in elden ring and sekiro too?!
 
                 findAddr(textSection, header.VirtualAddress, "40 53 55 56 41 54 41 56 48 83EC 20 49 8BE8 4C 8B41 ?? 4D 8BF1 48 8BF2 48 8BD9 4C 3BC2 0F82 ????????", "mod engine hook WIP take first");
                 findAddr(textSection, header.VirtualAddress, "74 68 48 8b cf 48 89 5c 24 30 E8", "loose params 1");
                 findAddr(textSection, header.VirtualAddress, "0F 85 C5 00 00 00 48 8D 4C 24 28 E8", "loose params 2");
-                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? 53 E9 ?? ?? ?? ?? E2 0C FFF1", "loose params 3");
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? 53 E9 ?? ?? ?? ?? E2 0C FFF1", "loose params 3 (offline exe)"); //only works on the original exe; last part is obfuscated
+                findAddr(textSection, header.VirtualAddress, "E9 ?? ?? ?? ?? 90 E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ??", "loose params 3 WIP", justOffset: 0x11); //will get multiple results. try second result. check called func and look for rcx+60 a few instructions down.
 
                 findAddr(textSection, header.VirtualAddress, "2943 08 837B 08 00 8983 ????0000 7F ?? 80BB ????0000 00 75 ??", "NPC part damage hook");
 
