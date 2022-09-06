@@ -1,0 +1,946 @@
+Enter test AOB, or blank to run all:
+Enter exe folder (default C:\fromexes):
+Processing exe: C:\fromexes\DarkSoulsIII_1.04_crashfix.exe
+
+NS_SPRJ::GameDataMan found at index 4625728 offset hex 46A540 raw val 4232BD1 final offset 469D118
+NS_SPRJ::WorldChrManImp found at index 4273585 offset hex 4145B1 raw val 42B1810 final offset 46C5DC8
+NS_SPRJ::WorldChrManImp found at index 4273675 offset hex 41460B raw val 42B17B6 final offset 46C5DC8
+NS_SPRJ::GameMan found at index 6391376 offset hex 619650 raw val 40873D9 final offset 46A0A30
+NS_SPRJ::FieldArea found at index 4075649 offset hex 3E4081 raw val 42BC970 final offset 46A09F8
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4253521 offset hex 40F751 raw val 428D550 final offset 469CCA8
+BaseFOff found at index 4536050 offset hex 4546F2 raw val 424368F final offset 4697D88
+NS_SPRJ::WorldChrManDbgImp found at index 6085405 offset hex 5CEB1D raw val 40F73C3 final offset 46C5EE8
+NS_SPRJ::WorldChrManDbgImp found at index 13839567 offset hex D33CCF raw val 3992211 final offset 46C5EE8
+debug flags / WorldChrManDbg (alternate) found at index 4439373 offset hex 43CD4D raw val 4289143 final offset 46C5EB8
+debug flags / WorldChrManDbg (alternate) found at index 13215916 offset hex C9B8AC raw val 3A2A5E4 final offset 46C5EB8
+NS_SPRJ::SoloParamRepositoryImp found at index 3864603 offset hex 3B081B raw val 432EB66 final offset 46DF388
+GameFlagDataOff? found at index 4537196 offset hex 454B6C raw val 42442C5 final offset 4698E38
+NS_SPRJ::LockTgtManImp found at index 9085446 offset hex 8AB206 raw val 3E189E3 final offset 46C3BF0
+debug_flagsOff found at index 4439406 offset hex 43CD6E raw val 4289143 final offset 46C5EB8
+GROUP_MASK found at index 11427599 offset hex AE6F0F raw val 39D40CE final offset 44BB000
+NS_SPRJ::MenuMan found at index 7655232 offset hex 74DF40 raw val 3F5B339 final offset 46A9280
+hitbox base WIP take first found at index 9216992 offset hex 8CB3E0 raw val 3DF86D7 final offset 46C3AD0
+hitbox base WIP take first found at index 9217964 offset hex 8CB7AC raw val 3E0744B final offset 46D2C10
+AppMenu::NewMenuSystem found at index 11574016 offset hex B0AB00 raw val 3BC8ED1 final offset 46D39D8
+NS_SPRJ::SprjWorldAiManagerImp found at index 3836556 offset hex 3A9A8C raw val 42ED99D final offset 4697430
+meshes off found at index 8673616 offset hex 846950 raw val 3E7D244 final offset 46C3BBC
+usrInputMgrImplOff found at index 3083013 offset hex 2F1B05 raw val 45B915B final offset 48AAC70
+usrInputMgrImplOff (alternate aob) found at index 3083065 offset hex 2F1B39 raw val 45B912B final offset 48AAC70
+steam input stutter disable found at index 23884175 offset hex 16C818F raw val 24B
+Nothing found for targetHookLoc
+fontDrawFirstPatchLoc found at index 36776470 offset hex 2313A16
+Nothing found for Enemy Targeting Draw 1 (live exe)
+Nothing found for DbgGetForceActIdx (live exe)
+Nothing found for freeCamPlayerControlPatchLoc (live exe)
+mod engine hook WIP take first found at index 508560 offset hex 7D290
+mod engine hook WIP take first found at index 3123216 offset hex 2FB810
+loose params 1 found at index 14442821 offset hex DC7145
+loose params 2 found at index 9299433 offset hex 8DF5E9
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 27767742 offset hex 1A7C3BE with offset 1A7C3CF
+loose params 3 WIP found at index 27881626 offset hex 1A9809A with offset 1A980AB
+NPC part damage hook found at index 4607853 offset hex 465F6D
+Global Speed found at index 9957906 offset hex 980212 with offset 980218
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.08_crashfix.exe
+
+NS_SPRJ::GameDataMan found at index 4633808 offset hex 46C4D0 raw val 4297D91 final offset 4704268
+NS_SPRJ::WorldChrManImp found at index 4280609 offset hex 416121 raw val 4316E30 final offset 472CF58
+NS_SPRJ::WorldChrManImp found at index 4280699 offset hex 41617B raw val 4316DD6 final offset 472CF58
+NS_SPRJ::GameMan found at index 6423040 offset hex 621200 raw val 40E6989 final offset 4707B90
+NS_SPRJ::FieldArea found at index 4082497 offset hex 3E5B41 raw val 4322010 final offset 4707B58
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4260545 offset hex 4112C1 raw val 42F2B30 final offset 4703DF8
+BaseFOff found at index 4543490 offset hex 456402 raw val 42A8A7F final offset 46FEE88
+NS_SPRJ::WorldChrManDbgImp found at index 6116717 offset hex 5D656D raw val 4156B03 final offset 472D078
+NS_SPRJ::WorldChrManDbgImp found at index 14038895 offset hex D6476F raw val 39C8901 final offset 472D078
+debug flags / WorldChrManDbg (alternate) found at index 4446749 offset hex 43EA1D raw val 42EE604 final offset 472D049
+debug flags / WorldChrManDbg (alternate) found at index 13413180 offset hex CCBB3C raw val 3A614E5 final offset 472D049
+NS_SPRJ::SoloParamRepositoryImp found at index 3871419 offset hex 3B22BB raw val 43943A6 final offset 4746668
+GameFlagDataOff? found at index 4544636 offset hex 45687C raw val 42A96B5 final offset 46FFF38
+NS_SPRJ::LockTgtManImp found at index 9136662 offset hex 8B7A16 raw val 3E73363 final offset 472AD80
+debug_flagsOff found at index 4446782 offset hex 43EA3E raw val 42EE604 final offset 472D049
+GROUP_MASK found at index 11519551 offset hex AFD63F raw val 3A1DFA6 final offset 451B608
+NS_SPRJ::MenuMan found at index 7691488 offset hex 756CE0 raw val 3FB96F1 final offset 47103D8
+hitbox base WIP take first found at index 9272624 offset hex 8D8D30 raw val 3E51F17 final offset 472AC60
+hitbox base WIP take first found at index 9273596 offset hex 8D90FC raw val 3E60C9B final offset 4739DB0
+AppMenu::NewMenuSystem found at index 11667520 offset hex B21840 raw val 3C19381 final offset 473ABC8
+NS_SPRJ::SprjWorldAiManagerImp found at index 3843356 offset hex 3AB51C raw val 435300D final offset 46FE530
+meshes off found at index 8718976 offset hex 851A80 raw val 3ED92A4 final offset 472AD4C
+usrInputMgrImplOff found at index 3086277 offset hex 2F27C5 raw val 462001B final offset 49127F0
+usrInputMgrImplOff (alternate aob) found at index 3086329 offset hex 2F27F9 raw val 461FFEB final offset 49127F0
+steam input stutter disable found at index 24833871 offset hex 17AFF4F raw val 24B
+targetHookLoc found at index 8723322 offset hex 852B7A
+fontDrawFirstPatchLoc found at index 37002918 offset hex 234AEA6
+Nothing found for Enemy Targeting Draw 1 (live exe)
+Nothing found for DbgGetForceActIdx (live exe)
+Nothing found for freeCamPlayerControlPatchLoc (live exe)
+mod engine hook WIP take first found at index 508704 offset hex 7D320
+mod engine hook WIP take first found at index 3126480 offset hex 2FC4D0
+loose params 1 found at index 14645093 offset hex DF8765
+loose params 2 found at index 9357273 offset hex 8ED7D9
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 28704062 offset hex 1B60D3E with offset 1B60D4F
+NPC part damage hook found at index 4615629 offset hex 467DCD
+Global Speed found at index 10016098 offset hex 98E562 with offset 98E568
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.12_crashfix.exe
+
+NS_SPRJ::GameDataMan found at index 4634832 offset hex 46C8D0 raw val 42CDF41 final offset 473A818
+NS_SPRJ::WorldChrManImp found at index 4279473 offset hex 415CB1 raw val 434D860 final offset 4763518
+NS_SPRJ::WorldChrManImp found at index 4279563 offset hex 415D0B raw val 434D806 final offset 4763518
+NS_SPRJ::GameMan found at index 6437520 offset hex 624A90 raw val 41196B9 final offset 473E150
+NS_SPRJ::FieldArea found at index 4081361 offset hex 3E56D1 raw val 4358A48 final offset 473E120
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259409 offset hex 410E51 raw val 4329550 final offset 473A3A8
+BaseFOff found at index 4544498 offset hex 4567F2 raw val 42DEC1F final offset 4735418
+NS_SPRJ::WorldChrManDbgImp found at index 6129453 offset hex 5D972D raw val 4189F03 final offset 4763638
+NS_SPRJ::WorldChrManDbgImp found at index 14147167 offset hex D7EE5F raw val 39E47D1 final offset 4763638
+debug flags / WorldChrManDbg (alternate) found at index 4447565 offset hex 43ED4D raw val 4324893 final offset 4763608
+debug flags / WorldChrManDbg (alternate) found at index 13521212 offset hex CE613C raw val 3A7D4A4 final offset 4763608
+NS_SPRJ::SoloParamRepositoryImp found at index 3870283 offset hex 3B1E4B raw val 43CB076 final offset 477CEC8
+GameFlagDataOff? found at index 4545644 offset hex 456C6C raw val 42DF855 final offset 47364C8
+NS_SPRJ::LockTgtManImp found at index 9165798 offset hex 8BEBE6 raw val 3EA2753 final offset 4761340
+debug_flagsOff found at index 4447598 offset hex 43ED6E raw val 4324893 final offset 4763608
+GROUP_MASK found at index 11583247 offset hex B0CF0F raw val 3A43DBE final offset 4550CF0
+NS_SPRJ::MenuMan found at index 7709552 offset hex 75B370 raw val 3FEB611 final offset 4746988
+hitbox base WIP take first found at index 9302944 offset hex 8E03A0 raw val 3E80E67 final offset 4761220
+hitbox base WIP take first found at index 9303916 offset hex 8E076C raw val 3E8FBFB final offset 4770380
+AppMenu::NewMenuSystem found at index 11730960 offset hex B31010 raw val 3C40191 final offset 47711A8
+NS_SPRJ::SprjWorldAiManagerImp found at index 3842220 offset hex 3AB0AC raw val 43899FD final offset 4734AB0
+meshes off found at index 8744048 offset hex 857C70 raw val 3F09674 final offset 476130C
+usrInputMgrImplOff found at index 3088597 offset hex 2F30D5 raw val 4655F73 final offset 4949058
+usrInputMgrImplOff (alternate aob) found at index 3088649 offset hex 2F3109 raw val 4655F43 final offset 4949058
+steam input stutter disable found at index 24945951 offset hex 17CB51F raw val 24B
+targetHookLoc found at index 8748394 offset hex 858D6A
+fontDrawFirstPatchLoc found at index 37134694 offset hex 236B166
+Nothing found for Enemy Targeting Draw 1 (live exe)
+Nothing found for DbgGetForceActIdx (live exe)
+Nothing found for freeCamPlayerControlPatchLoc (live exe)
+mod engine hook WIP take first found at index 509408 offset hex 7D5E0
+mod engine hook WIP take first found at index 3128800 offset hex 2FCDE0
+loose params 1 found at index 14754037 offset hex E130F5
+loose params 2 found at index 9388921 offset hex 8F5379
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 15268494 offset hex E90A8E with offset E90A9F
+loose params 3 WIP found at index 15269234 offset hex E90D72 with offset E90D83
+loose params 3 WIP found at index 28855089 offset hex 1B85B31 with offset 1B85B42
+NPC part damage hook found at index 4616653 offset hex 4681CD
+Global Speed found at index 10055346 offset hex 997EB2 with offset 997EB8
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.15.1.exe
+
+NS_SPRJ::GameDataMan found at index 4635248 offset hex 46CA70 raw val 42EA841 final offset 47572B8
+NS_SPRJ::WorldChrManImp found at index 4279745 offset hex 415DC1 raw val 4369FF0 final offset 477FDB8
+NS_SPRJ::WorldChrManImp found at index 4279835 offset hex 415E1B raw val 4369F96 final offset 477FDB8
+NS_SPRJ::GameMan found at index 6447072 offset hex 626FE0 raw val 4133C19 final offset 475AC00
+NS_SPRJ::FieldArea found at index 4081633 offset hex 3E57E1 raw val 43753E8 final offset 475ABD0
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259681 offset hex 410F61 raw val 4345EE0 final offset 4756E48
+BaseFOff found at index 4544786 offset hex 456912 raw val 42FB59F final offset 4751EB8
+NS_SPRJ::WorldChrManDbgImp found at index 6138731 offset hex 5DBB6B raw val 41A4365 final offset 477FED8
+NS_SPRJ::WorldChrManDbgImp found at index 14209967 offset hex D8E3AF raw val 39F1B21 final offset 477FED8
+debug flags / WorldChrManDbg (alternate) found at index 4447837 offset hex 43EE5D raw val 4341023 final offset 477FEA8
+debug flags / WorldChrManDbg (alternate) found at index 13583116 offset hex CF530C raw val 3A8AB74 final offset 477FEA8
+NS_SPRJ::SoloParamRepositoryImp found at index 3870555 offset hex 3B1F5B raw val 43E61B6 final offset 4798118
+GameFlagDataOff? found at index 4545932 offset hex 456D8C raw val 42FC1D5 final offset 4752F68
+NS_SPRJ::LockTgtManImp found at index 9208054 offset hex 8C90F6 raw val 3EB4AE3 final offset 477DBE0
+debug_flagsOff found at index 4447870 offset hex 43EE7E raw val 4341023 final offset 477FEA8
+GROUP_MASK found at index 11634463 offset hex B1971F raw val 3A53466 final offset 456CBA8
+NS_SPRJ::MenuMan found at index 7720544 offset hex 75DE60 raw val 40053F1 final offset 4763258
+hitbox base WIP take first found at index 9344992 offset hex 8EA7E0 raw val 3E932C7 final offset 477DAC0
+hitbox base WIP take first found at index 9345964 offset hex 8EABAC raw val 3EA205B final offset 478CC20
+AppMenu::NewMenuSystem found at index 11782032 offset hex B3D790 raw val 3C502B9 final offset 478DA50
+NS_SPRJ::SprjWorldAiManagerImp found at index 3842492 offset hex 3AB1BC raw val 43A638D final offset 4751550
+meshes off found at index 8784832 offset hex 861BC0 raw val 3F1BFC4 final offset 477DBAC
+usrInputMgrImplOff found at index 3088869 offset hex 2F31E5 raw val 46712D3 final offset 49644C8
+usrInputMgrImplOff (alternate aob) found at index 3088921 offset hex 2F3219 raw val 46712A3 final offset 49644C8
+steam input stutter disable found at index 25015151 offset hex 17DC36F raw val 24B
+targetHookLoc found at index 8789178 offset hex 862CBA
+fontDrawFirstPatchLoc found at index 37205814 offset hex 237C736
+Nothing found for Enemy Targeting Draw 1 (live exe)
+Nothing found for DbgGetForceActIdx (live exe)
+Nothing found for freeCamPlayerControlPatchLoc (live exe)
+mod engine hook WIP take first found at index 509536 offset hex 7D660
+mod engine hook WIP take first found at index 3129072 offset hex 2FCEF0
+loose params 1 found at index 14817637 offset hex E22965
+loose params 2 found at index 9431145 offset hex 8FF869
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 15337310 offset hex EA175E with offset EA176F
+loose params 3 WIP found at index 15338050 offset hex EA1A42 with offset EA1A53
+loose params 3 WIP found at index 28847302 offset hex 1B83CC6 with offset 1B83CD7
+loose params 3 WIP found at index 28849621 offset hex 1B845D5 with offset 1B845E6
+loose params 3 WIP found at index 28993669 offset hex 1BA7885 with offset 1BA7896
+NPC part damage hook found at index 4617069 offset hex 46836D
+Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.15.1_livetext1.exe
+
+NS_SPRJ::GameDataMan found at index 4635248 offset hex 46CA70 raw val 42EA841 final offset 47572B8
+NS_SPRJ::WorldChrManImp found at index 4279745 offset hex 415DC1 raw val 4369FF0 final offset 477FDB8
+NS_SPRJ::WorldChrManImp found at index 4279835 offset hex 415E1B raw val 4369F96 final offset 477FDB8
+NS_SPRJ::GameMan found at index 6447072 offset hex 626FE0 raw val 4133C19 final offset 475AC00
+NS_SPRJ::FieldArea found at index 4081633 offset hex 3E57E1 raw val 43753E8 final offset 475ABD0
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259681 offset hex 410F61 raw val 4345EE0 final offset 4756E48
+BaseFOff found at index 4544786 offset hex 456912 raw val 42FB59F final offset 4751EB8
+BaseFOff found at index 4547941 offset hex 457565 raw val 42FA94C final offset 4751EB8
+NS_SPRJ::WorldChrManDbgImp found at index 6138731 offset hex 5DBB6B raw val 41A4365 final offset 477FED8
+NS_SPRJ::WorldChrManDbgImp found at index 14209967 offset hex D8E3AF raw val 39F1B21 final offset 477FED8
+debug flags / WorldChrManDbg (alternate) found at index 4447837 offset hex 43EE5D raw val 4341023 final offset 477FEA8
+debug flags / WorldChrManDbg (alternate) found at index 13583116 offset hex CF530C raw val 3A8AB74 final offset 477FEA8
+debug flags / WorldChrManDbg (alternate) found at index 13673443 offset hex D0B3E3 raw val 3A74A9D final offset 477FEA8
+debug flags / WorldChrManDbg (alternate) found at index 14386664 offset hex DB95E8 raw val 39C6898 final offset 477FEA8
+NS_SPRJ::SoloParamRepositoryImp found at index 3870555 offset hex 3B1F5B raw val 43E61B6 final offset 4798118
+GameFlagDataOff? found at index 4545932 offset hex 456D8C raw val 42FC1D5 final offset 4752F68
+NS_SPRJ::LockTgtManImp found at index 9208054 offset hex 8C90F6 raw val 3EB4AE3 final offset 477DBE0
+debug_flagsOff found at index 4447870 offset hex 43EE7E raw val 4341023 final offset 477FEA8
+GROUP_MASK found at index 11634463 offset hex B1971F raw val 3A53466 final offset 456CBA8
+NS_SPRJ::MenuMan found at index 7720544 offset hex 75DE60 raw val 40053F1 final offset 4763258
+hitbox base WIP take first found at index 9344992 offset hex 8EA7E0 raw val 3E932C7 final offset 477DAC0
+hitbox base WIP take first found at index 9345964 offset hex 8EABAC raw val 3EA205B final offset 478CC20
+AppMenu::NewMenuSystem found at index 11782032 offset hex B3D790 raw val 3C502B9 final offset 478DA50
+NS_SPRJ::SprjWorldAiManagerImp found at index 3842492 offset hex 3AB1BC raw val 43A638D final offset 4751550
+meshes off found at index 8784832 offset hex 861BC0 raw val 3F1BFC4 final offset 477DBAC
+usrInputMgrImplOff found at index 3088869 offset hex 2F31E5 raw val 46712D3 final offset 49644C8
+usrInputMgrImplOff (alternate aob) found at index 3088921 offset hex 2F3219 raw val 46712A3 final offset 49644C8
+steam input stutter disable found at index 25015151 offset hex 17DC36F raw val 24B
+targetHookLoc found at index 8789178 offset hex 862CBA
+fontDrawFirstPatchLoc found at index 37205814 offset hex 237C736
+Enemy Targeting Draw 1 (live exe) found at index 4314954 offset hex 41E74A raw val 43324B3 final offset 4750C04
+DbgGetForceActIdx (live exe) found at index 4068752 offset hex 3E2590 with offset 3E2597
+freeCamPlayerControlPatchLoc (live exe) found at index 6477857 offset hex 62E821
+mod engine hook WIP take first found at index 509536 offset hex 7D660
+mod engine hook WIP take first found at index 3129072 offset hex 2FCEF0
+loose params 1 found at index 14817637 offset hex E22965
+loose params 2 found at index 9431145 offset hex 8FF869
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 15337310 offset hex EA175E with offset EA176F
+loose params 3 WIP found at index 15338050 offset hex EA1A42 with offset EA1A53
+loose params 3 WIP found at index 28847302 offset hex 1B83CC6 with offset 1B83CD7
+loose params 3 WIP found at index 28849621 offset hex 1B845D5 with offset 1B845E6
+loose params 3 WIP found at index 28993669 offset hex 1BA7885 with offset 1BA7896
+NPC part damage hook found at index 4617069 offset hex 46836D
+Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.15.exe
+
+NS_SPRJ::GameDataMan found at index 4634976 offset hex 46C960 raw val 42D3811 final offset 4740178
+NS_SPRJ::WorldChrManImp found at index 4279617 offset hex 415D41 raw val 4353130 final offset 4768E78
+NS_SPRJ::WorldChrManImp found at index 4279707 offset hex 415D9B raw val 43530D6 final offset 4768E78
+NS_SPRJ::GameMan found at index 6437824 offset hex 624BC0 raw val 411EEE9 final offset 4743AB0
+NS_SPRJ::FieldArea found at index 4081505 offset hex 3E5761 raw val 435E318 final offset 4743A80
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259553 offset hex 410EE1 raw val 432EE20 final offset 473FD08
+BaseFOff found at index 4544642 offset hex 456882 raw val 42E44EF final offset 473AD78
+NS_SPRJ::WorldChrManDbgImp found at index 6129645 offset hex 5D97ED raw val 418F7A3 final offset 4768F98
+NS_SPRJ::WorldChrManDbgImp found at index 14158431 offset hex D81A5F raw val 39E7531 final offset 4768F98
+debug flags / WorldChrManDbg (alternate) found at index 4447709 offset hex 43EDDD raw val 432A163 final offset 4768F68
+debug flags / WorldChrManDbg (alternate) found at index 13532476 offset hex CE8D3C raw val 3A80204 final offset 4768F68
+NS_SPRJ::SoloParamRepositoryImp found at index 3870427 offset hex 3B1EDB raw val 43D0956 final offset 4782838
+GameFlagDataOff? found at index 4545788 offset hex 456CFC raw val 42E5125 final offset 473BE28
+NS_SPRJ::LockTgtManImp found at index 9172646 offset hex 8C06A6 raw val 3EA65F3 final offset 4766CA0
+debug_flagsOff found at index 4447742 offset hex 43EDFE raw val 432A163 final offset 4768F68
+GROUP_MASK found at index 11591407 offset hex B0EEEF raw val 3A46DDE final offset 4555CF0
+NS_SPRJ::MenuMan found at index 7709872 offset hex 75B4B0 raw val 3FF0E31 final offset 474C2E8
+hitbox base WIP take first found at index 9309792 offset hex 8E1E60 raw val 3E84D07 final offset 4766B80
+hitbox base WIP take first found at index 9310764 offset hex 8E222C raw val 3E93A9B final offset 4775CE0
+AppMenu::NewMenuSystem found at index 11739024 offset hex B32F90 raw val 3C43B71 final offset 4776B08
+NS_SPRJ::SprjWorldAiManagerImp found at index 3842364 offset hex 3AB13C raw val 438F2CD final offset 473A410
+meshes off found at index 8750672 offset hex 859650 raw val 3F0D5F4 final offset 4766C6C
+usrInputMgrImplOff found at index 3088741 offset hex 2F3165 raw val 465B863 final offset 494E9D8
+usrInputMgrImplOff (alternate aob) found at index 3088793 offset hex 2F3199 raw val 465B833 final offset 494E9D8
+steam input stutter disable found at index 24958159 offset hex 17CE4CF raw val 24B
+targetHookLoc found at index 8755018 offset hex 85A74A
+fontDrawFirstPatchLoc found at index 37146742 offset hex 236E076
+Nothing found for Enemy Targeting Draw 1 (live exe)
+Nothing found for DbgGetForceActIdx (live exe)
+Nothing found for freeCamPlayerControlPatchLoc (live exe)
+mod engine hook WIP take first found at index 509408 offset hex 7D5E0
+mod engine hook WIP take first found at index 3128944 offset hex 2FCE70
+loose params 1 found at index 14765301 offset hex E15CF5
+loose params 2 found at index 9395801 offset hex 8F6E59
+loose params 3 (offline exe) found at index 15281459 offset hex E93D33
+loose params 3 WIP found at index 15280702 offset hex E93A3E with offset E93A4F
+loose params 3 WIP found at index 15281442 offset hex E93D22 with offset E93D33
+loose params 3 WIP found at index 28841502 offset hex 1B8261E with offset 1B8262F
+loose params 3 WIP found at index 28938629 offset hex 1B9A185 with offset 1B9A196
+NPC part damage hook found at index 4616797 offset hex 46825D
+Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
+
+Processing exe: C:\fromexes\DarkSoulsIII_1.15_livetext1.exe
+
+NS_SPRJ::GameDataMan found at index 4634976 offset hex 46C960 raw val 42D3811 final offset 4740178
+NS_SPRJ::WorldChrManImp found at index 4279617 offset hex 415D41 raw val 4353130 final offset 4768E78
+NS_SPRJ::WorldChrManImp found at index 4279707 offset hex 415D9B raw val 43530D6 final offset 4768E78
+NS_SPRJ::GameMan found at index 6437824 offset hex 624BC0 raw val 411EEE9 final offset 4743AB0
+NS_SPRJ::FieldArea found at index 4081505 offset hex 3E5761 raw val 435E318 final offset 4743A80
+NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259553 offset hex 410EE1 raw val 432EE20 final offset 473FD08
+BaseFOff found at index 4544642 offset hex 456882 raw val 42E44EF final offset 473AD78
+BaseFOff found at index 4547781 offset hex 4574C5 raw val 42E38AC final offset 473AD78
+NS_SPRJ::WorldChrManDbgImp found at index 6129645 offset hex 5D97ED raw val 418F7A3 final offset 4768F98
+NS_SPRJ::WorldChrManDbgImp found at index 14158431 offset hex D81A5F raw val 39E7531 final offset 4768F98
+debug flags / WorldChrManDbg (alternate) found at index 4447709 offset hex 43EDDD raw val 432A163 final offset 4768F68
+debug flags / WorldChrManDbg (alternate) found at index 13532476 offset hex CE8D3C raw val 3A80204 final offset 4768F68
+debug flags / WorldChrManDbg (alternate) found at index 13622083 offset hex CFEB43 raw val 3A6A3FD final offset 4768F68
+debug flags / WorldChrManDbg (alternate) found at index 14334280 offset hex DAC948 raw val 39BC5F8 final offset 4768F68
+NS_SPRJ::SoloParamRepositoryImp found at index 3870427 offset hex 3B1EDB raw val 43D0956 final offset 4782838
+GameFlagDataOff? found at index 4545788 offset hex 456CFC raw val 42E5125 final offset 473BE28
+NS_SPRJ::LockTgtManImp found at index 9172646 offset hex 8C06A6 raw val 3EA65F3 final offset 4766CA0
+debug_flagsOff found at index 4447742 offset hex 43EDFE raw val 432A163 final offset 4768F68
+GROUP_MASK found at index 11591407 offset hex B0EEEF raw val 3A46DDE final offset 4555CF0
+NS_SPRJ::MenuMan found at index 7709872 offset hex 75B4B0 raw val 3FF0E31 final offset 474C2E8
+hitbox base WIP take first found at index 9309792 offset hex 8E1E60 raw val 3E84D07 final offset 4766B80
+hitbox base WIP take first found at index 9310764 offset hex 8E222C raw val 3E93A9B final offset 4775CE0
+AppMenu::NewMenuSystem found at index 11739024 offset hex B32F90 raw val 3C43B71 final offset 4776B08
+NS_SPRJ::SprjWorldAiManagerImp found at index 3842364 offset hex 3AB13C raw val 438F2CD final offset 473A410
+meshes off found at index 8750672 offset hex 859650 raw val 3F0D5F4 final offset 4766C6C
+usrInputMgrImplOff found at index 3088741 offset hex 2F3165 raw val 465B863 final offset 494E9D8
+usrInputMgrImplOff (alternate aob) found at index 3088793 offset hex 2F3199 raw val 465B833 final offset 494E9D8
+steam input stutter disable found at index 24958159 offset hex 17CE4CF raw val 24B
+targetHookLoc found at index 8755018 offset hex 85A74A
+fontDrawFirstPatchLoc found at index 37146742 offset hex 236E076
+Enemy Targeting Draw 1 (live exe) found at index 4314826 offset hex 41E6CA raw val 431B3F3 final offset 4739AC4
+DbgGetForceActIdx (live exe) found at index 4068624 offset hex 3E2510 with offset 3E2517
+freeCamPlayerControlPatchLoc (live exe) found at index 6468609 offset hex 62C401
+mod engine hook WIP take first found at index 509408 offset hex 7D5E0
+mod engine hook WIP take first found at index 3128944 offset hex 2FCE70
+loose params 1 found at index 14765301 offset hex E15CF5
+loose params 2 found at index 9395801 offset hex 8F6E59
+Nothing found for loose params 3 (offline exe)
+loose params 3 WIP found at index 15280702 offset hex E93A3E with offset E93A4F
+loose params 3 WIP found at index 15281442 offset hex E93D22 with offset E93D33
+loose params 3 WIP found at index 28841502 offset hex 1B8261E with offset 1B8262F
+loose params 3 WIP found at index 28938629 offset hex 1B9A185 with offset 1B9A196
+NPC part damage hook found at index 4616797 offset hex 46825D
+Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
+
+Processing exe: C:\fromexes\eldenring_1.02.3.exe
+
+worldChrManOff found at index 4154630 offset hex 3F7506 raw val 385BDBB final offset 3C532C8
+CS::WorldChrManImp (alternate) found at index 1805767 offset hex 1B9DC7 raw val 3A994F5 final offset 3C532C8
+CS::WorldChrManImp (alternate) found at index 6767920 offset hex 675530 raw val 35DDD8C final offset 3C532C8
+CS::WorldChrManImp offset found at index 1805767 offset hex 1B9DC7 raw val 18468
+CS::WorldChrManImp offset found at index 6767920 offset hex 675530 raw val 18468
+hitboxBase (1.05) found at index 4439527 offset hex 43CDE7 raw val 38168C1 final offset 3C536BB
+groupMask found at index 6671536 offset hex 65DCB0 raw val 33DBB5A final offset 3A39811
+meshesOff found at index 7251287 offset hex 6EB557 raw val 356BE2E final offset 3C5738C
+CS::GameMan found at index 6642768 offset hex 656C50 raw val 35FFF91 final offset 3C56BE8
+logoScreenBase found at index 11181843 offset hex AAAF13 with offset AAAF1A
+targetHookLoc_1.03 found at index 7273394 offset hex 6F0BB2
+Nothing found for targetHookLoc_1.04
+miscDebugBase found at index 4416818 offset hex 437532 raw val 381BFA4 final offset 3C534DD
+noAIUpdate found at index 3931121 offset hex 3C0BF1 raw val 38928F5 final offset 3C534ED
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3931114 offset hex 3C0BEA raw val 388EBE7 final offset 3C4F7D8
+chrDbg found at index 5237919 offset hex 4FFC9F raw val 375387A final offset 3C53520
+Nothing found for newMenuSystem
+fontDrawOffset found at index 39716704 offset hex 25E1760
+DbgEventManOff found at index 11106884 offset hex A98A44 raw val 31BC8B5 final offset 3C55300
+Event patch func 1 found at index 5707105 offset hex 572561 raw val 85F0DA final offset DD1640
+Event patch func 2 found at index 5707105 offset hex 572561 raw val 85F0B1 final offset DD1620
+CS::FieldArea found at index 6597234 offset hex 64BA72 raw val 360AA57 final offset 3C564D0
+free cam patch loc WIP, follow jumps from here found at index 7273691 offset hex 6F0CDB
+Nothing found for free cam patch loc older patch?
+Nothing found for free cam player control patch loc
+map open in combat found at index 8142355 offset hex 7C4E13
+map stay open in combat found at index 10026194 offset hex 990CD2
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 6341103 offset hex 4EDD1EF with offset 4EDD1F6
+warp call one found at index 6123312 offset hex 5D7F30
+Nothing found for warp call two
+usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F621C final offset 4528228
+steam input flag check found at index 31970486 offset hex 1E7E4B6 raw val 88B
+csFlipperOff found at index 14068655 offset hex D6BBAF raw val 370A1E2 final offset 4475D98
+csFlipperOff found at index 14071503 offset hex D6C6CF raw val 37096C2 final offset 4475D98
+csFlipperOff gameSpeedOffset found at index 14068655 offset hex D6BBAF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14071503 offset hex D6C6CF raw val 2D4
+no-death offset in CSChrDataModule found at index 4380434 offset hex 42E712 raw val 197
+toPGDataOff found at index 2423904 offset hex 250C60 raw val 39FA5B1 final offset 3C4B218
+CS::CSTrophyImp found at index 14094856 offset hex D72208 raw val 3703528 final offset 4475738
+NPC part damage hook found at index 5864564 offset hex 598C74
+Weapon upgrade rune cost found at index 7715233 offset hex 75C9A1
+Weapon upgrade material cost found at index 8727484 offset hex 853BBC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31367524 offset hex 1DEB164
+codeCave_48_zeroes found at index 31367720 offset hex 1DEB228
+codeCave_48_zeroes found at index 31389844 offset hex 1DF0894
+
+Processing exe: C:\fromexes\eldenring_1.03.0.exe
+
+worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
+CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
+CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
+hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
+meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
+CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
+logoScreenBase found at index 11203094 offset hex AB0216 with offset AB021D
+targetHookLoc_1.03 found at index 7278306 offset hex 6F1EE2
+Nothing found for targetHookLoc_1.04
+miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
+chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
+newMenuSystem found at index 5927913 offset hex 5A83E9 raw val 36C2310 final offset 3C6A700
+fontDrawOffset found at index 39755728 offset hex 25EAFD0
+DbgEventManOff found at index 11127892 offset hex A9DC54 raw val 31C9205 final offset 3C66E60
+Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8664EA final offset DD99C0
+Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8664C1 final offset DD99A0
+CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final offset 3C68040
+free cam patch loc WIP, follow jumps from here found at index 7278603 offset hex 6F200B
+Nothing found for free cam patch loc older patch?
+Nothing found for free cam player control patch loc
+map open in combat found at index 8150547 offset hex 7C6E13
+map stay open in combat found at index 10045687 offset hex 9958F7
+enemyRepeatActionOff (1st sect) found at index 31726172 offset hex 1E42A5C with offset 1E42A63
+Nothing found for enemyRepeatActionOff (2nd sect)
+warp call one found at index 6127552 offset hex 5D8FC0
+Nothing found for warp call two
+usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D3C final offset 4539DA8
+steam input flag check found at index 32009238 offset hex 1E87C16 raw val 88B
+csFlipperOff found at index 14102703 offset hex D740AF raw val 3713862 final offset 4487918
+csFlipperOff found at index 14105551 offset hex D74BCF raw val 3712D42 final offset 4487918
+csFlipperOff gameSpeedOffset found at index 14102703 offset hex D740AF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14105551 offset hex D74BCF raw val 2D4
+no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
+toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+CS::CSTrophyImp found at index 14128904 offset hex D7A708 raw val 370CBA8 final offset 44872B8
+NPC part damage hook found at index 5868660 offset hex 599C74
+Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
+Weapon upgrade material cost found at index 8740668 offset hex 856F3C
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31406276 offset hex 1DF48C4
+codeCave_48_zeroes found at index 31406472 offset hex 1DF4988
+codeCave_48_zeroes found at index 31428596 offset hex 1DF9FF4
+
+Processing exe: C:\fromexes\eldenring_1.03.1.exe
+
+worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
+CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
+CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
+hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
+meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
+CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
+logoScreenBase found at index 11203110 offset hex AB0226 with offset AB022D
+targetHookLoc_1.03 found at index 7278306 offset hex 6F1EE2
+Nothing found for targetHookLoc_1.04
+miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
+chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
+newMenuSystem found at index 5927913 offset hex 5A83E9 raw val 36C2310 final offset 3C6A700
+fontDrawOffset found at index 39755120 offset hex 25EAD70
+DbgEventManOff found at index 11127908 offset hex A9DC64 raw val 31C91F5 final offset 3C66E60
+Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8663EA final offset DD98C0
+Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8663C1 final offset DD98A0
+CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final offset 3C68040
+free cam patch loc WIP, follow jumps from here found at index 7278603 offset hex 6F200B
+Nothing found for free cam patch loc older patch?
+Nothing found for free cam player control patch loc
+map open in combat found at index 8150547 offset hex 7C6E13
+map stay open in combat found at index 10045703 offset hex 995907
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 9799293 offset hex 523C67D with offset 523C684
+warp call one found at index 6127552 offset hex 5D8FC0
+Nothing found for warp call two
+usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
+steam input flag check found at index 32008630 offset hex 1E879B6 raw val 88B
+csFlipperOff found at index 14102447 offset hex D73FAF raw val 3713952 final offset 4487908
+csFlipperOff found at index 14105295 offset hex D74ACF raw val 3712E32 final offset 4487908
+csFlipperOff gameSpeedOffset found at index 14102447 offset hex D73FAF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14105295 offset hex D74ACF raw val 2D4
+no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
+toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+CS::CSTrophyImp found at index 14128648 offset hex D7A608 raw val 370CC98 final offset 44872A8
+NPC part damage hook found at index 5868660 offset hex 599C74
+Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
+Weapon upgrade material cost found at index 8740684 offset hex 856F4C
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31405668 offset hex 1DF4664
+codeCave_48_zeroes found at index 31405864 offset hex 1DF4728
+codeCave_48_zeroes found at index 31427988 offset hex 1DF9D94
+
+Processing exe: C:\fromexes\eldenring_1.03.2.exe
+
+worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp (alternate) found at index 6772784 offset hex 676830 raw val 35EE5FC final offset 3C64E38
+CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
+CS::WorldChrManImp offset found at index 6772784 offset hex 676830 raw val 18468
+hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+groupMask found at index 6676480 offset hex 65F000 raw val 33EB80A final offset 3A4A811
+meshesOff found at index 7256311 offset hex 6EC8F7 raw val 357C5FE final offset 3C68EFC
+CS::GameMan found at index 6647536 offset hex 657EF0 raw val 3610861 final offset 3C68758
+logoScreenBase found at index 11203078 offset hex AB0206 with offset AB020D
+targetHookLoc_1.03 found at index 7278274 offset hex 6F1EC2
+Nothing found for targetHookLoc_1.04
+miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
+chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
+newMenuSystem found at index 5927897 offset hex 5A83D9 raw val 36C2320 final offset 3C6A700
+fontDrawOffset found at index 39755088 offset hex 25EAD50
+DbgEventManOff found at index 11127876 offset hex A9DC44 raw val 31C9215 final offset 3C66E60
+Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8663CA final offset DD98A0
+Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8663A1 final offset DD9880
+CS::FieldArea found at index 6601074 offset hex 64C972 raw val 361B6C7 final offset 3C68040
+free cam patch loc WIP, follow jumps from here found at index 7278571 offset hex 6F1FEB
+free cam patch loc older patch? found at index 2237653 offset hex 2234D5
+Nothing found for free cam player control patch loc
+map open in combat found at index 8150515 offset hex 7C6DF3
+map stay open in combat found at index 10045671 offset hex 9958E7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 12598646 offset hex 54E7D76 with offset 54E7D7D
+warp call one found at index 6127520 offset hex 5D8FA0
+Nothing found for warp call two
+usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
+steam input flag check found at index 32008598 offset hex 1E87996 raw val 88B
+csFlipperOff found at index 14102415 offset hex D73F8F raw val 3713972 final offset 4487908
+csFlipperOff found at index 14105263 offset hex D74AAF raw val 3712E52 final offset 4487908
+csFlipperOff gameSpeedOffset found at index 14102415 offset hex D73F8F raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14105263 offset hex D74AAF raw val 2D4
+no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
+toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+CS::CSTrophyImp found at index 14128616 offset hex D7A5E8 raw val 370CCB8 final offset 44872A8
+NPC part damage hook found at index 5868644 offset hex 599C64
+Weapon upgrade rune cost found at index 7720225 offset hex 75DD21
+Weapon upgrade material cost found at index 8740652 offset hex 856F2C
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31405636 offset hex 1DF4644
+codeCave_48_zeroes found at index 31405832 offset hex 1DF4708
+codeCave_48_zeroes found at index 31427956 offset hex 1DF9D74
+
+Processing exe: C:\fromexes\eldenring_1.04.0.exe
+
+worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 6788080 offset hex 67A3F0 raw val 358DCEC final offset 3C080E8
+CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
+CS::WorldChrManImp offset found at index 6788080 offset hex 67A3F0 raw val 18468
+hitboxBase (1.05) found at index 4452583 offset hex 4400E7 raw val 37C83C1 final offset 3C084BB
+groupMask found at index 6691744 offset hex 662BA0 raw val 3393C82 final offset 39F6829
+meshesOff found at index 7271863 offset hex 6F05B7 raw val 351BBF6 final offset 3C0C1B4
+CS::GameMan found at index 6658960 offset hex 65AB90 raw val 35B0E71 final offset 3C0BA08
+logoScreenBase found at index 11070310 offset hex A8FB66 with offset A8FB6D
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7294354 offset hex 6F5D92
+miscDebugBase found at index 4429890 offset hex 43A842 raw val 37CDACD final offset 3C08316
+noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
+chrDbg found at index 5253231 offset hex 50386F raw val 3704A62 final offset 3C082D8
+newMenuSystem found at index 5939417 offset hex 5AB0D9 raw val 36628F0 final offset 3C0D9D0
+fontDrawOffset found at index 39655952 offset hex 25D2A10
+DbgEventManOff found at index 10994884 offset hex A7D4C4 raw val 318CC25 final offset 3C0A0F0
+Event patch func 1 found at index 5722609 offset hex 5761F1 raw val 8442BA final offset DBA4B0
+Event patch func 2 found at index 5722609 offset hex 5761F1 raw val 844291 final offset DBA490
+CS::FieldArea found at index 6612402 offset hex 64F5B2 raw val 35BBD07 final offset 3C0B2C0
+free cam patch loc WIP, follow jumps from here found at index 7294651 offset hex 6F5EBB
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6691014 offset hex 6628C6
+map open in combat found at index 8152947 offset hex 7C7773
+map stay open in combat found at index 9906631 offset hex 9739C7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 7815685 offset hex 4FF4205 with offset 4FF420C
+warp call one found at index 6139040 offset hex 5DBCA0
+warp call two found at index 6663248 offset hex 65BC50
+usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
+steam input flag check found at index 31909382 offset hex 1E6F606 raw val 88B
+csFlipperOff found at index 13972143 offset hex D542AF raw val 36D6852 final offset 442AB08
+csFlipperOff found at index 13974991 offset hex D54DCF raw val 36D5D32 final offset 442AB08
+csFlipperOff gameSpeedOffset found at index 13972143 offset hex D542AF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 13974991 offset hex D54DCF raw val 2D4
+no-death offset in CSChrDataModule found at index 4393394 offset hex 4319B2 raw val 19B
+toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+CS::CSTrophyImp found at index 13998360 offset hex D5A918 raw val 36CFB88 final offset 442A4A8
+NPC part damage hook found at index 5880164 offset hex 59C964
+Weapon upgrade rune cost found at index 7737185 offset hex 761F61
+Weapon upgrade material cost found at index 8630476 offset hex 83C0CC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31306164 offset hex 1DDC1B4
+codeCave_48_zeroes found at index 31306360 offset hex 1DDC278
+codeCave_48_zeroes found at index 31328484 offset hex 1DE18E4
+
+Processing exe: C:\fromexes\eldenring_1.04.1.exe
+
+worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
+CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
+CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
+hitboxBase (1.05) found at index 4452647 offset hex 440127 raw val 37C8381 final offset 3C084BB
+groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
+meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
+CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
+logoScreenBase found at index 11070070 offset hex A8FA76 with offset A8FA7D
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7294114 offset hex 6F5CA2
+miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
+noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
+chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
+newMenuSystem found at index 5939177 offset hex 5AAFE9 raw val 36629E0 final offset 3C0D9D0
+fontDrawOffset found at index 39655712 offset hex 25D2920
+DbgEventManOff found at index 10994644 offset hex A7D3D4 raw val 318CD15 final offset 3C0A0F0
+Event patch func 1 found at index 5722369 offset hex 576101 raw val 8442BA final offset DBA3C0
+Event patch func 2 found at index 5722369 offset hex 576101 raw val 844291 final offset DBA3A0
+CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final offset 3C0B2C0
+free cam patch loc WIP, follow jumps from here found at index 7294411 offset hex 6F5DCB
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6690774 offset hex 6627D6
+map open in combat found at index 8152707 offset hex 7C7683
+map stay open in combat found at index 9906391 offset hex 9738D7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 13814097 offset hex 55AC951 with offset 55AC958
+warp call one found at index 6138800 offset hex 5DBBB0
+warp call two found at index 6663008 offset hex 65BB60
+usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
+steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
+csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
+csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final offset 442AB08
+csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
+no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
+toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
+NPC part damage hook found at index 5879924 offset hex 59C874
+Weapon upgrade rune cost found at index 7736945 offset hex 761E71
+Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31305924 offset hex 1DDC0C4
+codeCave_48_zeroes found at index 31306120 offset hex 1DDC188
+codeCave_48_zeroes found at index 31328244 offset hex 1DE17F4
+
+Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
+
+worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
+CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
+CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
+hitboxBase (1.05) found at index 4452647 offset hex 440127 raw val 37C8381 final offset 3C084BB
+groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
+meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
+CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
+Nothing found for logoScreenBase
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7294114 offset hex 6F5CA2
+miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
+noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
+chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
+newMenuSystem found at index 5939177 offset hex 5AAFE9 raw val 36629E0 final offset 3C0D9D0
+fontDrawOffset found at index 39655712 offset hex 25D2920
+DbgEventManOff found at index 10994644 offset hex A7D3D4 raw val 318CD15 final offset 3C0A0F0
+Event patch func 1 found at index 5722369 offset hex 576101 raw val 8442BA final offset DBA3C0
+Event patch func 2 found at index 5722369 offset hex 576101 raw val 844291 final offset DBA3A0
+CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final offset 3C0B2C0
+free cam patch loc WIP, follow jumps from here found at index 7294411 offset hex 6F5DCB
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6690774 offset hex 6627D6
+map open in combat found at index 8152707 offset hex 7C7683
+map stay open in combat found at index 9906391 offset hex 9738D7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 13814097 offset hex 55AC951 with offset 55AC958
+warp call one found at index 6138800 offset hex 5DBBB0
+warp call two found at index 6663008 offset hex 65BB60
+usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
+steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
+csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
+csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final offset 442AB08
+csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
+csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
+no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
+toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
+NPC part damage hook found at index 5879924 offset hex 59C874
+Weapon upgrade rune cost found at index 7736945 offset hex 761E71
+Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31305924 offset hex 1DDC0C4
+codeCave_48_zeroes found at index 31306120 offset hex 1DDC188
+codeCave_48_zeroes found at index 31328244 offset hex 1DE17F4
+
+Processing exe: C:\fromexes\eldenring_1.05.0.exe
+
+worldChrManOff found at index 4168198 offset hex 3FAA06 raw val 382548B final offset 3C1FE98
+CS::WorldChrManImp (alternate) found at index 1805911 offset hex 1B9E57 raw val 3A66035 final offset 3C1FE98
+CS::WorldChrManImp (alternate) found at index 6791392 offset hex 67B0E0 raw val 35A4DAC final offset 3C1FE98
+CS::WorldChrManImp offset found at index 1805911 offset hex 1B9E57 raw val 18468
+CS::WorldChrManImp offset found at index 6791392 offset hex 67B0E0 raw val 18468
+hitboxBase (1.05) found at index 4453735 offset hex 440567 raw val 37DFCF1 final offset 3C2026B
+groupMask found at index 6695056 offset hex 663890 raw val 33A9F99 final offset 3A0D830
+meshesOff found at index 7275383 offset hex 6F1377 raw val 3532BE6 final offset 3C23F64
+CS::GameMan found at index 6662272 offset hex 65B880 raw val 35C7F31 final offset 3C237B8
+logoScreenBase found at index 11088246 offset hex A94176 with offset A9417D
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7297874 offset hex 6F6B52
+miscDebugBase found at index 4430994 offset hex 43AC92 raw val 37E53F0 final offset 3C20089
+noAIUpdate found at index 3942833 offset hex 3C39B1 raw val 385C6E1 final offset 3C20099
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3942826 offset hex 3C39AA raw val 3858AF7 final offset 3C1C4A8
+chrDbg found at index 5253903 offset hex 503B0F raw val 371C5BA final offset 3C200D0
+newMenuSystem found at index 5941001 offset hex 5AB709 raw val 367A070 final offset 3C25780
+fontDrawOffset found at index 39714240 offset hex 25E0DC0
+DbgEventManOff found at index 11012660 offset hex A81A34 raw val 31A0465 final offset 3C21EA0
+Event patch func 1 found at index 5723921 offset hex 576711 raw val 84BA8A final offset DC21A0
+Event patch func 2 found at index 5723921 offset hex 576711 raw val 84BA61 final offset DC2180
+CS::FieldArea found at index 6615106 offset hex 650042 raw val 35D3027 final offset 3C23070
+free cam patch loc WIP, follow jumps from here found at index 7298171 offset hex 6F6C7B
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6694326 offset hex 6635B6
+map open in combat found at index 8160467 offset hex 7C94D3
+map stay open in combat found at index 9923223 offset hex 977A97
+enemyRepeatActionOff (1st sect) found at index 3568602 offset hex 3683DA with offset 3683E1
+Nothing found for enemyRepeatActionOff (2nd sect)
+warp call one found at index 6141584 offset hex 5DC690
+warp call two found at index 6666560 offset hex 65C940
+usrInputMgrImplOff found at index 1249525 offset hex 1320F5 raw val 43C372C final offset 44F5828
+steam input flag check found at index 31967094 offset hex 1E7D776 raw val 88B
+csFlipperOff found at index 14001679 offset hex D5B60F raw val 36E7602 final offset 4442C18
+csFlipperOff found at index 14004527 offset hex D5C12F raw val 36E6AE2 final offset 4442C18
+csFlipperOff gameSpeedOffset found at index 14001679 offset hex D5B60F raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14004527 offset hex D5C12F raw val 2D4
+no-death offset in CSChrDataModule found at index 4394482 offset hex 431DF2 raw val 19B
+toPGDataOff found at index 2434096 offset hex 253430 raw val 39C4AB1 final offset 3C17EE8
+CS::CSTrophyImp found at index 14027896 offset hex D61C78 raw val 36E0938 final offset 44425B8
+NPC part damage hook found at index 5881748 offset hex 59CF94
+Weapon upgrade rune cost found at index 7742385 offset hex 7633B1
+Weapon upgrade material cost found at index 8644524 offset hex 83F7AC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31363108 offset hex 1DEA024
+codeCave_48_zeroes found at index 31363304 offset hex 1DEA0E8
+codeCave_48_zeroes found at index 31385428 offset hex 1DEF754
+
+Processing exe: C:\fromexes\eldenring_1.06.0.exe
+
+worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
+CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
+CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
+CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
+CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
+hitboxBase (1.05) found at index 4457383 offset hex 4413A7 raw val 37F00D1 final offset 3C3148B
+groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
+meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
+CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
+logoScreenBase found at index 11104374 offset hex A98076 with offset A9807D
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7305634 offset hex 6F89A2
+miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
+noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
+chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
+newMenuSystem found at index 5946793 offset hex 5ACDA9 raw val 3689BF0 final offset 3C369A0
+fontDrawOffset found at index 39755552 offset hex 25EAF20
+DbgEventManOff found at index 11028708 offset hex A858E4 raw val 31AD7D5 final offset 3C330C0
+Event patch func 1 found at index 5728433 offset hex 5778B1 raw val 850DBA final offset DC8670
+Event patch func 2 found at index 5728433 offset hex 5778B1 raw val 850D91 final offset DC8650
+CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final offset 3C34298
+free cam patch loc WIP, follow jumps from here found at index 7305931 offset hex 6F8ACB
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6700774 offset hex 664EE6
+map open in combat found at index 8168659 offset hex 7CB4D3
+map stay open in combat found at index 9931495 offset hex 979AE7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 6775887 offset hex 4F2244F with offset 4F22456
+warp call one found at index 6147632 offset hex 5DDE30
+warp call two found at index 6672992 offset hex 65E260
+usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC final offset 45075C8
+steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
+csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
+csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final offset 4453E98
+csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
+no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
+toPGDataOff found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
+CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
+NPC part damage hook found at index 5887524 offset hex 59E624
+Weapon upgrade rune cost found at index 7750209 offset hex 765241
+Weapon upgrade material cost found at index 8652796 offset hex 8417FC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31404420 offset hex 1DF4184
+codeCave_48_zeroes found at index 31404616 offset hex 1DF4248
+codeCave_48_zeroes found at index 31426740 offset hex 1DF98B4
+
+Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
+
+worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
+CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
+CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
+CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
+CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
+hitboxBase (1.05) found at index 4457383 offset hex 4413A7 raw val 37F00D1 final offset 3C3148B
+groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
+meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
+CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
+Nothing found for logoScreenBase
+Nothing found for targetHookLoc_1.03
+targetHookLoc_1.04 found at index 7305634 offset hex 6F89A2
+miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
+noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
+possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
+chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
+newMenuSystem found at index 5946793 offset hex 5ACDA9 raw val 3689BF0 final offset 3C369A0
+fontDrawOffset found at index 39755552 offset hex 25EAF20
+DbgEventManOff found at index 11028708 offset hex A858E4 raw val 31AD7D5 final offset 3C330C0
+Event patch func 1 found at index 5728433 offset hex 5778B1 raw val 850DBA final offset DC8670
+Event patch func 2 found at index 5728433 offset hex 5778B1 raw val 850D91 final offset DC8650
+CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final offset 3C34298
+free cam patch loc WIP, follow jumps from here found at index 7305931 offset hex 6F8ACB
+Nothing found for free cam patch loc older patch?
+free cam player control patch loc found at index 6700774 offset hex 664EE6
+map open in combat found at index 8168659 offset hex 7CB4D3
+map stay open in combat found at index 9931495 offset hex 979AE7
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 6775887 offset hex 4F2244F with offset 4F22456
+warp call one found at index 6147632 offset hex 5DDE30
+warp call two found at index 6672992 offset hex 65E260
+usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC final offset 45075C8
+steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
+csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
+csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final offset 4453E98
+csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
+csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
+no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
+toPGDataOff found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
+CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
+NPC part damage hook found at index 5887524 offset hex 59E624
+Weapon upgrade rune cost found at index 7750209 offset hex 765241
+Weapon upgrade material cost found at index 8652796 offset hex 8417FC
+codeCave_48_nops found at index 39626 offset hex AACA
+codeCave_48_nops found at index 68872 offset hex 11D08
+codeCave_48_nops found at index 73296 offset hex 12E50
+codeCave_48_nops found at index 80961 offset hex 14C41
+codeCave_48_nops found at index 116867 offset hex 1D883
+codeCave_48_nops found at index 148543 offset hex 2543F
+codeCave_48_nops found at index 148591 offset hex 2546F
+codeCave_48_nops found at index 148639 offset hex 2549F
+codeCave_48_nops found at index 148687 offset hex 254CF
+codeCave_48_nops found at index 179782 offset hex 2CE46
+codeCave_48_nops found at index 189326 offset hex 2F38E
+codeCave_48_nops found at index 225691 offset hex 3819B
+codeCave_48_nops found at index 225739 offset hex 381CB
+codeCave_48_nops found at index 272525 offset hex 4388D
+codeCave_48_zeroes found at index 31404420 offset hex 1DF4184
+codeCave_48_zeroes found at index 31404616 offset hex 1DF4248
+codeCave_48_zeroes found at index 31426740 offset hex 1DF98B4
+
+Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
+
+csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
+csFlipperOff found at index 18431787 offset hex 1194F2B raw val 2D0A816 final offset 3E9F748
