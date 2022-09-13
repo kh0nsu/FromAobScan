@@ -83,17 +83,17 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ???????? 48 85 C0 74 0F 48 39 88", "worldChrManOff", 3, 7); //CS::WorldChrManImp //if this finds too many, try 48 8B 05 ???????? 48 85 C0 74 0F 48 39 88 ???????? 75 06 89 B1 5C030000 0F28 05 ???????? 4C 8D 45 E7
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp (alternate)", 5 + 3, 5 + 3 + 4);
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp offset", 5 + 7 + 3);
-                findAddr(textSection, header.VirtualAddress, "0F 29 74 24 40 0F 1F 40 00", "hitboxBase (1.05)", 12, 12 + 7); //slightly off in 1.06.
+                //findAddr(textSection, header.VirtualAddress, "0F 29 74 24 40 0F 1F 40 00", "hitboxBase (1.05)", 12, 12 + 7); //consistently off
+                findAddr(textSection, header.VirtualAddress, "48 8B0D ???????? E8 ???????? F3 0F1057 ?? 48 8BCB 0FB693 ????0000 E8 ???????? 48 8BCB E8 ???????? 48 8B0D ????????", "hitboxBase", 1 + 2, 1 + 2 + 4);
+                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8BF9 BE FFFFFFFF 74 ?? 48 8B19 48 85DB 74 ??", "hitboxOffset", 2);
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 1f ba 05000000", "groupMask",  2, 7); //may not be exactly group mask if they change it between patches. look around here for 01010101... in memory
                 //or F3 0F 7F 4D D0 80 3D ?? ?? ?? ?? 00 74 1F BA 05
                 //C6 05 ?? ?? ?? 02 01 finds movs to offsets starting with 02 (from instruction), first result is generally an address near group mask (eg. +9)
                 findAddr(textSection, header.VirtualAddress, "0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ?? E8 ?? ?? ?? ?? 0F B6 F8", "meshesOff",  3, 7); //or just 44 0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ??
                 //fallback search: search C6 05 ?? ?? ?? ?? 00. many results. look for pair of two consecutive addresses in two consecutive instructions
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 0F B6 40 10 C3", "CS::GameMan", 3, 7); //assuming the offset is fixed at +10
-                findAddr(textSection, header.VirtualAddress, "80 BF B8 00 00 00 00 74 53", "logoScreenBase",  justOffset: 7); //if the regs change, look for a mov byte ptr +280, call, cmp byte ptr +B8, 74 53 (je short distance)
-                findAddr(textSection, header.VirtualAddress, "48 8B 48 08 49 89 8D A8 06 00 00", "targetHookLoc_1.03"); //or 48 8B 48 08 49 89 8D A8 06 00 00 49 8B CE E8
-                findAddr(textSection, header.VirtualAddress, "48 8B 48 08 49 89 8D A0 06 00 00", "targetHookLoc_1.04");
-                //or: 488b8f88000000e8?????? 4th result is shortly before it. look for mov rcx of rdi+88. expect addr ending in 2.
+                findAddr(textSection, header.VirtualAddress, "74 53 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ???????? BA ????0000 48 8D0D ???????? E8 ????????", "logoScreenBase",  justOffset: 0);
+                findAddr(textSection, header.VirtualAddress, "48 8B48 ?? 49 898D ????0000 49 8BCE E8 ???????? 84C0 75 ?? 49 8B5E ?? 48 8D4D ?? E8 ????????", "targetHookLoc and offset", 1 + 2 + 1 + 1 + 2);
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 09 48 8D4D A0 E8 ???????? 4D 85E4", "miscDebugBase",  2, 7); //expect debug flags to be re-ordered in new patches
                 findAddr(textSection, header.VirtualAddress, "0FB63D ???????? 48 85C0 75 2E", "noAIUpdate",  3, 7);
                 //multiple results but may find debug base or nearby address: e8 ?? ?? ?? ?? 80 3d ?? ?? ?? ?? 00 0f 85

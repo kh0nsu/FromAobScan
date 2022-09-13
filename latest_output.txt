@@ -317,13 +317,13 @@ CS::WorldChrManImp (alternate) found at index 1805767 offset hex 1B9DC7 raw val 
 CS::WorldChrManImp (alternate) found at index 6767920 offset hex 675530 raw val 35DDD8C final offset 3C532C8
 CS::WorldChrManImp offset found at index 1805767 offset hex 1B9DC7 raw val 18468
 CS::WorldChrManImp offset found at index 6767920 offset hex 675530 raw val 18468
-hitboxBase (1.05) found at index 4439527 offset hex 43CDE7 raw val 38168C1 final offset 3C536BB
+hitboxBase found at index 11130279 offset hex A9E5A7 raw val 31B510A final offset 3C536B8
+hitboxOffset found at index 5326047 offset hex 5154DF raw val A0
 groupMask found at index 6671536 offset hex 65DCB0 raw val 33DBB5A final offset 3A39811
 meshesOff found at index 7251287 offset hex 6EB557 raw val 356BE2E final offset 3C5738C
 CS::GameMan found at index 6642768 offset hex 656C50 raw val 35FFF91 final offset 3C56BE8
-logoScreenBase found at index 11181843 offset hex AAAF13 with offset AAAF1A
-targetHookLoc_1.03 found at index 7273394 offset hex 6F0BB2
-Nothing found for targetHookLoc_1.04
+logoScreenBase found at index 11181850 offset hex AAAF1A with offset AAAF1A
+targetHookLoc and offset found at index 7273394 offset hex 6F0BB2 raw val 6A8
 miscDebugBase found at index 4416818 offset hex 437532 raw val 381BFA4 final offset 3C534DD
 noAIUpdate found at index 3931121 offset hex 3C0BF1 raw val 38928F5 final offset 3C534ED
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3931114 offset hex 3C0BEA raw val 388EBE7 final offset 3C4F7D8
@@ -380,13 +380,13 @@ CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 
 CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
-hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+hitboxBase found at index 11151399 offset hex AA3827 raw val 31C19FA final offset 3C65228
+hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
-logoScreenBase found at index 11203094 offset hex AB0216 with offset AB021D
-targetHookLoc_1.03 found at index 7278306 offset hex 6F1EE2
-Nothing found for targetHookLoc_1.04
+logoScreenBase found at index 11203101 offset hex AB021D with offset AB021D
+targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
@@ -443,13 +443,13 @@ CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 
 CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
-hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+hitboxBase found at index 11151415 offset hex AA3837 raw val 31C19EA final offset 3C65228
+hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
-logoScreenBase found at index 11203110 offset hex AB0226 with offset AB022D
-targetHookLoc_1.03 found at index 7278306 offset hex 6F1EE2
-Nothing found for targetHookLoc_1.04
+logoScreenBase found at index 11203117 offset hex AB022D with offset AB022D
+targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
@@ -506,13 +506,13 @@ CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 
 CS::WorldChrManImp (alternate) found at index 6772784 offset hex 676830 raw val 35EE5FC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 CS::WorldChrManImp offset found at index 6772784 offset hex 676830 raw val 18468
-hitboxBase (1.05) found at index 4442615 offset hex 43D9F7 raw val 3827821 final offset 3C6522B
+hitboxBase found at index 11151383 offset hex AA3817 raw val 31C1A0A final offset 3C65228
+hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676480 offset hex 65F000 raw val 33EB80A final offset 3A4A811
 meshesOff found at index 7256311 offset hex 6EC8F7 raw val 357C5FE final offset 3C68EFC
 CS::GameMan found at index 6647536 offset hex 657EF0 raw val 3610861 final offset 3C68758
-logoScreenBase found at index 11203078 offset hex AB0206 with offset AB020D
-targetHookLoc_1.03 found at index 7278274 offset hex 6F1EC2
-Nothing found for targetHookLoc_1.04
+logoScreenBase found at index 11203085 offset hex AB020D with offset AB020D
+targetHookLoc and offset found at index 7278274 offset hex 6F1EC2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
@@ -569,13 +569,13 @@ CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 
 CS::WorldChrManImp (alternate) found at index 6788080 offset hex 67A3F0 raw val 358DCEC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 CS::WorldChrManImp offset found at index 6788080 offset hex 67A3F0 raw val 18468
-hitboxBase (1.05) found at index 4452583 offset hex 4400E7 raw val 37C83C1 final offset 3C084BB
+hitboxBase found at index 11018615 offset hex A83177 raw val 318533A final offset 3C084B8
+hitboxOffset found at index 5341279 offset hex 51905F raw val A0
 groupMask found at index 6691744 offset hex 662BA0 raw val 3393C82 final offset 39F6829
 meshesOff found at index 7271863 offset hex 6F05B7 raw val 351BBF6 final offset 3C0C1B4
 CS::GameMan found at index 6658960 offset hex 65AB90 raw val 35B0E71 final offset 3C0BA08
-logoScreenBase found at index 11070310 offset hex A8FB66 with offset A8FB6D
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7294354 offset hex 6F5D92
+logoScreenBase found at index 11070317 offset hex A8FB6D with offset A8FB6D
+targetHookLoc and offset found at index 7294354 offset hex 6F5D92 raw val 6A0
 miscDebugBase found at index 4429890 offset hex 43A842 raw val 37CDACD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
@@ -632,13 +632,13 @@ CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 
 CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
-hitboxBase (1.05) found at index 4452647 offset hex 440127 raw val 37C8381 final offset 3C084BB
+hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
+hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
 groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
 meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
 CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
-logoScreenBase found at index 11070070 offset hex A8FA76 with offset A8FA7D
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7294114 offset hex 6F5CA2
+logoScreenBase found at index 11070077 offset hex A8FA7D with offset A8FA7D
+targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
 miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
@@ -695,13 +695,13 @@ CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 
 CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
-hitboxBase (1.05) found at index 4452647 offset hex 440127 raw val 37C8381 final offset 3C084BB
+hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
+hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
 groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
 meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
 CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
 Nothing found for logoScreenBase
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7294114 offset hex 6F5CA2
+targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
 miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
@@ -758,13 +758,13 @@ CS::WorldChrManImp (alternate) found at index 1805911 offset hex 1B9E57 raw val 
 CS::WorldChrManImp (alternate) found at index 6791392 offset hex 67B0E0 raw val 35A4DAC final offset 3C1FE98
 CS::WorldChrManImp offset found at index 1805911 offset hex 1B9E57 raw val 18468
 CS::WorldChrManImp offset found at index 6791392 offset hex 67B0E0 raw val 18468
-hitboxBase (1.05) found at index 4453735 offset hex 440567 raw val 37DFCF1 final offset 3C2026B
+hitboxBase found at index 11036391 offset hex A876E7 raw val 3198B7A final offset 3C20268
+hitboxOffset found at index 5341951 offset hex 5192FF raw val A0
 groupMask found at index 6695056 offset hex 663890 raw val 33A9F99 final offset 3A0D830
 meshesOff found at index 7275383 offset hex 6F1377 raw val 3532BE6 final offset 3C23F64
 CS::GameMan found at index 6662272 offset hex 65B880 raw val 35C7F31 final offset 3C237B8
-logoScreenBase found at index 11088246 offset hex A94176 with offset A9417D
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7297874 offset hex 6F6B52
+logoScreenBase found at index 11088253 offset hex A9417D with offset A9417D
+targetHookLoc and offset found at index 7297874 offset hex 6F6B52 raw val 6A0
 miscDebugBase found at index 4430994 offset hex 43AC92 raw val 37E53F0 final offset 3C20089
 noAIUpdate found at index 3942833 offset hex 3C39B1 raw val 385C6E1 final offset 3C20099
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3942826 offset hex 3C39AA raw val 3858AF7 final offset 3C1C4A8
@@ -821,13 +821,13 @@ CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 
 CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
 CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
-hitboxBase (1.05) found at index 4457383 offset hex 4413A7 raw val 37F00D1 final offset 3C3148B
+hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
+hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
 groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
 meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
 CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
-logoScreenBase found at index 11104374 offset hex A98076 with offset A9807D
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7305634 offset hex 6F89A2
+logoScreenBase found at index 11104381 offset hex A9807D with offset A9807D
+targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
 miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
@@ -884,13 +884,13 @@ CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 
 CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
 CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
-hitboxBase (1.05) found at index 4457383 offset hex 4413A7 raw val 37F00D1 final offset 3C3148B
+hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
+hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
 groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
 meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
 CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
 Nothing found for logoScreenBase
-Nothing found for targetHookLoc_1.03
-targetHookLoc_1.04 found at index 7305634 offset hex 6F89A2
+targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
 miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
 possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
@@ -944,3 +944,4 @@ Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
 csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
 csFlipperOff found at index 18431787 offset hex 1194F2B raw val 2D0A816 final offset 3E9F748
+
