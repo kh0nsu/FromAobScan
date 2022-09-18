@@ -124,7 +124,7 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7); //identical to sekiro, likely to keep working.
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff gameSpeedOffset", 7 + 4);
                 findAddr(textSection, header.VirtualAddress, "4883EC20F681????000001488bd97408", "no-death offset in CSChrDataModule", 4 + 2);
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 05 48 8B 40 58 C3 C3", "toPGDataOff", 3, 7); //obsolete, *ptr + 8 to CS::PlayerGameData
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 05 48 8B 40 58 C3 C3", "GameDataMan", 3, 7); //*ptr + 8 to CS::PlayerGameData
 
                 //CS::CSTrophyImp has 14 references, not sure how best to pick one for an AOB. just find it by RTTI scan if necessary.
                 findAddr(textSection, header.VirtualAddress, "48833D ???????? 00 75 31 4C 8B05 ???????? 4C 8945 10 BA 08000000 8D4A 18", "CS::CSTrophyImp", 3, 8);
@@ -137,6 +137,9 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "74 ?? 48 8B0D ???????? BE 01000000 897424 ?? 48 85C9 75 ?? 48 8D0D ???????? E8 ????????", "soundDrawPatchLoc");
 
                 findAddr(textSection, header.VirtualAddress, "40 3835 ???????? 0F84 ????0000 48 8D5424 ?? 48 8BCF E8 ????0000 48 8D4C24 ?? E8 ???????? 6644 85BF ????000074 ?? 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ????????BA ????0000 48 8D0D ????????E8 ???????? 48 8B05 ????????48 8B80 ????????48 8D5424 ?? 48 8B88 ????????48 8B49 ?? E8 ???????? EB ?? 8B8F ????0000 E8 ???????? F3 0F1145 ?? 48 8D4C24 ?? 66 859F ????000074 ?? B2 ?? EB ??", "allTargetingDebugDraw", 3, 3 + 4); //yes, it's long, take off more than a little and it gets two matches
+
+                findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? C7 44 24 50 FFFFFFFF", "MapItemManImpl", 3, 7); //or 48 8B 0D ???????? C7 44 24 50 FF FF FF FF C7 45 A0 FF FF FF FF 48 85 C9 75 2E
+                findAddr(textSection, header.VirtualAddress, "8B 02 83 F8 0A", "ItemGibCall", justOffset: -0x52); //this function changed in earlier patches; this AOB is surprisingly more robust than one from the start of the function.
 
                 findAddr(textSection, header.VirtualAddress, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90", "codeCave_48_nops");
                 findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
