@@ -356,6 +356,7 @@ NPC part damage hook found at index 5864564 offset hex 598C74
 Weapon upgrade rune cost found at index 7715233 offset hex 75C9A1
 Weapon upgrade material cost found at index 8727484 offset hex 853BBC
 soundDrawPatchLoc found at index 3372934 offset hex 338786
+allTargetingDebugDraw found at index 3372102 offset hex 338446 raw val 39170FD final offset 3C4F54A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -420,6 +421,7 @@ NPC part damage hook found at index 5868660 offset hex 599C74
 Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
 Weapon upgrade material cost found at index 8740668 offset hex 856F3C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
+allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -484,6 +486,7 @@ NPC part damage hook found at index 5868660 offset hex 599C74
 Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
 Weapon upgrade material cost found at index 8740684 offset hex 856F4C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
+allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -548,6 +551,7 @@ NPC part damage hook found at index 5868644 offset hex 599C64
 Weapon upgrade rune cost found at index 7720225 offset hex 75DD21
 Weapon upgrade material cost found at index 8740652 offset hex 856F2C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
+allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -612,6 +616,7 @@ NPC part damage hook found at index 5880164 offset hex 59C964
 Weapon upgrade rune cost found at index 7737185 offset hex 761F61
 Weapon upgrade material cost found at index 8630476 offset hex 83C0CC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
+allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -676,6 +681,7 @@ NPC part damage hook found at index 5879924 offset hex 59C874
 Weapon upgrade rune cost found at index 7736945 offset hex 761E71
 Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
+allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -740,6 +746,7 @@ NPC part damage hook found at index 5879924 offset hex 59C874
 Weapon upgrade rune cost found at index 7736945 offset hex 761E71
 Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
+allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -804,6 +811,7 @@ NPC part damage hook found at index 5881748 offset hex 59CF94
 Weapon upgrade rune cost found at index 7742385 offset hex 7633B1
 Weapon upgrade material cost found at index 8644524 offset hex 83F7AC
 soundDrawPatchLoc found at index 3383622 offset hex 33B146
+allTargetingDebugDraw found at index 3382790 offset hex 33AE06 raw val 38E140D final offset 3C1C21A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -868,6 +876,7 @@ NPC part damage hook found at index 5887524 offset hex 59E624
 Weapon upgrade rune cost found at index 7750209 offset hex 765241
 Weapon upgrade material cost found at index 8652796 offset hex 8417FC
 soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
+allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -932,6 +941,7 @@ NPC part damage hook found at index 5887524 offset hex 59E624
 Weapon upgrade rune cost found at index 7750209 offset hex 765241
 Weapon upgrade material cost found at index 8652796 offset hex 8417FC
 soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
+allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
