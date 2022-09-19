@@ -350,13 +350,15 @@ csFlipperOff found at index 14071503 offset hex D6C6CF raw val 37096C2 final off
 csFlipperOff gameSpeedOffset found at index 14068655 offset hex D6BBAF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14071503 offset hex D6C6CF raw val 2D4
 no-death offset in CSChrDataModule found at index 4380434 offset hex 42E712 raw val 197
-toPGDataOff found at index 2423904 offset hex 250C60 raw val 39FA5B1 final offset 3C4B218
+GameDataMan found at index 2423904 offset hex 250C60 raw val 39FA5B1 final offset 3C4B218
 CS::CSTrophyImp found at index 14094856 offset hex D72208 raw val 3703528 final offset 4475738
 NPC part damage hook found at index 5864564 offset hex 598C74
 Weapon upgrade rune cost found at index 7715233 offset hex 75C9A1
 Weapon upgrade material cost found at index 8727484 offset hex 853BBC
 soundDrawPatchLoc found at index 3372934 offset hex 338786
 allTargetingDebugDraw found at index 3372102 offset hex 338446 raw val 39170FD final offset 3C4F54A
+MapItemManImpl found at index 5841296 offset hex 593190 raw val 36C1BB9 final offset 3C54D50
+Nothing found for ItemSpawnCall
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -415,13 +417,15 @@ csFlipperOff found at index 14105551 offset hex D74BCF raw val 3712D42 final off
 csFlipperOff gameSpeedOffset found at index 14102703 offset hex D740AF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14105551 offset hex D74BCF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
-toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128904 offset hex D7A708 raw val 370CBA8 final offset 44872B8
 NPC part damage hook found at index 5868660 offset hex 599C74
 Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
 Weapon upgrade material cost found at index 8740668 offset hex 856F3C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
+MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
+ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -480,13 +484,15 @@ csFlipperOff found at index 14105295 offset hex D74ACF raw val 3712E32 final off
 csFlipperOff gameSpeedOffset found at index 14102447 offset hex D73FAF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14105295 offset hex D74ACF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
-toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128648 offset hex D7A608 raw val 370CC98 final offset 44872A8
 NPC part damage hook found at index 5868660 offset hex 599C74
 Weapon upgrade rune cost found at index 7720257 offset hex 75DD41
 Weapon upgrade material cost found at index 8740684 offset hex 856F4C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
+MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
+ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -545,13 +551,15 @@ csFlipperOff found at index 14105263 offset hex D74AAF raw val 3712E52 final off
 csFlipperOff gameSpeedOffset found at index 14102415 offset hex D73F8F raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14105263 offset hex D74AAF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
-toPGDataOff found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
+GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128616 offset hex D7A5E8 raw val 370CCB8 final offset 44872A8
 NPC part damage hook found at index 5868644 offset hex 599C64
 Weapon upgrade rune cost found at index 7720225 offset hex 75DD21
 Weapon upgrade material cost found at index 8740652 offset hex 856F2C
 soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
+MapItemManImpl found at index 5845374 offset hex 59417E raw val 36D273B final offset 3C668C0
+ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -610,13 +618,15 @@ csFlipperOff found at index 13974991 offset hex D54DCF raw val 36D5D32 final off
 csFlipperOff gameSpeedOffset found at index 13972143 offset hex D542AF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 13974991 offset hex D54DCF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393394 offset hex 4319B2 raw val 19B
-toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998360 offset hex D5A918 raw val 36CFB88 final offset 442A4A8
 NPC part damage hook found at index 5880164 offset hex 59C964
 Weapon upgrade rune cost found at index 7737185 offset hex 761F61
 Weapon upgrade material cost found at index 8630476 offset hex 83C0CC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
+MapItemManImpl found at index 5856894 offset hex 596E7E raw val 3672CCB final offset 3C09B50
+ItemSpawnCall found at index 5575554 offset hex 552382 with offset 552330
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -675,13 +685,15 @@ csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final off
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
-toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
 NPC part damage hook found at index 5879924 offset hex 59C874
 Weapon upgrade rune cost found at index 7736945 offset hex 761E71
 Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
+MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
+ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -740,13 +752,15 @@ csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final off
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
 csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
-toPGDataOff found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
+GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
 NPC part damage hook found at index 5879924 offset hex 59C874
 Weapon upgrade rune cost found at index 7736945 offset hex 761E71
 Weapon upgrade material cost found at index 8630236 offset hex 83BFDC
 soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
+MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
+ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -805,13 +819,15 @@ csFlipperOff found at index 14004527 offset hex D5C12F raw val 36E6AE2 final off
 csFlipperOff gameSpeedOffset found at index 14001679 offset hex D5B60F raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14004527 offset hex D5C12F raw val 2D4
 no-death offset in CSChrDataModule found at index 4394482 offset hex 431DF2 raw val 19B
-toPGDataOff found at index 2434096 offset hex 253430 raw val 39C4AB1 final offset 3C17EE8
+GameDataMan found at index 2434096 offset hex 253430 raw val 39C4AB1 final offset 3C17EE8
 CS::CSTrophyImp found at index 14027896 offset hex D61C78 raw val 36E0938 final offset 44425B8
 NPC part damage hook found at index 5881748 offset hex 59CF94
 Weapon upgrade rune cost found at index 7742385 offset hex 7633B1
 Weapon upgrade material cost found at index 8644524 offset hex 83F7AC
 soundDrawPatchLoc found at index 3383622 offset hex 33B146
 allTargetingDebugDraw found at index 3382790 offset hex 33AE06 raw val 38E140D final offset 3C1C21A
+MapItemManImpl found at index 5858478 offset hex 5974AE raw val 368A44B final offset 3C21900
+ItemSpawnCall found at index 5576850 offset hex 552892 with offset 552840
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -870,13 +886,15 @@ csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final off
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
-toPGDataOff found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
+GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
 NPC part damage hook found at index 5887524 offset hex 59E624
 Weapon upgrade rune cost found at index 7750209 offset hex 765241
 Weapon upgrade material cost found at index 8652796 offset hex 8417FC
 soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
+MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
+ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -935,13 +953,15 @@ csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final off
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
 csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
-toPGDataOff found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
+GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
 NPC part damage hook found at index 5887524 offset hex 59E624
 Weapon upgrade rune cost found at index 7750209 offset hex 765241
 Weapon upgrade material cost found at index 8652796 offset hex 8417FC
 soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
+MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
+ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
