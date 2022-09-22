@@ -145,6 +145,10 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 ?? 48 8BCB E8 ???????? 48 8BC8 E8 ???????? 84C0 74 ?? 48 833D ???????? 00", "allChrNoDeath", 2, 2 + 4 + 1);
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 0F85 ???????? 32C0 48 83C4 20 5B C3", "playerNoDeath", 2, 2 + 4 + 1); //alternative to setting no-death directly on the player character
 
+                findAddr(textSection, header.VirtualAddress, "48 8B40 68 8078 36 00 0F95C0 40 B7 01 8806 48 8B5C24 30 40 0FB6C7 48 8B7424 38 48 83C4 20 5F C3", "torrentDisabledCheckOne", justOffset: 4 + 4); //patch from 0F95C0 to 30C090 for torrent everywhere
+                //^nothing masked but works on all patches. try 0F95C0 40 B7 01 8806 48 8B5C24 ?? 40 0FB6C7 48 8B7424 ?? 48 83C4 ?? 5F C3 if it breaks but expect multiple matches.
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8B48 ?? 8079 36 00 0F95C0 48 83C4 ?? C3", "torrentDisabledCheckTwo", justOffset: 5 + 4 + 4); //patch from 0F95C0 to 30C090 for torrent everywhere
+                //^+36 is not masked as that's the offset in MSBE and should not change
 
                 findAddr(textSection, header.VirtualAddress, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90", "codeCave_48_nops");
                 findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end

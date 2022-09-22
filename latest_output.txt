@@ -362,6 +362,8 @@ MapItemManImpl found at index 5841296 offset hex 593190 raw val 36C1BB9 final of
 Nothing found for ItemSpawnCall
 allChrNoDeath found at index 4380507 offset hex 42E75B raw val 3824D86 final offset 3C534E8
 playerNoDeath found at index 4380585 offset hex 42E7A9 raw val 3824D2E final offset 3C534DE
+torrentDisabledCheckOne found at index 13111890 offset hex C82252 with offset C8225A
+torrentDisabledCheckTwo found at index 7205122 offset hex 6E0102 with offset 6E010F
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -432,6 +434,8 @@ MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final of
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
+torrentDisabledCheckOne found at index 13140466 offset hex C891F2 with offset C891FA
+torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -502,6 +506,8 @@ MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final of
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
+torrentDisabledCheckOne found at index 13140482 offset hex C89202 with offset C8920A
+torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -572,6 +578,8 @@ MapItemManImpl found at index 5845374 offset hex 59417E raw val 36D273B final of
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
+torrentDisabledCheckOne found at index 13140450 offset hex C891E2 with offset C891EA
+torrentDisabledCheckTwo found at index 7210210 offset hex 6E14E2 with offset 6E14EF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -642,6 +650,8 @@ MapItemManImpl found at index 5856894 offset hex 596E7E raw val 3672CCB final of
 ItemSpawnCall found at index 5575554 offset hex 552382 with offset 552330
 allChrNoDeath found at index 4393467 offset hex 4319FB raw val 37D68E8 final offset 3C082EA
 playerNoDeath found at index 4393545 offset hex 431A49 raw val 37D6890 final offset 3C082E0
+torrentDisabledCheckOne found at index 13011570 offset hex C69A72 with offset C69A7A
+torrentDisabledCheckTwo found at index 7225762 offset hex 6E51A2 with offset 6E51AF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -712,6 +722,8 @@ MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final of
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
 allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
+torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
+torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -782,6 +794,8 @@ MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final of
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
 allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
+torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
+torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -852,6 +866,8 @@ MapItemManImpl found at index 5858478 offset hex 5974AE raw val 368A44B final of
 ItemSpawnCall found at index 5576850 offset hex 552892 with offset 552840
 allChrNoDeath found at index 4394555 offset hex 431E3B raw val 37EE252 final offset 3C20094
 playerNoDeath found at index 4394633 offset hex 431E89 raw val 37EE1FA final offset 3C2008A
+torrentDisabledCheckOne found at index 13031282 offset hex C6E772 with offset C6E77A
+torrentDisabledCheckTwo found at index 7229282 offset hex 6E5F62 with offset 6E5F6F
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -922,6 +938,8 @@ MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final of
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
 allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
+torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
+torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -992,6 +1010,8 @@ MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final of
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
 allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
+torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
+torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
