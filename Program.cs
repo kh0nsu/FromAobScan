@@ -142,6 +142,10 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? C7 44 24 50 FFFFFFFF", "MapItemManImpl", 3, 7); //or 48 8B 0D ???????? C7 44 24 50 FF FF FF FF C7 45 A0 FF FF FF FF 48 85 C9 75 2E
                 findAddr(textSection, header.VirtualAddress, "8B 02 83 F8 0A", "ItemSpawnCall", justOffset: -0x52); //this function changed in earlier patches; this AOB is surprisingly more robust than one from the start of the function.
 
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 ?? 48 8BCB E8 ???????? 48 8BC8 E8 ???????? 84C0 74 ?? 48 833D ???????? 00", "allChrNoDeath", 2, 2 + 4 + 1);
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 0F85 ???????? 32C0 48 83C4 20 5B C3", "playerNoDeath", 2, 2 + 4 + 1); //alternative to setting no-death directly on the player character
+
+
                 findAddr(textSection, header.VirtualAddress, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90", "codeCave_48_nops");
                 findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
             };

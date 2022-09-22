@@ -360,6 +360,8 @@ soundDrawPatchLoc found at index 3372934 offset hex 338786
 allTargetingDebugDraw found at index 3372102 offset hex 338446 raw val 39170FD final offset 3C4F54A
 MapItemManImpl found at index 5841296 offset hex 593190 raw val 36C1BB9 final offset 3C54D50
 Nothing found for ItemSpawnCall
+allChrNoDeath found at index 4380507 offset hex 42E75B raw val 3824D86 final offset 3C534E8
+playerNoDeath found at index 4380585 offset hex 42E7A9 raw val 3824D2E final offset 3C534DE
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -428,6 +430,8 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
+playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -496,6 +500,8 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
+playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -564,6 +570,8 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845374 offset hex 59417E raw val 36D273B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
+playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -632,6 +640,8 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856894 offset hex 596E7E raw val 3672CCB final offset 3C09B50
 ItemSpawnCall found at index 5575554 offset hex 552382 with offset 552330
+allChrNoDeath found at index 4393467 offset hex 4319FB raw val 37D68E8 final offset 3C082EA
+playerNoDeath found at index 4393545 offset hex 431A49 raw val 37D6890 final offset 3C082E0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -700,6 +710,8 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
+allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
+playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -768,6 +780,8 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
+allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
+playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -836,6 +850,8 @@ soundDrawPatchLoc found at index 3383622 offset hex 33B146
 allTargetingDebugDraw found at index 3382790 offset hex 33AE06 raw val 38E140D final offset 3C1C21A
 MapItemManImpl found at index 5858478 offset hex 5974AE raw val 368A44B final offset 3C21900
 ItemSpawnCall found at index 5576850 offset hex 552892 with offset 552840
+allChrNoDeath found at index 4394555 offset hex 431E3B raw val 37EE252 final offset 3C20094
+playerNoDeath found at index 4394633 offset hex 431E89 raw val 37EE1FA final offset 3C2008A
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -904,6 +920,8 @@ soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
+allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
+playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
@@ -972,6 +990,8 @@ soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
+allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
+playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 codeCave_48_nops found at index 39626 offset hex AACA
 codeCave_48_nops found at index 68872 offset hex 11D08
 codeCave_48_nops found at index 73296 offset hex 12E50
