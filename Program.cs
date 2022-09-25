@@ -199,6 +199,10 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "2943 08 837B 08 00 8983 ????0000 7F ?? 80BB ????0000 00 75 ??", "NPC part damage hook");
 
                 findAddr(textSection, header.VirtualAddress, "C783 ????0000 0000803F F3 0F108B ????0000", "Global Speed", justOffset: 2 + 4); //1.0f hardcoded in the asm
+
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 0FB6D8 66 0F7F7D ?? 66 0F7F75 ?? 44 8BCB 48 8D45", "debugMenuFirstPatchLoc"); //debug menu patch replaces this call with a set al, 1 and nops.
+
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 90 4D 8BC7 49 8BD4 48 8BC8 E8 ???????? C74424 50 01000000", "noLogoPatchLoc");
             };
 
             Action doSekiroScan = () =>
