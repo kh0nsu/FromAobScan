@@ -59,6 +59,12 @@ namespace aobScanExe
             }
             //Console.WriteLine($"First text section: offset {header.PointerToRawData} size {header.SizeOfRawData}, virtual addr hex {header.VirtualAddress:X2}");
             //Console.WriteLine($"Second text section: offset {header2.PointerToRawData} size {header2.SizeOfRawData}, virtual addr hex {header2.VirtualAddress:X2}");
+            int emptySpaceLocation = headers.SectionHeaders[0].VirtualAddress + headers.SectionHeaders[0].VirtualSize;
+            int emptySpaceSize = headers.SectionHeaders[1].VirtualAddress - emptySpaceLocation;
+            if (testAob == null)
+            {
+                Console.WriteLine($"Empty space after first section: offset {emptySpaceLocation:X} size {emptySpaceSize:X}");
+            }
             //read all in memory - faster than seeking through
             var textSection = new byte[header.SizeOfRawData];
             strim.Seek(header.PointerToRawData, SeekOrigin.Begin);
@@ -150,8 +156,12 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8B48 ?? 8079 36 00 0F95C0 48 83C4 ?? C3", "torrentDisabledCheckTwo", justOffset: 5 + 4 + 4); //patch from 0F95C0 to 30C090 for torrent everywhere
                 //^+36 is not masked as that's the offset in MSBE and should not change
 
-                findAddr(textSection, header.VirtualAddress, "90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90", "codeCave_48_nops");
-                findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
+                findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B ????0000 44 89AB ????0000 C783 ????0000 FFFFFFFF 44 89AB ????0000 C783 ????0000 FFFFFFFF", "mapIDinPlayerIns", readoffset32: 2); //immediately follows x,y,z,angle
+
+                var cave = "";
+                for (int i = 0; i < 0xA0; i++) { cave += "90"; }
+                findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops");
+                //findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
             };
 
             Action doDS3Scan = () =>
