@@ -4,15 +4,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.04_crashfix.exe
 
 NS_SPRJ::GameDataMan found at index 4625728 offset hex 46A540 raw val 4232BD1 final offset 469D118
 NS_SPRJ::WorldChrManImp found at index 4273585 offset hex 4145B1 raw val 42B1810 final offset 46C5DC8
-NS_SPRJ::WorldChrManImp found at index 4273675 offset hex 41460B raw val 42B17B6 final offset 46C5DC8
 NS_SPRJ::GameMan found at index 6391376 offset hex 619650 raw val 40873D9 final offset 46A0A30
 NS_SPRJ::FieldArea found at index 4075649 offset hex 3E4081 raw val 42BC970 final offset 46A09F8
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4253521 offset hex 40F751 raw val 428D550 final offset 469CCA8
 BaseFOff found at index 4536050 offset hex 4546F2 raw val 424368F final offset 4697D88
 NS_SPRJ::WorldChrManDbgImp found at index 6085405 offset hex 5CEB1D raw val 40F73C3 final offset 46C5EE8
-NS_SPRJ::WorldChrManDbgImp found at index 13839567 offset hex D33CCF raw val 3992211 final offset 46C5EE8
 debug flags / WorldChrManDbg (alternate) found at index 4439373 offset hex 43CD4D raw val 4289143 final offset 46C5EB8
-debug flags / WorldChrManDbg (alternate) found at index 13215916 offset hex C9B8AC raw val 3A2A5E4 final offset 46C5EB8
 NS_SPRJ::SoloParamRepositoryImp found at index 3864603 offset hex 3B081B raw val 432EB66 final offset 46DF388
 GameFlagDataOff? found at index 4537196 offset hex 454B6C raw val 42442C5 final offset 4698E38
 NS_SPRJ::LockTgtManImp found at index 9085446 offset hex 8AB206 raw val 3E189E3 final offset 46C3BF0
@@ -20,7 +17,6 @@ debug_flagsOff found at index 4439406 offset hex 43CD6E raw val 4289143 final of
 GROUP_MASK found at index 11427599 offset hex AE6F0F raw val 39D40CE final offset 44BB000
 NS_SPRJ::MenuMan found at index 7655232 offset hex 74DF40 raw val 3F5B339 final offset 46A9280
 hitbox base WIP take first found at index 9216992 offset hex 8CB3E0 raw val 3DF86D7 final offset 46C3AD0
-hitbox base WIP take first found at index 9217964 offset hex 8CB7AC raw val 3E0744B final offset 46D2C10
 AppMenu::NewMenuSystem found at index 11574016 offset hex B0AB00 raw val 3BC8ED1 final offset 46D39D8
 NS_SPRJ::SprjWorldAiManagerImp found at index 3836556 offset hex 3A9A8C raw val 42ED99D final offset 4697430
 meshes off found at index 8673616 offset hex 846950 raw val 3E7D244 final offset 46C3BBC
@@ -33,7 +29,6 @@ Nothing found for Enemy Targeting Draw 1 (live exe)
 Nothing found for DbgGetForceActIdx (live exe)
 Nothing found for freeCamPlayerControlPatchLoc (live exe)
 mod engine hook WIP take first found at index 508560 offset hex 7D290
-mod engine hook WIP take first found at index 3123216 offset hex 2FB810
 loose params 1 found at index 14442821 offset hex DC7145
 loose params 2 found at index 9299433 offset hex 8DF5E9
 Nothing found for loose params 3 (offline exe)
@@ -48,15 +43,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.08_crashfix.exe
 
 NS_SPRJ::GameDataMan found at index 4633808 offset hex 46C4D0 raw val 4297D91 final offset 4704268
 NS_SPRJ::WorldChrManImp found at index 4280609 offset hex 416121 raw val 4316E30 final offset 472CF58
-NS_SPRJ::WorldChrManImp found at index 4280699 offset hex 41617B raw val 4316DD6 final offset 472CF58
 NS_SPRJ::GameMan found at index 6423040 offset hex 621200 raw val 40E6989 final offset 4707B90
 NS_SPRJ::FieldArea found at index 4082497 offset hex 3E5B41 raw val 4322010 final offset 4707B58
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4260545 offset hex 4112C1 raw val 42F2B30 final offset 4703DF8
 BaseFOff found at index 4543490 offset hex 456402 raw val 42A8A7F final offset 46FEE88
 NS_SPRJ::WorldChrManDbgImp found at index 6116717 offset hex 5D656D raw val 4156B03 final offset 472D078
-NS_SPRJ::WorldChrManDbgImp found at index 14038895 offset hex D6476F raw val 39C8901 final offset 472D078
 debug flags / WorldChrManDbg (alternate) found at index 4446749 offset hex 43EA1D raw val 42EE604 final offset 472D049
-debug flags / WorldChrManDbg (alternate) found at index 13413180 offset hex CCBB3C raw val 3A614E5 final offset 472D049
 NS_SPRJ::SoloParamRepositoryImp found at index 3871419 offset hex 3B22BB raw val 43943A6 final offset 4746668
 GameFlagDataOff? found at index 4544636 offset hex 45687C raw val 42A96B5 final offset 46FFF38
 NS_SPRJ::LockTgtManImp found at index 9136662 offset hex 8B7A16 raw val 3E73363 final offset 472AD80
@@ -64,7 +56,6 @@ debug_flagsOff found at index 4446782 offset hex 43EA3E raw val 42EE604 final of
 GROUP_MASK found at index 11519551 offset hex AFD63F raw val 3A1DFA6 final offset 451B608
 NS_SPRJ::MenuMan found at index 7691488 offset hex 756CE0 raw val 3FB96F1 final offset 47103D8
 hitbox base WIP take first found at index 9272624 offset hex 8D8D30 raw val 3E51F17 final offset 472AC60
-hitbox base WIP take first found at index 9273596 offset hex 8D90FC raw val 3E60C9B final offset 4739DB0
 AppMenu::NewMenuSystem found at index 11667520 offset hex B21840 raw val 3C19381 final offset 473ABC8
 NS_SPRJ::SprjWorldAiManagerImp found at index 3843356 offset hex 3AB51C raw val 435300D final offset 46FE530
 meshes off found at index 8718976 offset hex 851A80 raw val 3ED92A4 final offset 472AD4C
@@ -77,7 +68,6 @@ Nothing found for Enemy Targeting Draw 1 (live exe)
 Nothing found for DbgGetForceActIdx (live exe)
 Nothing found for freeCamPlayerControlPatchLoc (live exe)
 mod engine hook WIP take first found at index 508704 offset hex 7D320
-mod engine hook WIP take first found at index 3126480 offset hex 2FC4D0
 loose params 1 found at index 14645093 offset hex DF8765
 loose params 2 found at index 9357273 offset hex 8ED7D9
 Nothing found for loose params 3 (offline exe)
@@ -91,15 +81,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.12_crashfix.exe
 
 NS_SPRJ::GameDataMan found at index 4634832 offset hex 46C8D0 raw val 42CDF41 final offset 473A818
 NS_SPRJ::WorldChrManImp found at index 4279473 offset hex 415CB1 raw val 434D860 final offset 4763518
-NS_SPRJ::WorldChrManImp found at index 4279563 offset hex 415D0B raw val 434D806 final offset 4763518
 NS_SPRJ::GameMan found at index 6437520 offset hex 624A90 raw val 41196B9 final offset 473E150
 NS_SPRJ::FieldArea found at index 4081361 offset hex 3E56D1 raw val 4358A48 final offset 473E120
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259409 offset hex 410E51 raw val 4329550 final offset 473A3A8
 BaseFOff found at index 4544498 offset hex 4567F2 raw val 42DEC1F final offset 4735418
 NS_SPRJ::WorldChrManDbgImp found at index 6129453 offset hex 5D972D raw val 4189F03 final offset 4763638
-NS_SPRJ::WorldChrManDbgImp found at index 14147167 offset hex D7EE5F raw val 39E47D1 final offset 4763638
 debug flags / WorldChrManDbg (alternate) found at index 4447565 offset hex 43ED4D raw val 4324893 final offset 4763608
-debug flags / WorldChrManDbg (alternate) found at index 13521212 offset hex CE613C raw val 3A7D4A4 final offset 4763608
 NS_SPRJ::SoloParamRepositoryImp found at index 3870283 offset hex 3B1E4B raw val 43CB076 final offset 477CEC8
 GameFlagDataOff? found at index 4545644 offset hex 456C6C raw val 42DF855 final offset 47364C8
 NS_SPRJ::LockTgtManImp found at index 9165798 offset hex 8BEBE6 raw val 3EA2753 final offset 4761340
@@ -107,7 +94,6 @@ debug_flagsOff found at index 4447598 offset hex 43ED6E raw val 4324893 final of
 GROUP_MASK found at index 11583247 offset hex B0CF0F raw val 3A43DBE final offset 4550CF0
 NS_SPRJ::MenuMan found at index 7709552 offset hex 75B370 raw val 3FEB611 final offset 4746988
 hitbox base WIP take first found at index 9302944 offset hex 8E03A0 raw val 3E80E67 final offset 4761220
-hitbox base WIP take first found at index 9303916 offset hex 8E076C raw val 3E8FBFB final offset 4770380
 AppMenu::NewMenuSystem found at index 11730960 offset hex B31010 raw val 3C40191 final offset 47711A8
 NS_SPRJ::SprjWorldAiManagerImp found at index 3842220 offset hex 3AB0AC raw val 43899FD final offset 4734AB0
 meshes off found at index 8744048 offset hex 857C70 raw val 3F09674 final offset 476130C
@@ -120,7 +106,6 @@ Nothing found for Enemy Targeting Draw 1 (live exe)
 Nothing found for DbgGetForceActIdx (live exe)
 Nothing found for freeCamPlayerControlPatchLoc (live exe)
 mod engine hook WIP take first found at index 509408 offset hex 7D5E0
-mod engine hook WIP take first found at index 3128800 offset hex 2FCDE0
 loose params 1 found at index 14754037 offset hex E130F5
 loose params 2 found at index 9388921 offset hex 8F5379
 Nothing found for loose params 3 (offline exe)
@@ -136,15 +121,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.15.1.exe
 
 NS_SPRJ::GameDataMan found at index 4635248 offset hex 46CA70 raw val 42EA841 final offset 47572B8
 NS_SPRJ::WorldChrManImp found at index 4279745 offset hex 415DC1 raw val 4369FF0 final offset 477FDB8
-NS_SPRJ::WorldChrManImp found at index 4279835 offset hex 415E1B raw val 4369F96 final offset 477FDB8
 NS_SPRJ::GameMan found at index 6447072 offset hex 626FE0 raw val 4133C19 final offset 475AC00
 NS_SPRJ::FieldArea found at index 4081633 offset hex 3E57E1 raw val 43753E8 final offset 475ABD0
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259681 offset hex 410F61 raw val 4345EE0 final offset 4756E48
 BaseFOff found at index 4544786 offset hex 456912 raw val 42FB59F final offset 4751EB8
 NS_SPRJ::WorldChrManDbgImp found at index 6138731 offset hex 5DBB6B raw val 41A4365 final offset 477FED8
-NS_SPRJ::WorldChrManDbgImp found at index 14209967 offset hex D8E3AF raw val 39F1B21 final offset 477FED8
 debug flags / WorldChrManDbg (alternate) found at index 4447837 offset hex 43EE5D raw val 4341023 final offset 477FEA8
-debug flags / WorldChrManDbg (alternate) found at index 13583116 offset hex CF530C raw val 3A8AB74 final offset 477FEA8
 NS_SPRJ::SoloParamRepositoryImp found at index 3870555 offset hex 3B1F5B raw val 43E61B6 final offset 4798118
 GameFlagDataOff? found at index 4545932 offset hex 456D8C raw val 42FC1D5 final offset 4752F68
 NS_SPRJ::LockTgtManImp found at index 9208054 offset hex 8C90F6 raw val 3EB4AE3 final offset 477DBE0
@@ -152,7 +134,6 @@ debug_flagsOff found at index 4447870 offset hex 43EE7E raw val 4341023 final of
 GROUP_MASK found at index 11634463 offset hex B1971F raw val 3A53466 final offset 456CBA8
 NS_SPRJ::MenuMan found at index 7720544 offset hex 75DE60 raw val 40053F1 final offset 4763258
 hitbox base WIP take first found at index 9344992 offset hex 8EA7E0 raw val 3E932C7 final offset 477DAC0
-hitbox base WIP take first found at index 9345964 offset hex 8EABAC raw val 3EA205B final offset 478CC20
 AppMenu::NewMenuSystem found at index 11782032 offset hex B3D790 raw val 3C502B9 final offset 478DA50
 NS_SPRJ::SprjWorldAiManagerImp found at index 3842492 offset hex 3AB1BC raw val 43A638D final offset 4751550
 meshes off found at index 8784832 offset hex 861BC0 raw val 3F1BFC4 final offset 477DBAC
@@ -165,7 +146,6 @@ Nothing found for Enemy Targeting Draw 1 (live exe)
 Nothing found for DbgGetForceActIdx (live exe)
 Nothing found for freeCamPlayerControlPatchLoc (live exe)
 mod engine hook WIP take first found at index 509536 offset hex 7D660
-mod engine hook WIP take first found at index 3129072 offset hex 2FCEF0
 loose params 1 found at index 14817637 offset hex E22965
 loose params 2 found at index 9431145 offset hex 8FF869
 Nothing found for loose params 3 (offline exe)
@@ -183,18 +163,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.15.1_livetext1.exe
 
 NS_SPRJ::GameDataMan found at index 4635248 offset hex 46CA70 raw val 42EA841 final offset 47572B8
 NS_SPRJ::WorldChrManImp found at index 4279745 offset hex 415DC1 raw val 4369FF0 final offset 477FDB8
-NS_SPRJ::WorldChrManImp found at index 4279835 offset hex 415E1B raw val 4369F96 final offset 477FDB8
 NS_SPRJ::GameMan found at index 6447072 offset hex 626FE0 raw val 4133C19 final offset 475AC00
 NS_SPRJ::FieldArea found at index 4081633 offset hex 3E57E1 raw val 43753E8 final offset 475ABD0
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259681 offset hex 410F61 raw val 4345EE0 final offset 4756E48
 BaseFOff found at index 4544786 offset hex 456912 raw val 42FB59F final offset 4751EB8
-BaseFOff found at index 4547941 offset hex 457565 raw val 42FA94C final offset 4751EB8
 NS_SPRJ::WorldChrManDbgImp found at index 6138731 offset hex 5DBB6B raw val 41A4365 final offset 477FED8
-NS_SPRJ::WorldChrManDbgImp found at index 14209967 offset hex D8E3AF raw val 39F1B21 final offset 477FED8
 debug flags / WorldChrManDbg (alternate) found at index 4447837 offset hex 43EE5D raw val 4341023 final offset 477FEA8
-debug flags / WorldChrManDbg (alternate) found at index 13583116 offset hex CF530C raw val 3A8AB74 final offset 477FEA8
-debug flags / WorldChrManDbg (alternate) found at index 13673443 offset hex D0B3E3 raw val 3A74A9D final offset 477FEA8
-debug flags / WorldChrManDbg (alternate) found at index 14386664 offset hex DB95E8 raw val 39C6898 final offset 477FEA8
 NS_SPRJ::SoloParamRepositoryImp found at index 3870555 offset hex 3B1F5B raw val 43E61B6 final offset 4798118
 GameFlagDataOff? found at index 4545932 offset hex 456D8C raw val 42FC1D5 final offset 4752F68
 NS_SPRJ::LockTgtManImp found at index 9208054 offset hex 8C90F6 raw val 3EB4AE3 final offset 477DBE0
@@ -202,7 +176,6 @@ debug_flagsOff found at index 4447870 offset hex 43EE7E raw val 4341023 final of
 GROUP_MASK found at index 11634463 offset hex B1971F raw val 3A53466 final offset 456CBA8
 NS_SPRJ::MenuMan found at index 7720544 offset hex 75DE60 raw val 40053F1 final offset 4763258
 hitbox base WIP take first found at index 9344992 offset hex 8EA7E0 raw val 3E932C7 final offset 477DAC0
-hitbox base WIP take first found at index 9345964 offset hex 8EABAC raw val 3EA205B final offset 478CC20
 AppMenu::NewMenuSystem found at index 11782032 offset hex B3D790 raw val 3C502B9 final offset 478DA50
 NS_SPRJ::SprjWorldAiManagerImp found at index 3842492 offset hex 3AB1BC raw val 43A638D final offset 4751550
 meshes off found at index 8784832 offset hex 861BC0 raw val 3F1BFC4 final offset 477DBAC
@@ -215,7 +188,6 @@ Enemy Targeting Draw 1 (live exe) found at index 4314954 offset hex 41E74A raw v
 DbgGetForceActIdx (live exe) found at index 4068752 offset hex 3E2590 with offset 3E2597
 freeCamPlayerControlPatchLoc (live exe) found at index 6477857 offset hex 62E821
 mod engine hook WIP take first found at index 509536 offset hex 7D660
-mod engine hook WIP take first found at index 3129072 offset hex 2FCEF0
 loose params 1 found at index 14817637 offset hex E22965
 loose params 2 found at index 9431145 offset hex 8FF869
 Nothing found for loose params 3 (offline exe)
@@ -233,15 +205,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.15.exe
 
 NS_SPRJ::GameDataMan found at index 4634976 offset hex 46C960 raw val 42D3811 final offset 4740178
 NS_SPRJ::WorldChrManImp found at index 4279617 offset hex 415D41 raw val 4353130 final offset 4768E78
-NS_SPRJ::WorldChrManImp found at index 4279707 offset hex 415D9B raw val 43530D6 final offset 4768E78
 NS_SPRJ::GameMan found at index 6437824 offset hex 624BC0 raw val 411EEE9 final offset 4743AB0
 NS_SPRJ::FieldArea found at index 4081505 offset hex 3E5761 raw val 435E318 final offset 4743A80
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259553 offset hex 410EE1 raw val 432EE20 final offset 473FD08
 BaseFOff found at index 4544642 offset hex 456882 raw val 42E44EF final offset 473AD78
 NS_SPRJ::WorldChrManDbgImp found at index 6129645 offset hex 5D97ED raw val 418F7A3 final offset 4768F98
-NS_SPRJ::WorldChrManDbgImp found at index 14158431 offset hex D81A5F raw val 39E7531 final offset 4768F98
 debug flags / WorldChrManDbg (alternate) found at index 4447709 offset hex 43EDDD raw val 432A163 final offset 4768F68
-debug flags / WorldChrManDbg (alternate) found at index 13532476 offset hex CE8D3C raw val 3A80204 final offset 4768F68
 NS_SPRJ::SoloParamRepositoryImp found at index 3870427 offset hex 3B1EDB raw val 43D0956 final offset 4782838
 GameFlagDataOff? found at index 4545788 offset hex 456CFC raw val 42E5125 final offset 473BE28
 NS_SPRJ::LockTgtManImp found at index 9172646 offset hex 8C06A6 raw val 3EA65F3 final offset 4766CA0
@@ -249,7 +218,6 @@ debug_flagsOff found at index 4447742 offset hex 43EDFE raw val 432A163 final of
 GROUP_MASK found at index 11591407 offset hex B0EEEF raw val 3A46DDE final offset 4555CF0
 NS_SPRJ::MenuMan found at index 7709872 offset hex 75B4B0 raw val 3FF0E31 final offset 474C2E8
 hitbox base WIP take first found at index 9309792 offset hex 8E1E60 raw val 3E84D07 final offset 4766B80
-hitbox base WIP take first found at index 9310764 offset hex 8E222C raw val 3E93A9B final offset 4775CE0
 AppMenu::NewMenuSystem found at index 11739024 offset hex B32F90 raw val 3C43B71 final offset 4776B08
 NS_SPRJ::SprjWorldAiManagerImp found at index 3842364 offset hex 3AB13C raw val 438F2CD final offset 473A410
 meshes off found at index 8750672 offset hex 859650 raw val 3F0D5F4 final offset 4766C6C
@@ -262,7 +230,6 @@ Nothing found for Enemy Targeting Draw 1 (live exe)
 Nothing found for DbgGetForceActIdx (live exe)
 Nothing found for freeCamPlayerControlPatchLoc (live exe)
 mod engine hook WIP take first found at index 509408 offset hex 7D5E0
-mod engine hook WIP take first found at index 3128944 offset hex 2FCE70
 loose params 1 found at index 14765301 offset hex E15CF5
 loose params 2 found at index 9395801 offset hex 8F6E59
 loose params 3 (offline exe) found at index 15281459 offset hex E93D33
@@ -279,18 +246,12 @@ Processing exe: C:\fromexes\DarkSoulsIII_1.15_livetext1.exe
 
 NS_SPRJ::GameDataMan found at index 4634976 offset hex 46C960 raw val 42D3811 final offset 4740178
 NS_SPRJ::WorldChrManImp found at index 4279617 offset hex 415D41 raw val 4353130 final offset 4768E78
-NS_SPRJ::WorldChrManImp found at index 4279707 offset hex 415D9B raw val 43530D6 final offset 4768E78
 NS_SPRJ::GameMan found at index 6437824 offset hex 624BC0 raw val 411EEE9 final offset 4743AB0
 NS_SPRJ::FieldArea found at index 4081505 offset hex 3E5761 raw val 435E318 final offset 4743A80
 NS_SPRJ::FrpgNetManImp / BaseEOff found at index 4259553 offset hex 410EE1 raw val 432EE20 final offset 473FD08
 BaseFOff found at index 4544642 offset hex 456882 raw val 42E44EF final offset 473AD78
-BaseFOff found at index 4547781 offset hex 4574C5 raw val 42E38AC final offset 473AD78
 NS_SPRJ::WorldChrManDbgImp found at index 6129645 offset hex 5D97ED raw val 418F7A3 final offset 4768F98
-NS_SPRJ::WorldChrManDbgImp found at index 14158431 offset hex D81A5F raw val 39E7531 final offset 4768F98
 debug flags / WorldChrManDbg (alternate) found at index 4447709 offset hex 43EDDD raw val 432A163 final offset 4768F68
-debug flags / WorldChrManDbg (alternate) found at index 13532476 offset hex CE8D3C raw val 3A80204 final offset 4768F68
-debug flags / WorldChrManDbg (alternate) found at index 13622083 offset hex CFEB43 raw val 3A6A3FD final offset 4768F68
-debug flags / WorldChrManDbg (alternate) found at index 14334280 offset hex DAC948 raw val 39BC5F8 final offset 4768F68
 NS_SPRJ::SoloParamRepositoryImp found at index 3870427 offset hex 3B1EDB raw val 43D0956 final offset 4782838
 GameFlagDataOff? found at index 4545788 offset hex 456CFC raw val 42E5125 final offset 473BE28
 NS_SPRJ::LockTgtManImp found at index 9172646 offset hex 8C06A6 raw val 3EA65F3 final offset 4766CA0
@@ -298,7 +259,6 @@ debug_flagsOff found at index 4447742 offset hex 43EDFE raw val 432A163 final of
 GROUP_MASK found at index 11591407 offset hex B0EEEF raw val 3A46DDE final offset 4555CF0
 NS_SPRJ::MenuMan found at index 7709872 offset hex 75B4B0 raw val 3FF0E31 final offset 474C2E8
 hitbox base WIP take first found at index 9309792 offset hex 8E1E60 raw val 3E84D07 final offset 4766B80
-hitbox base WIP take first found at index 9310764 offset hex 8E222C raw val 3E93A9B final offset 4775CE0
 AppMenu::NewMenuSystem found at index 11739024 offset hex B32F90 raw val 3C43B71 final offset 4776B08
 NS_SPRJ::SprjWorldAiManagerImp found at index 3842364 offset hex 3AB13C raw val 438F2CD final offset 473A410
 meshes off found at index 8750672 offset hex 859650 raw val 3F0D5F4 final offset 4766C6C
@@ -311,7 +271,6 @@ Enemy Targeting Draw 1 (live exe) found at index 4314826 offset hex 41E6CA raw v
 DbgGetForceActIdx (live exe) found at index 4068624 offset hex 3E2510 with offset 3E2517
 freeCamPlayerControlPatchLoc (live exe) found at index 6468609 offset hex 62C401
 mod engine hook WIP take first found at index 509408 offset hex 7D5E0
-mod engine hook WIP take first found at index 3128944 offset hex 2FCE70
 loose params 1 found at index 14765301 offset hex E15CF5
 loose params 2 found at index 9395801 offset hex 8F6E59
 Nothing found for loose params 3 (offline exe)
@@ -328,9 +287,7 @@ Processing exe: C:\fromexes\eldenring_1.02.3.exe
 
 worldChrManOff found at index 4154630 offset hex 3F7506 raw val 385BDBB final offset 3C532C8
 CS::WorldChrManImp (alternate) found at index 1805767 offset hex 1B9DC7 raw val 3A994F5 final offset 3C532C8
-CS::WorldChrManImp (alternate) found at index 6767920 offset hex 675530 raw val 35DDD8C final offset 3C532C8
 CS::WorldChrManImp offset found at index 1805767 offset hex 1B9DC7 raw val 18468
-CS::WorldChrManImp offset found at index 6767920 offset hex 675530 raw val 18468
 hitboxBase found at index 11130279 offset hex A9E5A7 raw val 31B510A final offset 3C536B8
 hitboxOffset found at index 5326047 offset hex 5154DF raw val A0
 groupMask found at index 6671536 offset hex 65DCB0 raw val 33DBB5A final offset 3A39811
@@ -361,9 +318,7 @@ Nothing found for warp call two
 usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F621C final offset 4528228
 steam input flag check found at index 31970486 offset hex 1E7E4B6 raw val 88B
 csFlipperOff found at index 14068655 offset hex D6BBAF raw val 370A1E2 final offset 4475D98
-csFlipperOff found at index 14071503 offset hex D6C6CF raw val 37096C2 final offset 4475D98
 csFlipperOff gameSpeedOffset found at index 14068655 offset hex D6BBAF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14071503 offset hex D6C6CF raw val 2D4
 no-death offset in CSChrDataModule found at index 4380434 offset hex 42E712 raw val 197
 GameDataMan found at index 2423904 offset hex 250C60 raw val 39FA5B1 final offset 3C4B218
 CS::CSTrophyImp found at index 14094856 offset hex D72208 raw val 3703528 final offset 4475738
@@ -385,9 +340,7 @@ Processing exe: C:\fromexes\eldenring_1.03.0.exe
 
 worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
 CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
-CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
 hitboxBase found at index 11151399 offset hex AA3827 raw val 31C19FA final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
@@ -418,9 +371,7 @@ Nothing found for warp call two
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D3C final offset 4539DA8
 steam input flag check found at index 32009238 offset hex 1E87C16 raw val 88B
 csFlipperOff found at index 14102703 offset hex D740AF raw val 3713862 final offset 4487918
-csFlipperOff found at index 14105551 offset hex D74BCF raw val 3712D42 final offset 4487918
 csFlipperOff gameSpeedOffset found at index 14102703 offset hex D740AF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14105551 offset hex D74BCF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128904 offset hex D7A708 raw val 370CBA8 final offset 44872B8
@@ -442,9 +393,7 @@ Processing exe: C:\fromexes\eldenring_1.03.1.exe
 
 worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
 CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 6772816 offset hex 676850 raw val 35EE5DC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
-CS::WorldChrManImp offset found at index 6772816 offset hex 676850 raw val 18468
 hitboxBase found at index 11151415 offset hex AA3837 raw val 31C19EA final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676512 offset hex 65F020 raw val 33EB7EA final offset 3A4A811
@@ -475,9 +424,7 @@ Nothing found for warp call two
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
 steam input flag check found at index 32008630 offset hex 1E879B6 raw val 88B
 csFlipperOff found at index 14102447 offset hex D73FAF raw val 3713952 final offset 4487908
-csFlipperOff found at index 14105295 offset hex D74ACF raw val 3712E32 final offset 4487908
 csFlipperOff gameSpeedOffset found at index 14102447 offset hex D73FAF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14105295 offset hex D74ACF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128648 offset hex D7A608 raw val 370CC98 final offset 44872A8
@@ -499,9 +446,7 @@ Processing exe: C:\fromexes\eldenring_1.03.2.exe
 
 worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
 CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 6772784 offset hex 676830 raw val 35EE5FC final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
-CS::WorldChrManImp offset found at index 6772784 offset hex 676830 raw val 18468
 hitboxBase found at index 11151383 offset hex AA3817 raw val 31C1A0A final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
 groupMask found at index 6676480 offset hex 65F000 raw val 33EB80A final offset 3A4A811
@@ -532,9 +477,7 @@ Nothing found for warp call two
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
 steam input flag check found at index 32008598 offset hex 1E87996 raw val 88B
 csFlipperOff found at index 14102415 offset hex D73F8F raw val 3713972 final offset 4487908
-csFlipperOff found at index 14105263 offset hex D74AAF raw val 3712E52 final offset 4487908
 csFlipperOff gameSpeedOffset found at index 14102415 offset hex D73F8F raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14105263 offset hex D74AAF raw val 2D4
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128616 offset hex D7A5E8 raw val 370CCB8 final offset 44872A8
@@ -556,9 +499,7 @@ Processing exe: C:\fromexes\eldenring_1.04.0.exe
 
 worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
 CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 6788080 offset hex 67A3F0 raw val 358DCEC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
-CS::WorldChrManImp offset found at index 6788080 offset hex 67A3F0 raw val 18468
 hitboxBase found at index 11018615 offset hex A83177 raw val 318533A final offset 3C084B8
 hitboxOffset found at index 5341279 offset hex 51905F raw val A0
 groupMask found at index 6691744 offset hex 662BA0 raw val 3393C82 final offset 39F6829
@@ -589,9 +530,7 @@ warp call two found at index 6663248 offset hex 65BC50
 usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
 steam input flag check found at index 31909382 offset hex 1E6F606 raw val 88B
 csFlipperOff found at index 13972143 offset hex D542AF raw val 36D6852 final offset 442AB08
-csFlipperOff found at index 13974991 offset hex D54DCF raw val 36D5D32 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13972143 offset hex D542AF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 13974991 offset hex D54DCF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393394 offset hex 4319B2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998360 offset hex D5A918 raw val 36CFB88 final offset 442A4A8
@@ -613,9 +552,7 @@ Processing exe: C:\fromexes\eldenring_1.04.1.exe
 
 worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
 CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
-CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
 hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
 hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
 groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
@@ -646,9 +583,7 @@ warp call two found at index 6663008 offset hex 65BB60
 usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
 steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
 csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
-csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
@@ -670,9 +605,7 @@ Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
 
 worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
 CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 6787840 offset hex 67A300 raw val 358DDDC final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
-CS::WorldChrManImp offset found at index 6787840 offset hex 67A300 raw val 18468
 hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
 hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
 groupMask found at index 6691504 offset hex 662AB0 raw val 3393D72 final offset 39F6829
@@ -703,9 +636,7 @@ warp call two found at index 6663008 offset hex 65BB60
 usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC final offset 44DD6E8
 steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
 csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
-csFlipperOff found at index 13974751 offset hex D54CDF raw val 36D5E22 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
-csFlipperOff gameSpeedOffset found at index 13974751 offset hex D54CDF raw val 2D4
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
@@ -727,9 +658,7 @@ Processing exe: C:\fromexes\eldenring_1.05.0.exe
 
 worldChrManOff found at index 4168198 offset hex 3FAA06 raw val 382548B final offset 3C1FE98
 CS::WorldChrManImp (alternate) found at index 1805911 offset hex 1B9E57 raw val 3A66035 final offset 3C1FE98
-CS::WorldChrManImp (alternate) found at index 6791392 offset hex 67B0E0 raw val 35A4DAC final offset 3C1FE98
 CS::WorldChrManImp offset found at index 1805911 offset hex 1B9E57 raw val 18468
-CS::WorldChrManImp offset found at index 6791392 offset hex 67B0E0 raw val 18468
 hitboxBase found at index 11036391 offset hex A876E7 raw val 3198B7A final offset 3C20268
 hitboxOffset found at index 5341951 offset hex 5192FF raw val A0
 groupMask found at index 6695056 offset hex 663890 raw val 33A9F99 final offset 3A0D830
@@ -760,9 +689,7 @@ warp call two found at index 6666560 offset hex 65C940
 usrInputMgrImplOff found at index 1249525 offset hex 1320F5 raw val 43C372C final offset 44F5828
 steam input flag check found at index 31967094 offset hex 1E7D776 raw val 88B
 csFlipperOff found at index 14001679 offset hex D5B60F raw val 36E7602 final offset 4442C18
-csFlipperOff found at index 14004527 offset hex D5C12F raw val 36E6AE2 final offset 4442C18
 csFlipperOff gameSpeedOffset found at index 14001679 offset hex D5B60F raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14004527 offset hex D5C12F raw val 2D4
 no-death offset in CSChrDataModule found at index 4394482 offset hex 431DF2 raw val 19B
 GameDataMan found at index 2434096 offset hex 253430 raw val 39C4AB1 final offset 3C17EE8
 CS::CSTrophyImp found at index 14027896 offset hex D61C78 raw val 36E0938 final offset 44425B8
@@ -784,9 +711,7 @@ Processing exe: C:\fromexes\eldenring_1.06.0.exe
 
 worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
 CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
-CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
-CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
 hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
 hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
 groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
@@ -817,9 +742,7 @@ warp call two found at index 6672992 offset hex 65E260
 usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC final offset 45075C8
 steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
 csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
-csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final offset 4453E98
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
 GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
@@ -841,9 +764,7 @@ Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
 
 worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
 CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
-CS::WorldChrManImp (alternate) found at index 6797840 offset hex 67CA10 raw val 35B469C final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
-CS::WorldChrManImp offset found at index 6797840 offset hex 67CA10 raw val 18468
 hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
 hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
 groupMask found at index 6701504 offset hex 6651C0 raw val 33B9672 final offset 3A1E839
@@ -874,9 +795,7 @@ warp call two found at index 6672992 offset hex 65E260
 usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC final offset 45075C8
 steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
 csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
-csFlipperOff found at index 14029999 offset hex D624AF raw val 36F19E2 final offset 4453E98
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
-csFlipperOff gameSpeedOffset found at index 14029999 offset hex D624AF raw val 2D4
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
 GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
@@ -897,5 +816,4 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
 csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
-csFlipperOff found at index 18431787 offset hex 1194F2B raw val 2D0A816 final offset 3E9F748
 

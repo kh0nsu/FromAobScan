@@ -85,78 +85,75 @@ namespace aobScanExe
 
             Action doERScan = () =>
             {
-                //up to date as of ER 1.05; will mostly work on older versions.
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ???????? 48 85 C0 74 0F 48 39 88", "worldChrManOff", 3, 7); //CS::WorldChrManImp //if this finds too many, try 48 8B 05 ???????? 48 85 C0 74 0F 48 39 88 ???????? 75 06 89 B1 5C030000 0F28 05 ???????? 4C 8D 45 E7
-                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp (alternate)", 5 + 3, 5 + 3 + 4);
-                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp offset", 5 + 7 + 3);
-                //findAddr(textSection, header.VirtualAddress, "0F 29 74 24 40 0F 1F 40 00", "hitboxBase (1.05)", 12, 12 + 7); //consistently off
-                findAddr(textSection, header.VirtualAddress, "48 8B0D ???????? E8 ???????? F3 0F1057 ?? 48 8BCB 0FB693 ????0000 E8 ???????? 48 8BCB E8 ???????? 48 8B0D ????????", "hitboxBase", 1 + 2, 1 + 2 + 4);
-                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8BF9 BE FFFFFFFF 74 ?? 48 8B19 48 85DB 74 ??", "hitboxOffset", 2);
-                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 1f ba 05000000", "groupMask",  2, 7); //may not be exactly group mask if they change it between patches. look around here for 01010101... in memory
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ???????? 48 85 C0 74 0F 48 39 88", "worldChrManOff", 3, 7, startIndex: 4000000); //CS::WorldChrManImp //if this finds too many, try 48 8B 05 ???????? 48 85 C0 74 0F 48 39 88 ???????? 75 06 89 B1 5C030000 0F28 05 ???????? 4C 8D 45 E7
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp (alternate)", 5 + 3, 5 + 3 + 4, startIndex: 1000000);
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 4C 8B A8 ?? ?? ?? ?? 4D 85 ED 0F 84 ?? ?? ?? ??", "CS::WorldChrManImp offset", 5 + 7 + 3, startIndex: 1000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B0D ???????? E8 ???????? F3 0F1057 ?? 48 8BCB 0FB693 ????0000 E8 ???????? 48 8BCB E8 ???????? 48 8B0D ????????", "hitboxBase", 1 + 2, 1 + 2 + 4, startIndex: 11000000);
+                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8BF9 BE FFFFFFFF 74 ?? 48 8B19 48 85DB 74 ??", "hitboxOffset", 2, startIndex: 5000000);
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 1f ba 05000000", "groupMask",  2, 7, startIndex: 6000000); //may not be exactly group mask if they change it between patches. look around here for 01010101... in memory
                 //or F3 0F 7F 4D D0 80 3D ?? ?? ?? ?? 00 74 1F BA 05
                 //C6 05 ?? ?? ?? 02 01 finds movs to offsets starting with 02 (from instruction), first result is generally an address near group mask (eg. +9)
-                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 B3 01 C605 ???????? 0074 1F BA 01000000 48 8D4D ?? E8 ????????", "groupMaskMap", 2, 2 + 4 + 1); //803D ???????? 00 B3 01 C605 ???????? 0074 1F BA 01000000 48 8D4D ?? E8 ???????? F3 0F6F4D ?? 0F1000 66 0FEBC8 F3 0F7F4D ?? 803D ???????? 0074 1F
-                findAddr(textSection, header.VirtualAddress, "0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ?? E8 ?? ?? ?? ?? 0F B6 F8", "meshesOff",  3, 7); //or just 44 0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ??
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 B3 01 C605 ???????? 0074 1F BA 01000000 48 8D4D ?? E8 ????????", "groupMaskMap", 2, 2 + 4 + 1, startIndex: 6000000); //803D ???????? 00 B3 01 C605 ???????? 0074 1F BA 01000000 48 8D4D ?? E8 ???????? F3 0F6F4D ?? 0F1000 66 0FEBC8 F3 0F7F4D ?? 803D ???????? 0074 1F
+                findAddr(textSection, header.VirtualAddress, "0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ?? E8 ?? ?? ?? ?? 0F B6 F8", "meshesOff",  3, 7, startIndex: 7000000); //or just 44 0F B6 25 ?? ?? ?? ?? 44 0F B6 3D ?? ?? ?? ??
                 //fallback search: search C6 05 ?? ?? ?? ?? 00. many results. look for pair of two consecutive addresses in two consecutive instructions
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 0F B6 40 10 C3", "CS::GameMan", 3, 7); //assuming the offset is fixed at +10
-                findAddr(textSection, header.VirtualAddress, "74 53 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ???????? BA ????0000 48 8D0D ???????? E8 ????????", "logoScreenBase",  justOffset: 0);
-                findAddr(textSection, header.VirtualAddress, "48 8B48 ?? 49 898D ????0000 49 8BCE E8 ???????? 84C0 75 ?? 49 8B5E ?? 48 8D4D ?? E8 ????????", "targetHookLoc and offset", 1 + 2 + 1 + 1 + 2);
-                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 09 48 8D4D A0 E8 ???????? 4D 85E4", "miscDebugBase",  2, 7); //expect debug flags to be re-ordered in new patches
-                findAddr(textSection, header.VirtualAddress, "0FB63D ???????? 48 85C0 75 2E", "noAIUpdate",  3, 7);
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 0F B6 40 10 C3", "CS::GameMan", 3, 7, startIndex: 6000000); //assuming the offset is fixed at +10
+                findAddr(textSection, header.VirtualAddress, "74 53 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ???????? BA ????0000 48 8D0D ???????? E8 ????????", "logoScreenBase",  justOffset: 0, startIndex: 11000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B48 ?? 49 898D ????0000 49 8BCE E8 ???????? 84C0 75 ?? 49 8B5E ?? 48 8D4D ?? E8 ????????", "targetHookLoc and offset", 1 + 2 + 1 + 1 + 2, startIndex: 7000000);
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 09 48 8D4D A0 E8 ???????? 4D 85E4", "miscDebugBase",  2, 7, startIndex: 4000000); //expect debug flags to be re-ordered in new patches
+                findAddr(textSection, header.VirtualAddress, "0FB63D ???????? 48 85C0 75 2E", "noAIUpdate",  3, 7, startIndex: 3000000);
                 //multiple results but may find debug base or nearby address: e8 ?? ?? ?? ?? 80 3d ?? ?? ?? ?? 00 0f 85
-                findAddr(textSection, header.VirtualAddress, "48 8b 05 ?? ?? ?? ?? 0f b6 3d ?? ?? ?? ?? 48 85 c0", "possibly noAIUpdate 1.03.2/1.04.0", 3, 7);
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 41 83 FF 02 ?? ?? 48 85 C0", "chrDbg", 3, 7);
-                findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 83 79 ?? 00 0F 85 ?? ?? ?? ?? 49 8B 87 ?? ?? ?? ?? 48 8B 88 ?? ?? ?? ?? E8", "newMenuSystem", 3, 7);
-                findAddr(textSection, header.VirtualAddress, "48 895C24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D6C24 ?? 48 81EC ???????? 0F29B424 ????????", "fontDrawOffset");
-                findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? 48 85 C9 ???? 83 CF 20", "DbgEventManOff", 3, 7);
+                findAddr(textSection, header.VirtualAddress, "48 8b 05 ?? ?? ?? ?? 0f b6 3d ?? ?? ?? ?? 48 85 c0", "possibly noAIUpdate 1.03.2/1.04.0", 3, 7, startIndex: 3000000); //TODO: work out what this is, maybe remove
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 41 83 FF 02 ?? ?? 48 85 C0", "chrDbg", 3, 7, startIndex: 5000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 83 79 ?? 00 0F 85 ?? ?? ?? ?? 49 8B 87 ?? ?? ?? ?? 48 8B 88 ?? ?? ?? ?? E8", "newMenuSystem", 3, 7, startIndex: 5000000); //TODO: consider fixing for older patches
+                findAddr(textSection, header.VirtualAddress, "48 895C24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D6C24 ?? 48 81EC ???????? 0F29B424 ????????", "fontDrawOffset", startIndex: 39000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? 48 85 C9 ???? 83 CF 20", "DbgEventManOff", 3, 7, startIndex: 10000000);
                 //findAddr(textSection, header.VirtualAddress, "e8 ?? ?? ?? ?? 84 c0 74 06 e8 ?? ?? ?? ??", "Event patch search WIP, look around first"); //many results, take first? finds both addresses (as calls)
-                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 1", 1, 1 + 4);
-                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 2", 1 + 4 + 2 + 1 + 1 + 1, 1 + 4 + 2 + 1 + 1 + 1 + 4);
-                findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 48 ?? ?? ?? 44 0F B6 61 ?? E8 ?? ?? ?? ?? 48 63 87 ?? ?? ?? ?? 48 ?? ?? ?? 48 85 C0", "CS::FieldArea", 3, 7);
-                findAddr(textSection, header.VirtualAddress, "EB 05 E8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 84 C0 75 0C", "free cam patch loc WIP, follow jumps from here"); //follow jumps until an xor al,al followed by actual or obfuscated return. don't scroll up, weird asm.
-                findAddr(textSection, header.VirtualAddress, "32 C0 48 8D 64 24 08 FF 64 24 F8 48 8D 05 ?? ?? ?? ?? C3 0F 28 C3", "free cam patch loc older patch?");
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 1", 1, 1 + 4, startIndex: 5000000);
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 2", 1 + 4 + 2 + 1 + 1 + 1, 1 + 4 + 2 + 1 + 1 + 1 + 4, startIndex: 5000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 48 ?? ?? ?? 44 0F B6 61 ?? E8 ?? ?? ?? ?? 48 63 87 ?? ?? ?? ?? 48 ?? ?? ?? 48 85 C0", "CS::FieldArea", 3, 7, startIndex: 6000000);
+                findAddr(textSection, header.VirtualAddress, "EB 05 E8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 84 C0 75 0C", "free cam patch loc WIP, follow jumps from here", startIndex: 7000000); //follow jumps until an xor al,al followed by actual or obfuscated return. don't scroll up, weird asm. //TODO: find this automatically
+                findAddr(textSection, header.VirtualAddress, "32 C0 48 8D 64 24 08 FF 64 24 F8 48 8D 05 ?? ?? ?? ?? C3 0F 28 C3", "free cam patch loc older patch?", startIndex: 2000000);
                 //E9 ?? ?? ?? ?? 48 C7 45 E0 07 00 00 00 may help in some older patches; take 3rd result in 1.04.0.
                 //it's meant to be //LockTgtMan->IsLockMode, but i don't know what to do with this. ask Pav if AOBs break
-                findAddr(textSection, header.VirtualAddress, "8B 83 C8 00 00 00 FF C8 83 F8 01", "free cam player control patch loc"); //(offset C8 may change). weird cmp may change too.
-                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 38 ???????? C745 3C ???????? C745 40 ???????? 48 8D05 ????????", "map open in combat"); //38/3C/40 likely stable but could change
-                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? ?? ?? 75 ?? 83 e7 fe", "map stay open in combat");
+                findAddr(textSection, header.VirtualAddress, "8B 83 C8 00 00 00 FF C8 83 F8 01", "free cam player control patch loc", startIndex: 6000000); //(offset C8 may change). weird cmp may change too.
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 38 ???????? C745 3C ???????? C745 40 ???????? 48 8D05 ????????", "map open in combat", startIndex: 8000000); //38/3C/40 likely stable but could change
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? ?? ?? 75 ?? 83 e7 fe", "map stay open in combat", startIndex: 9000000);
                 //for some older patch, maybe 1.03.2: E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 EA 3C 00 00 finds the call
                 //maybe try E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? 00 00, multiple results, 2nd last? //follow the call, check for x-refs. should be about 5. can use this to find one from the other, and also crafting check etc.
                 findAddr(textSection, header.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (1st sect)", justOffset: 7); //expect obfuscated ret afterwards
                 findAddr(textSection2, header2.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (2nd sect)", justOffset: 7); //moves between sections across patches, so check both. kinda weird ngl.
-                findAddr(textSection, header.VirtualAddress, "48 83EC 48 48 C74424 28 FEFFFFFF E8 ?? ?? ?? ?? 48", "warp call one");
-                findAddr(textSection, header.VirtualAddress, "488B05 ???????? 8988 300C0000 C3", "warp call two");
-                findAddr(textSection, header.VirtualAddress, "48 8905 ???????? 48 8B05 ???????? E8 ???????? 4C 8B08 41 B8 ??000000 48 8D15 ????0000 48 8BC8 41 FF51 ?? 48 8B1D ????????", "usrInputMgrImplOff", 3, 7);
-                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8B5C24 40", "steam input flag check", 2); //in case the offset changes, this should find it
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7); //identical to sekiro, likely to keep working.
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff gameSpeedOffset", 7 + 4);
-                findAddr(textSection, header.VirtualAddress, "4883EC20F681????000001488bd97408", "no-death offset in CSChrDataModule", 4 + 2);
-                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 05 48 8B 40 58 C3 C3", "GameDataMan", 3, 7); //*ptr + 8 to CS::PlayerGameData
+                findAddr(textSection, header.VirtualAddress, "48 83EC 48 48 C74424 28 FEFFFFFF E8 ?? ?? ?? ?? 48", "warp call one", startIndex: 6000000);
+                findAddr(textSection, header.VirtualAddress, "488B05 ???????? 8988 300C0000 C3", "warp call two", startIndex: 6000000); //TODO: fix for old patches
+                findAddr(textSection, header.VirtualAddress, "48 8905 ???????? 48 8B05 ???????? E8 ???????? 4C 8B08 41 B8 ??000000 48 8D15 ????0000 48 8BC8 41 FF51 ?? 48 8B1D ????????", "usrInputMgrImplOff", 3, 7, startIndex: 1000000);
+                findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8B5C24 40", "steam input flag check", 2, startIndex: 31000000); //in case the offset changes, this should find it
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7, startIndex: 13000000); //identical to sekiro, likely to keep working.
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff gameSpeedOffset", 7 + 4, startIndex: 13000000);
+                findAddr(textSection, header.VirtualAddress, "4883EC20F681????000001488bd97408", "no-death offset in CSChrDataModule", 4 + 2, startIndex: 4000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 05 48 8B 40 58 C3 C3", "GameDataMan", 3, 7, startIndex: 2000000); //*ptr + 8 to CS::PlayerGameData
 
-                //CS::CSTrophyImp has 14 references, not sure how best to pick one for an AOB. just find it by RTTI scan if necessary.
-                findAddr(textSection, header.VirtualAddress, "48833D ???????? 00 75 31 4C 8B05 ???????? 4C 8945 10 BA 08000000 8D4A 18", "CS::CSTrophyImp", 3, 8);
+                findAddr(textSection, header.VirtualAddress, "48833D ???????? 00 75 31 4C 8B05 ???????? 4C 8945 10 BA 08000000 8D4A 18", "CS::CSTrophyImp", 3, 8, startIndex: 13000000);
 
-                findAddr(textSection, header.VirtualAddress, "894B 08 48 85F6 74 ?? 48 8D5424 ?? 48 8BCE E8 ???????? EB ??", "NPC part damage hook");
+                findAddr(textSection, header.VirtualAddress, "894B 08 48 85F6 74 ?? 48 8D5424 ?? 48 8BCE E8 ???????? EB ??", "NPC part damage hook", startIndex: 5000000);
 
-                findAddr(textSection, header.VirtualAddress, "74 28 48 8B45 ?? 48 85C0 74 07 F3 0F1048 ?? EB 08 F3 0F100D ????????", "Weapon upgrade rune cost");//patch to EB (jmp)
-                findAddr(textSection, header.VirtualAddress, "8BF8 44 8BC3 48 8D55 ?? 48 8D4D ?? E8 ????????", "Weapon upgrade material cost"); //patch to 31 FF (xor edi,edi)
+                findAddr(textSection, header.VirtualAddress, "74 28 48 8B45 ?? 48 85C0 74 07 F3 0F1048 ?? EB 08 F3 0F100D ????????", "Weapon upgrade rune cost", startIndex: 7000000);//patch to EB (jmp)
+                findAddr(textSection, header.VirtualAddress, "8BF8 44 8BC3 48 8D55 ?? 48 8D4D ?? E8 ????????", "Weapon upgrade material cost", startIndex: 8000000); //patch to 31 FF (xor edi,edi)
 
-                findAddr(textSection, header.VirtualAddress, "74 ?? 48 8B0D ???????? BE 01000000 897424 ?? 48 85C9 75 ?? 48 8D0D ???????? E8 ????????", "soundDrawPatchLoc");
+                findAddr(textSection, header.VirtualAddress, "74 ?? 48 8B0D ???????? BE 01000000 897424 ?? 48 85C9 75 ?? 48 8D0D ???????? E8 ????????", "soundDrawPatchLoc", startIndex: 3000000);
 
-                findAddr(textSection, header.VirtualAddress, "40 3835 ???????? 0F84 ????0000 48 8D5424 ?? 48 8BCF E8 ????0000 48 8D4C24 ?? E8 ???????? 6644 85BF ????000074 ?? 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ????????BA ????0000 48 8D0D ????????E8 ???????? 48 8B05 ????????48 8B80 ????????48 8D5424 ?? 48 8B88 ????????48 8B49 ?? E8 ???????? EB ?? 8B8F ????0000 E8 ???????? F3 0F1145 ?? 48 8D4C24 ?? 66 859F ????000074 ?? B2 ?? EB ??", "allTargetingDebugDraw", 3, 3 + 4); //yes, it's long, take off more than a little and it gets two matches
+                findAddr(textSection, header.VirtualAddress, "40 3835 ???????? 0F84 ????0000 48 8D5424 ?? 48 8BCF E8 ????0000 48 8D4C24 ?? E8 ???????? 6644 85BF ????000074 ?? 48 8B05 ???????? 48 85C0 75 ?? 48 8D0D ???????? E8 ???????? 4C 8BC8 4C 8D05 ????????BA ????0000 48 8D0D ????????E8 ???????? 48 8B05 ????????48 8B80 ????????48 8D5424 ?? 48 8B88 ????????48 8B49 ?? E8 ???????? EB ?? 8B8F ????0000 E8 ???????? F3 0F1145 ?? 48 8D4C24 ?? 66 859F ????000074 ?? B2 ?? EB ??", "allTargetingDebugDraw", 3, 3 + 4, startIndex: 3000000); //yes, it's long, take off more than a little and it gets two matches
 
-                findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? C7 44 24 50 FFFFFFFF", "MapItemManImpl", 3, 7); //or 48 8B 0D ???????? C7 44 24 50 FF FF FF FF C7 45 A0 FF FF FF FF 48 85 C9 75 2E
-                findAddr(textSection, header.VirtualAddress, "8B 02 83 F8 0A", "ItemSpawnCall", justOffset: -0x52); //this function changed in earlier patches; this AOB is surprisingly more robust than one from the start of the function.
+                findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? C7 44 24 50 FFFFFFFF", "MapItemManImpl", 3, 7, startIndex: 5000000); //or 48 8B 0D ???????? C7 44 24 50 FF FF FF FF C7 45 A0 FF FF FF FF 48 85 C9 75 2E
+                findAddr(textSection, header.VirtualAddress, "8B 02 83 F8 0A", "ItemSpawnCall", justOffset: -0x52, startIndex: 5000000); //this function changed in earlier patches; this AOB is surprisingly more robust than one from the start of the function. //TODO: alternate for old patches?
 
-                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 ?? 48 8BCB E8 ???????? 48 8BC8 E8 ???????? 84C0 74 ?? 48 833D ???????? 00", "allChrNoDeath", 2, 2 + 4 + 1);
-                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 0F85 ???????? 32C0 48 83C4 20 5B C3", "playerNoDeath", 2, 2 + 4 + 1); //alternative to setting no-death directly on the player character
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 ?? 48 8BCB E8 ???????? 48 8BC8 E8 ???????? 84C0 74 ?? 48 833D ???????? 00", "allChrNoDeath", 2, 2 + 4 + 1, startIndex: 4000000);
+                findAddr(textSection, header.VirtualAddress, "803D ???????? 00 0F85 ???????? 32C0 48 83C4 20 5B C3", "playerNoDeath", 2, 2 + 4 + 1, startIndex: 4000000); //alternative to setting no-death directly on the player character
 
-                findAddr(textSection, header.VirtualAddress, "48 8B40 68 8078 36 00 0F95C0 40 B7 01 8806 48 8B5C24 30 40 0FB6C7 48 8B7424 38 48 83C4 20 5F C3", "torrentDisabledCheckOne", justOffset: 4 + 4); //patch from 0F95C0 to 30C090 for torrent everywhere
+                findAddr(textSection, header.VirtualAddress, "48 8B40 68 8078 36 00 0F95C0 40 B7 01 8806 48 8B5C24 30 40 0FB6C7 48 8B7424 38 48 83C4 20 5F C3", "torrentDisabledCheckOne", justOffset: 4 + 4, startIndex: 13000000); //patch from 0F95C0 to 30C090 for torrent everywhere
                 //^nothing masked but works on all patches. try 0F95C0 40 B7 01 8806 48 8B5C24 ?? 40 0FB6C7 48 8B7424 ?? 48 83C4 ?? 5F C3 if it breaks but expect multiple matches.
-                findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8B48 ?? 8079 36 00 0F95C0 48 83C4 ?? C3", "torrentDisabledCheckTwo", justOffset: 5 + 4 + 4); //patch from 0F95C0 to 30C090 for torrent everywhere
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8B48 ?? 8079 36 00 0F95C0 48 83C4 ?? C3", "torrentDisabledCheckTwo", justOffset: 5 + 4 + 4, startIndex: 7000000); //patch from 0F95C0 to 30C090 for torrent everywhere
                 //^+36 is not masked as that's the offset in MSBE and should not change
 
-                findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B ????0000 44 89AB ????0000 C783 ????0000 FFFFFFFF 44 89AB ????0000 C783 ????0000 FFFFFFFF", "mapIDinPlayerIns", readoffset32: 2); //immediately follows x,y,z,angle
+                findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B ????0000 44 89AB ????0000 C783 ????0000 FFFFFFFF 44 89AB ????0000 C783 ????0000 FFFFFFFF", "mapIDinPlayerIns", readoffset32: 2, startIndex: 6000000); //immediately follows x,y,z,angle
 
                 //findAddr(textSection, header.VirtualAddress, "4C 8DB0 ????0000 49 8B06 49 8BCE FF10 8BE8 33FF 49 BF FFFFFFFFFFFFFF1F 85C0 0F8E ????????", "worldChrManOffTowardsTorrent", 1 + 2); //fixed at 0xB6F0. this value +0x18 eventually gets to torrent.
                 //the 0x18378 offset (which changes with patches) is not found in the game. the following is the closest:
@@ -164,7 +161,7 @@ namespace aobScanExe
 
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
-                findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops");
+                findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F
                 //findAddr(textSection, header.VirtualAddress, "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00", "codeCave_48_zeroes"); //mostly pointless, just open x64dbg and go to end
             };
 
@@ -208,7 +205,7 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "74 68 48 8b cf 48 89 5c 24 30 E8", "loose params 1");
                 findAddr(textSection, header.VirtualAddress, "0F 85 C5 00 00 00 48 8D 4C 24 28 E8", "loose params 2");
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? 53 E9 ?? ?? ?? ?? E2 0C FFF1", "loose params 3 (offline exe)"); //only works on the original exe; last part is obfuscated
-                findAddr(textSection, header.VirtualAddress, "E9 ?? ?? ?? ?? 90 E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ??", "loose params 3 WIP", justOffset: 0x11); //will get multiple results. try second result. check called func and look for rcx+60 a few instructions down.
+                findAddr(textSection, header.VirtualAddress, "E9 ?? ?? ?? ?? 90 E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 90 E9 ?? ?? ?? ??", "loose params 3 WIP", justOffset: 0x11, singleMatch: false); //will get multiple results. try second result. check called func and look for rcx+60 a few instructions down.
 
                 findAddr(textSection, header.VirtualAddress, "2943 08 837B 08 00 8983 ????0000 7F ?? 80BB ????0000 00 75 ??", "NPC part damage hook");
 
@@ -226,8 +223,8 @@ namespace aobScanExe
 
             if (!string.IsNullOrEmpty(testAob))
             {
-                findAddr(textSection, header.VirtualAddress, testAob, "Test AOB (section 1)");
-                findAddr(textSection2, header2.VirtualAddress, testAob, "Test AOB (section 2)");
+                findAddr(textSection, header.VirtualAddress, testAob, "Test AOB (section 1)", singleMatch: false);
+                findAddr(textSection2, header2.VirtualAddress, testAob, "Test AOB (section 2)", singleMatch: false);
             }
             else
             {
@@ -287,47 +284,56 @@ namespace aobScanExe
             return -1;
         }
 
-        public int findAddr(byte[] buf, int blockVirtualAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000)
-        {
+        bool outputConsole = true;
+
+        public int findAddr(byte[] buf, int blockVirtualAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000, int startIndex = 0, bool singleMatch = true)
+        {//TODO: for single match and non-zero start index, try zero start index if no match is found?
             int count = 0;
 
             byte[] fb = hs2b(find);
             byte[] fwb = hs2w(find);
 
-            int index = 0;
-            
-            while (index != -1)
+            int index = startIndex;
+
+            int result = -1;
+
+            do
             {
                 index = FindBytes(buf, fb, fwb, index);
                 if (index != -1)
                 {
                     count++;
                     int rva = index + blockVirtualAddr;
+                    result = rva;
                     string output = desc + " found at index " + index + " offset hex " + rva.ToString("X2");
 
                     if (readoffset32 > -1000)
                     {
                         int index32 = index + readoffset32;
                         var val = BitConverter.ToInt32(buf, index32);
+                        result = val;
                         output += " raw val " + val.ToString("X2");
                         if (nextInstOffset > -1000)
                         {
                             int next = blockVirtualAddr + index + nextInstOffset + val;
+                            result = next;
                             output += " final offset " + next.ToString("X2");
                         }
                     }
 
                     if (justOffset > -1000)
                     {
+                        result = rva + justOffset;
                         output += " with offset " + (rva + justOffset).ToString("X2");
                     }
 
-                    Console.WriteLine(output);
+                    if (outputConsole) { Console.WriteLine(output); }
                     index += fb.Length; //keep searching in case there's multiple.
                 }
             }
-            if (0 == count) { Console.WriteLine("Nothing found for " + desc); }
-            return count;
+            while (index != -1 && !singleMatch);
+            if (0 == count && outputConsole) { Console.WriteLine("Nothing found for " + desc); }
+            return result;
         }
     }
 }
