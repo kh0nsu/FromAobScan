@@ -28,8 +28,13 @@ namespace aobScanExe
             foreach (var exe in gameExes)
             {
                 Console.WriteLine("Processing exe: " + exe);
-                new Program().run(exe, testAob);
-                Console.WriteLine();
+                //var sw = new System.Diagnostics.Stopwatch();
+                //sw.Start();
+                var scanner = new Program();
+                //scanner.outputConsole = false;
+                scanner.run(exe, testAob);
+                //sw.Stop();
+                //Console.WriteLine($"time: {sw.ElapsedMilliseconds}");
             }
             Console.ReadLine();
         }
@@ -284,7 +289,7 @@ namespace aobScanExe
             return -1;
         }
 
-        bool outputConsole = true;
+        public bool outputConsole = true;
 
         public int findAddr(byte[] buf, int blockVirtualAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000, int startIndex = 0, bool singleMatch = true)
         {//TODO: for single match and non-zero start index, try zero start index if no match is found?
