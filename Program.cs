@@ -158,6 +158,10 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B ????0000 44 89AB ????0000 C783 ????0000 FFFFFFFF 44 89AB ????0000 C783 ????0000 FFFFFFFF", "mapIDinPlayerIns", readoffset32: 2); //immediately follows x,y,z,angle
 
+                //findAddr(textSection, header.VirtualAddress, "4C 8DB0 ????0000 49 8B06 49 8BCE FF10 8BE8 33FF 49 BF FFFFFFFFFFFFFF1F 85C0 0F8E ????????", "worldChrManOffTowardsTorrent", 1 + 2); //fixed at 0xB6F0. this value +0x18 eventually gets to torrent.
+                //the 0x18378 offset (which changes with patches) is not found in the game. the following is the closest:
+                //findAddr(textSection, header.VirtualAddress, "48 8D83 ??????00 48 8983 ????0000 48 C783 ????0000 FFFFFFFF C783 ????0000 FFFFFFFF 66 89AB ????0000 40 88AB ????0000 0F2805 ????????", "worldChrManSomeOffset", 1 + 2); //fixed at 0x18370.
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops");
@@ -265,10 +269,11 @@ namespace aobScanExe
             return wild;
         }
 
-        public int FindBytes(byte[] buf, byte[] find, byte[] wild, int index = 0)
+        public int FindBytes(byte[] buf, byte[] find, byte[] wild, int startIndex = 0, int lastIndex = -1)
         {
             if (buf == null || find == null || buf.Length == 0 || find.Length == 0 || find.Length > buf.Length) return -1;
-            for (int i = index; i < buf.Length - find.Length + 1; i++)
+            if (lastIndex < 1) { lastIndex = buf.Length - find.Length; }
+            for (int i = startIndex; i < lastIndex + 1; i++)
             {
                 if (buf[i] == find[0])
                 {
@@ -282,7 +287,7 @@ namespace aobScanExe
             return -1;
         }
 
-        public int findAddr(byte[] buf, int startAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000)
+        public int findAddr(byte[] buf, int blockVirtualAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000)
         {
             int count = 0;
 
@@ -297,7 +302,7 @@ namespace aobScanExe
                 if (index != -1)
                 {
                     count++;
-                    int rva = index + startAddr;
+                    int rva = index + blockVirtualAddr;
                     string output = desc + " found at index " + index + " offset hex " + rva.ToString("X2");
 
                     if (readoffset32 > -1000)
@@ -307,7 +312,7 @@ namespace aobScanExe
                         output += " raw val " + val.ToString("X2");
                         if (nextInstOffset > -1000)
                         {
-                            int next = startAddr + index + nextInstOffset + val;
+                            int next = blockVirtualAddr + index + nextInstOffset + val;
                             output += " final offset " + next.ToString("X2");
                         }
                     }

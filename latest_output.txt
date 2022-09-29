@@ -41,6 +41,8 @@ loose params 3 WIP found at index 27767742 offset hex 1A7C3BE with offset 1A7C3C
 loose params 3 WIP found at index 27881626 offset hex 1A9809A with offset 1A980AB
 NPC part damage hook found at index 4607853 offset hex 465F6D
 Global Speed found at index 9957906 offset hex 980212 with offset 980218
+debugMenuFirstPatchLoc found at index 15167716 offset hex E780E4
+noLogoPatchLoc found at index 12296399 offset hex BBB0CF
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.08_crashfix.exe
 
@@ -82,6 +84,8 @@ Nothing found for loose params 3 (offline exe)
 loose params 3 WIP found at index 28704062 offset hex 1B60D3E with offset 1B60D4F
 NPC part damage hook found at index 4615629 offset hex 467DCD
 Global Speed found at index 10016098 offset hex 98E562 with offset 98E568
+debugMenuFirstPatchLoc found at index 15394260 offset hex EAF5D4
+noLogoPatchLoc found at index 12409551 offset hex BD6ACF
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.12_crashfix.exe
 
@@ -125,6 +129,8 @@ loose params 3 WIP found at index 15269234 offset hex E90D72 with offset E90D83
 loose params 3 WIP found at index 28855089 offset hex 1B85B31 with offset 1B85B42
 NPC part damage hook found at index 4616653 offset hex 4681CD
 Global Speed found at index 10055346 offset hex 997EB2 with offset 997EB8
+debugMenuFirstPatchLoc found at index 15506740 offset hex ECAD34
+noLogoPatchLoc found at index 12479903 offset hex BE7D9F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.1.exe
 
@@ -170,6 +176,8 @@ loose params 3 WIP found at index 28849621 offset hex 1B845D5 with offset 1B845E
 loose params 3 WIP found at index 28993669 offset hex 1BA7885 with offset 1BA7896
 NPC part damage hook found at index 4617069 offset hex 46836D
 Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
+debugMenuFirstPatchLoc found at index 15575908 offset hex EDBB64
+noLogoPatchLoc found at index 12530367 offset hex BF42BF
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.1_livetext1.exe
 
@@ -218,6 +226,8 @@ loose params 3 WIP found at index 28849621 offset hex 1B845D5 with offset 1B845E
 loose params 3 WIP found at index 28993669 offset hex 1BA7885 with offset 1BA7896
 NPC part damage hook found at index 4617069 offset hex 46836D
 Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
+debugMenuFirstPatchLoc found at index 15575908 offset hex EDBB64
+noLogoPatchLoc found at index 12530367 offset hex BF42BF
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.exe
 
@@ -262,6 +272,8 @@ loose params 3 WIP found at index 28841502 offset hex 1B8261E with offset 1B8262
 loose params 3 WIP found at index 28938629 offset hex 1B9A185 with offset 1B9A196
 NPC part damage hook found at index 4616797 offset hex 46825D
 Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
+debugMenuFirstPatchLoc found at index 15518948 offset hex ECDCE4
+noLogoPatchLoc found at index 12487951 offset hex BE9D0F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15_livetext1.exe
 
@@ -309,6 +321,8 @@ loose params 3 WIP found at index 28841502 offset hex 1B8261E with offset 1B8262
 loose params 3 WIP found at index 28938629 offset hex 1B9A185 with offset 1B9A196
 NPC part damage hook found at index 4616797 offset hex 46825D
 Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
+debugMenuFirstPatchLoc found at index 15518948 offset hex ECDCE4
+noLogoPatchLoc found at index 12487951 offset hex BE9D0F
 
 Processing exe: C:\fromexes\eldenring_1.02.3.exe
 
@@ -364,23 +378,8 @@ allChrNoDeath found at index 4380507 offset hex 42E75B raw val 3824D86 final off
 playerNoDeath found at index 4380585 offset hex 42E7A9 raw val 3824D2E final offset 3C534DE
 torrentDisabledCheckOne found at index 13111890 offset hex C82252 with offset C8225A
 torrentDisabledCheckTwo found at index 7205122 offset hex 6E0102 with offset 6E010F
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31367524 offset hex 1DEB164
-codeCave_48_zeroes found at index 31367720 offset hex 1DEB228
-codeCave_48_zeroes found at index 31389844 offset hex 1DF0894
+mapIDinPlayerIns found at index 6481231 offset hex 62F54F raw val 6C8
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.0.exe
 
@@ -436,23 +435,8 @@ allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final off
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140466 offset hex C891F2 with offset C891FA
 torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31406276 offset hex 1DF48C4
-codeCave_48_zeroes found at index 31406472 offset hex 1DF4988
-codeCave_48_zeroes found at index 31428596 offset hex 1DF9FF4
+mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.1.exe
 
@@ -508,23 +492,8 @@ allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final off
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140482 offset hex C89202 with offset C8920A
 torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31405668 offset hex 1DF4664
-codeCave_48_zeroes found at index 31405864 offset hex 1DF4728
-codeCave_48_zeroes found at index 31427988 offset hex 1DF9D94
+mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.2.exe
 
@@ -580,23 +549,8 @@ allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final off
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140450 offset hex C891E2 with offset C891EA
 torrentDisabledCheckTwo found at index 7210210 offset hex 6E14E2 with offset 6E14EF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31405636 offset hex 1DF4644
-codeCave_48_zeroes found at index 31405832 offset hex 1DF4708
-codeCave_48_zeroes found at index 31427956 offset hex 1DF9D74
+mapIDinPlayerIns found at index 6484879 offset hex 63038F raw val 6C8
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.0.exe
 
@@ -652,23 +606,8 @@ allChrNoDeath found at index 4393467 offset hex 4319FB raw val 37D68E8 final off
 playerNoDeath found at index 4393545 offset hex 431A49 raw val 37D6890 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011570 offset hex C69A72 with offset C69A7A
 torrentDisabledCheckTwo found at index 7225762 offset hex 6E51A2 with offset 6E51AF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31306164 offset hex 1DDC1B4
-codeCave_48_zeroes found at index 31306360 offset hex 1DDC278
-codeCave_48_zeroes found at index 31328484 offset hex 1DE18E4
+mapIDinPlayerIns found at index 6496600 offset hex 633158 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1.exe
 
@@ -724,23 +663,8 @@ allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final off
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
 torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31305924 offset hex 1DDC0C4
-codeCave_48_zeroes found at index 31306120 offset hex 1DDC188
-codeCave_48_zeroes found at index 31328244 offset hex 1DE17F4
+mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
 
@@ -796,23 +720,8 @@ allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final off
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
 torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31305924 offset hex 1DDC0C4
-codeCave_48_zeroes found at index 31306120 offset hex 1DDC188
-codeCave_48_zeroes found at index 31328244 offset hex 1DE17F4
+mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.05.0.exe
 
@@ -868,23 +777,8 @@ allChrNoDeath found at index 4394555 offset hex 431E3B raw val 37EE252 final off
 playerNoDeath found at index 4394633 offset hex 431E89 raw val 37EE1FA final offset 3C2008A
 torrentDisabledCheckOne found at index 13031282 offset hex C6E772 with offset C6E77A
 torrentDisabledCheckTwo found at index 7229282 offset hex 6E5F62 with offset 6E5F6F
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31363108 offset hex 1DEA024
-codeCave_48_zeroes found at index 31363304 offset hex 1DEA0E8
-codeCave_48_zeroes found at index 31385428 offset hex 1DEF754
+mapIDinPlayerIns found at index 6499240 offset hex 633BA8 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0.exe
 
@@ -940,23 +834,8 @@ allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final off
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
 torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31404420 offset hex 1DF4184
-codeCave_48_zeroes found at index 31404616 offset hex 1DF4248
-codeCave_48_zeroes found at index 31426740 offset hex 1DF98B4
+mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
 
@@ -1012,23 +891,8 @@ allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final off
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
 torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
-codeCave_48_nops found at index 39626 offset hex AACA
-codeCave_48_nops found at index 68872 offset hex 11D08
-codeCave_48_nops found at index 73296 offset hex 12E50
-codeCave_48_nops found at index 80961 offset hex 14C41
-codeCave_48_nops found at index 116867 offset hex 1D883
-codeCave_48_nops found at index 148543 offset hex 2543F
-codeCave_48_nops found at index 148591 offset hex 2546F
-codeCave_48_nops found at index 148639 offset hex 2549F
-codeCave_48_nops found at index 148687 offset hex 254CF
-codeCave_48_nops found at index 179782 offset hex 2CE46
-codeCave_48_nops found at index 189326 offset hex 2F38E
-codeCave_48_nops found at index 225691 offset hex 3819B
-codeCave_48_nops found at index 225739 offset hex 381CB
-codeCave_48_nops found at index 272525 offset hex 4388D
-codeCave_48_zeroes found at index 31404420 offset hex 1DF4184
-codeCave_48_zeroes found at index 31404616 offset hex 1DF4248
-codeCave_48_zeroes found at index 31426740 offset hex 1DF98B4
+mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
