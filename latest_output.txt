@@ -285,8 +285,7 @@ noLogoPatchLoc found at index 12487951 offset hex BE9D0F
 
 Processing exe: C:\fromexes\eldenring_1.02.0.exe
 
-worldChrManOff found at index 4154230 offset hex 3F7376 raw val 3858EEB final offset 3C50268
-CS::WorldChrManImp (alternate) found at index 1805991 offset hex 1B9EA7 raw val 3A963B5 final offset 3C50268
+CS::WorldChrManImp found at index 1805991 offset hex 1B9EA7 raw val 3A963B5 final offset 3C50268
 CS::WorldChrManImp offset found at index 1805991 offset hex 1B9EA7 raw val 18468
 hitboxBase found at index 11129815 offset hex A9E3D7 raw val 31B227A final offset 3C50658
 hitboxOffset found at index 5325647 offset hex 51534F raw val A0
@@ -295,7 +294,7 @@ groupMaskTrees found at index 6671136 offset hex 65DB20 raw val 33D8CC2 final of
 groupMaskMap found at index 6670967 offset hex 65DA77 raw val 33D8D63 final offset 3A367E1
 meshesOff found at index 7250887 offset hex 6EB3C7 raw val 3568F5E final offset 3C5432C
 CS::GameMan found at index 6642368 offset hex 656AC0 raw val 35FD0C1 final offset 3C53B88
-logoScreenBase found at index 11181386 offset hex AAAD4A with offset AAAD4A
+logoScreenBase found at index 11181386 offset hex AAAD4A
 targetHookLoc and offset found at index 7272994 offset hex 6F0A22 raw val 6A8
 miscDebugBase found at index 4416418 offset hex 4373A2 raw val 381910D final offset 3C504B6
 noAIUpdate found at index 3930721 offset hex 3C0A61 raw val 388FA27 final offset 3C5048F
@@ -339,8 +338,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.1_maybepatched.exe
 
-worldChrManOff found at index 4154342 offset hex 3F73E6 raw val 3858E9B final offset 3C50288
-CS::WorldChrManImp (alternate) found at index 1805991 offset hex 1B9EA7 raw val 3A963D5 final offset 3C50288
+CS::WorldChrManImp found at index 1805991 offset hex 1B9EA7 raw val 3A963D5 final offset 3C50288
 CS::WorldChrManImp offset found at index 1805991 offset hex 1B9EA7 raw val 18468
 hitboxBase found at index 11129943 offset hex A9E457 raw val 31B221A final offset 3C50678
 hitboxOffset found at index 5325759 offset hex 5153BF raw val A0
@@ -349,7 +347,7 @@ groupMaskTrees found at index 6671248 offset hex 65DB90 raw val 33D8C72 final of
 groupMaskMap found at index 6671079 offset hex 65DAE7 raw val 33D8D13 final offset 3A36801
 meshesOff found at index 7250999 offset hex 6EB437 raw val 3568F0E final offset 3C5434C
 CS::GameMan found at index 6642480 offset hex 656B30 raw val 35FD071 final offset 3C53BA8
-logoScreenBase found at index 11181514 offset hex AAADCA with offset AAADCA
+logoScreenBase found at index 11181514 offset hex AAADCA
 targetHookLoc and offset found at index 7273106 offset hex 6F0A92 raw val 6A8
 miscDebugBase found at index 4416530 offset hex 437412 raw val 38190BD final offset 3C504D6
 noAIUpdate found at index 3930833 offset hex 3C0AD1 raw val 388F9D7 final offset 3C504AF
@@ -393,8 +391,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.3.exe
 
-worldChrManOff found at index 4154630 offset hex 3F7506 raw val 385BDBB final offset 3C532C8
-CS::WorldChrManImp (alternate) found at index 1805767 offset hex 1B9DC7 raw val 3A994F5 final offset 3C532C8
+CS::WorldChrManImp found at index 1805767 offset hex 1B9DC7 raw val 3A994F5 final offset 3C532C8
 CS::WorldChrManImp offset found at index 1805767 offset hex 1B9DC7 raw val 18468
 hitboxBase found at index 11130279 offset hex A9E5A7 raw val 31B510A final offset 3C536B8
 hitboxOffset found at index 5326047 offset hex 5154DF raw val A0
@@ -403,7 +400,7 @@ groupMaskTrees found at index 6671536 offset hex 65DCB0 raw val 33DBB5A final of
 groupMaskMap found at index 6671367 offset hex 65DC07 raw val 33DBBFB final offset 3A39809
 meshesOff found at index 7251287 offset hex 6EB557 raw val 356BE2E final offset 3C5738C
 CS::GameMan found at index 6642768 offset hex 656C50 raw val 35FFF91 final offset 3C56BE8
-logoScreenBase found at index 11181850 offset hex AAAF1A with offset AAAF1A
+logoScreenBase found at index 11181850 offset hex AAAF1A
 targetHookLoc and offset found at index 7273394 offset hex 6F0BB2 raw val 6A8
 miscDebugBase found at index 4416818 offset hex 437532 raw val 381BFA4 final offset 3C534DD
 noAIUpdate found at index 3931121 offset hex 3C0BF1 raw val 38928F5 final offset 3C534ED
@@ -447,8 +444,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.0.exe
 
-worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 hitboxBase found at index 11151399 offset hex AA3827 raw val 31C19FA final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
@@ -457,7 +453,7 @@ groupMaskTrees found at index 6676512 offset hex 65F020 raw val 33EB7EA final of
 groupMaskMap found at index 6676343 offset hex 65EF77 raw val 33EB88B final offset 3A4A809
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
-logoScreenBase found at index 11203101 offset hex AB021D with offset AB021D
+logoScreenBase found at index 11203101 offset hex AB021D
 targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
@@ -501,8 +497,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.1.exe
 
-worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 hitboxBase found at index 11151415 offset hex AA3837 raw val 31C19EA final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
@@ -511,7 +506,7 @@ groupMaskTrees found at index 6676512 offset hex 65F020 raw val 33EB7EA final of
 groupMaskMap found at index 6676343 offset hex 65EF77 raw val 33EB88B final offset 3A4A809
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
-logoScreenBase found at index 11203117 offset hex AB022D with offset AB022D
+logoScreenBase found at index 11203117 offset hex AB022D
 targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
@@ -555,8 +550,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.2.exe
 
-worldChrManOff found at index 4157686 offset hex 3F80F6 raw val 386CD3B final offset 3C64E38
-CS::WorldChrManImp (alternate) found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
+CS::WorldChrManImp found at index 1805655 offset hex 1B9D57 raw val 3AAB0D5 final offset 3C64E38
 CS::WorldChrManImp offset found at index 1805655 offset hex 1B9D57 raw val 18468
 hitboxBase found at index 11151383 offset hex AA3817 raw val 31C1A0A final offset 3C65228
 hitboxOffset found at index 5329807 offset hex 51638F raw val A0
@@ -565,7 +559,7 @@ groupMaskTrees found at index 6676480 offset hex 65F000 raw val 33EB80A final of
 groupMaskMap found at index 6676311 offset hex 65EF57 raw val 33EB8AB final offset 3A4A809
 meshesOff found at index 7256311 offset hex 6EC8F7 raw val 357C5FE final offset 3C68EFC
 CS::GameMan found at index 6647536 offset hex 657EF0 raw val 3610861 final offset 3C68758
-logoScreenBase found at index 11203085 offset hex AB020D with offset AB020D
+logoScreenBase found at index 11203085 offset hex AB020D
 targetHookLoc and offset found at index 7278274 offset hex 6F1EC2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
@@ -609,8 +603,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.0.exe
 
-worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 hitboxBase found at index 11018615 offset hex A83177 raw val 318533A final offset 3C084B8
 hitboxOffset found at index 5341279 offset hex 51905F raw val A0
@@ -619,7 +612,7 @@ groupMaskTrees found at index 6691744 offset hex 662BA0 raw val 3393C82 final of
 groupMaskMap found at index 6691575 offset hex 662AF7 raw val 3393D23 final offset 39F6821
 meshesOff found at index 7271863 offset hex 6F05B7 raw val 351BBF6 final offset 3C0C1B4
 CS::GameMan found at index 6658960 offset hex 65AB90 raw val 35B0E71 final offset 3C0BA08
-logoScreenBase found at index 11070317 offset hex A8FB6D with offset A8FB6D
+logoScreenBase found at index 11070317 offset hex A8FB6D
 targetHookLoc and offset found at index 7294354 offset hex 6F5D92 raw val 6A0
 miscDebugBase found at index 4429890 offset hex 43A842 raw val 37CDACD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
@@ -663,8 +656,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1.exe
 
-worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
 hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
@@ -673,7 +665,7 @@ groupMaskTrees found at index 6691504 offset hex 662AB0 raw val 3393D72 final of
 groupMaskMap found at index 6691335 offset hex 662A07 raw val 3393E13 final offset 39F6821
 meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
 CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
-logoScreenBase found at index 11070077 offset hex A8FA7D with offset A8FA7D
+logoScreenBase found at index 11070077 offset hex A8FA7D
 targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
 miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
@@ -717,8 +709,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
 
-worldChrManOff found at index 4167222 offset hex 3FA636 raw val 380DAAB final offset 3C080E8
-CS::WorldChrManImp (alternate) found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
+CS::WorldChrManImp found at index 1805783 offset hex 1B9DD7 raw val 3A4E305 final offset 3C080E8
 CS::WorldChrManImp offset found at index 1805783 offset hex 1B9DD7 raw val 18468
 hitboxBase found at index 11018375 offset hex A83087 raw val 318542A final offset 3C084B8
 hitboxOffset found at index 5341039 offset hex 518F6F raw val A0
@@ -771,8 +762,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.05.0.exe
 
-worldChrManOff found at index 4168198 offset hex 3FAA06 raw val 382548B final offset 3C1FE98
-CS::WorldChrManImp (alternate) found at index 1805911 offset hex 1B9E57 raw val 3A66035 final offset 3C1FE98
+CS::WorldChrManImp found at index 1805911 offset hex 1B9E57 raw val 3A66035 final offset 3C1FE98
 CS::WorldChrManImp offset found at index 1805911 offset hex 1B9E57 raw val 18468
 hitboxBase found at index 11036391 offset hex A876E7 raw val 3198B7A final offset 3C20268
 hitboxOffset found at index 5341951 offset hex 5192FF raw val A0
@@ -781,7 +771,7 @@ groupMaskTrees found at index 6695056 offset hex 663890 raw val 33A9F99 final of
 groupMaskMap found at index 6694887 offset hex 6637E7 raw val 33AA04C final offset 3A0D83A
 meshesOff found at index 7275383 offset hex 6F1377 raw val 3532BE6 final offset 3C23F64
 CS::GameMan found at index 6662272 offset hex 65B880 raw val 35C7F31 final offset 3C237B8
-logoScreenBase found at index 11088253 offset hex A9417D with offset A9417D
+logoScreenBase found at index 11088253 offset hex A9417D
 targetHookLoc and offset found at index 7297874 offset hex 6F6B52 raw val 6A0
 miscDebugBase found at index 4430994 offset hex 43AC92 raw val 37E53F0 final offset 3C20089
 noAIUpdate found at index 3942833 offset hex 3C39B1 raw val 385C6E1 final offset 3C20099
@@ -825,8 +815,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0.exe
 
-worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
-CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
+CS::WorldChrManImp found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
 hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
 hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
@@ -835,7 +824,7 @@ groupMaskTrees found at index 6701504 offset hex 6651C0 raw val 33B9672 final of
 groupMaskMap found at index 6701335 offset hex 665117 raw val 33B9713 final offset 3A1E831
 meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
 CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
-logoScreenBase found at index 11104381 offset hex A9807D with offset A9807D
+logoScreenBase found at index 11104381 offset hex A9807D
 targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
 miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
@@ -879,8 +868,7 @@ codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
 
-worldChrManOff found at index 4171750 offset hex 3FB7E6 raw val 38358CB final offset 3C310B8
-CS::WorldChrManImp (alternate) found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
+CS::WorldChrManImp found at index 1805879 offset hex 1B9E37 raw val 3A77275 final offset 3C310B8
 CS::WorldChrManImp offset found at index 1805879 offset hex 1B9E37 raw val 18468
 hitboxBase found at index 11052519 offset hex A8B5E7 raw val 31A5E9A final offset 3C31488
 hitboxOffset found at index 5346415 offset hex 51A46F raw val A0
