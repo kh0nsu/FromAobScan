@@ -131,7 +131,7 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (1st sect)", justOffset: 7); //expect obfuscated ret afterwards
                 findAddr(textSection2, header2.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (2nd sect)", justOffset: 7); //moves between sections across patches, so check both. kinda weird ngl.
                 findAddr(textSection, header.VirtualAddress, "48 83EC 48 48 C74424 28 FEFFFFFF E8 ?? ?? ?? ?? 48", "warp call one", startIndex: 6000000);
-                findAddr(textSection, header.VirtualAddress, "488B05 ???????? 8988 300C0000 C3", "warp call two", startIndex: 6000000); //TODO: fix for old patches
+                findAddr(textSection, header.VirtualAddress, "488B05 ???????? 8988 ??0C0000 C3", "warp call two", startIndex: 6500000); //fixed for <1.04 but not tested in game
                 findAddr(textSection, header.VirtualAddress, "48 8905 ???????? 48 8B05 ???????? E8 ???????? 4C 8B08 41 B8 ??000000 48 8D15 ????0000 48 8BC8 41 FF51 ?? 48 8B1D ????????", "usrInputMgrImplOff", 3, 7, startIndex: 1000000);
                 findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8B5C24 40", "steam input flag check", 2, startIndex: 31000000); //in case the offset changes, this should find it
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7, startIndex: 13000000); //identical to sekiro, likely to keep working.
@@ -152,6 +152,8 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? C7 44 24 50 FFFFFFFF", "MapItemManImpl", 3, 7, startIndex: 5000000); //or 48 8B 0D ???????? C7 44 24 50 FF FF FF FF C7 45 A0 FF FF FF FF 48 85 C9 75 2E
                 findAddr(textSection, header.VirtualAddress, "8B 02 83 F8 0A", "ItemSpawnCall", justOffset: -0x52, startIndex: 5000000); //this function changed in earlier patches; this AOB is surprisingly more robust than one from the start of the function. //TODO: alternate for old patches?
+                //full func, 1.03.x to 1.06: 40 55 56 57 41 54 41 55 41 56 41 57 48 8DAC24 ??FFFFFF  48 81EC ????0000 48 C745 ?? FEFFFFFF 48 899C24 ????0000  48 8B05 ???????? 48 33C4 48 8985 ??000000 44 894C24 ?? 4D 8B?? 4C 894424 ?? 4C 8B?? 33FF 897C24 ?? 8B02 83F8 ?? 0F87 ????0000
+                findAddr(textSection, header.VirtualAddress, "40 55 56 57 41 54 41 55 41 56 41 57 48 8D6C24 ?? 48 81EC ????0000 48 C745 ?? FEFFFFFF 48 899C24 ????0000 48 8B05 ???????? 48 33C4 48 8945 ?? 44 894C24 ?? 4D 8B??4C 894424 ?? 4C 8B??33FF 897C24 ?? 8B02 83F8 ?? 0F87 ????0000", "ItemSpawnCall 1.02.x", startIndex: 5000000);
 
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 75 ?? 48 8BCB E8 ???????? 48 8BC8 E8 ???????? 84C0 74 ?? 48 833D ???????? 00", "allChrNoDeath", 2, 2 + 4 + 1, startIndex: 4000000);
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 0F85 ???????? 32C0 48 83C4 20 5B C3", "playerNoDeath", 2, 2 + 4 + 1, startIndex: 4000000); //alternative to setting no-death directly on the player character

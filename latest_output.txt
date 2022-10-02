@@ -313,7 +313,7 @@ map stay open in combat found at index 10025826 offset hex 990B62
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 10109258 offset hex 527214A with offset 5272151
 warp call one found at index 6122912 offset hex 5D7DA0
-Nothing found for warp call two
+warp call two found at index 6646544 offset hex 657B10
 usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F35BC final offset 45255C8
 steam input flag check found at index 31964742 offset hex 1E7CE46 raw val 88B
 csFlipperOff found at index 14067983 offset hex D6B90F raw val 3707822 final offset 4473138
@@ -328,6 +328,7 @@ soundDrawPatchLoc found at index 3372534 offset hex 3385F6
 allTargetingDebugDraw found at index 3371702 offset hex 3382B6 raw val 391422D final offset 3C4C4EA
 MapItemManImpl found at index 5840896 offset hex 593000 raw val 36BECE9 final offset 3C51CF0
 Nothing found for ItemSpawnCall
+ItemSpawnCall 1.02.x found at index 5559664 offset hex 54E570
 allChrNoDeath found at index 4380107 offset hex 42E5CB raw val 3821EB8 final offset 3C5048A
 playerNoDeath found at index 4380185 offset hex 42E619 raw val 3821E60 final offset 3C50480
 torrentDisabledCheckOne found at index 13111170 offset hex C81F82 with offset C81F8A
@@ -365,7 +366,7 @@ map stay open in combat found at index 10025954 offset hex 990BE2
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 11703677 offset hex 53F757D with offset 53F7584
 warp call one found at index 6123024 offset hex 5D7E10
-Nothing found for warp call two
+warp call two found at index 6646656 offset hex 657B80
 usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F31DC final offset 45251E8
 steam input flag check found at index 31964822 offset hex 1E7CE96 raw val 88B
 csFlipperOff found at index 14068063 offset hex D6B95F raw val 37073F2 final offset 4472D58
@@ -380,6 +381,7 @@ soundDrawPatchLoc found at index 3372646 offset hex 338666
 allTargetingDebugDraw found at index 3371814 offset hex 338326 raw val 39141DD final offset 3C4C50A
 MapItemManImpl found at index 5841008 offset hex 593070 raw val 36BEC99 final offset 3C51D10
 Nothing found for ItemSpawnCall
+ItemSpawnCall 1.02.x found at index 5559776 offset hex 54E5E0
 allChrNoDeath found at index 4380219 offset hex 42E63B raw val 3821E68 final offset 3C504AA
 playerNoDeath found at index 4380297 offset hex 42E689 raw val 3821E10 final offset 3C504A0
 torrentDisabledCheckOne found at index 13111298 offset hex C82002 with offset C8200A
@@ -417,7 +419,7 @@ map stay open in combat found at index 10026194 offset hex 990CD2
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 6341103 offset hex 4EDD1EF with offset 4EDD1F6
 warp call one found at index 6123312 offset hex 5D7F30
-Nothing found for warp call two
+warp call two found at index 6646944 offset hex 657CA0
 usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F621C final offset 4528228
 steam input flag check found at index 31970486 offset hex 1E7E4B6 raw val 88B
 csFlipperOff found at index 14068655 offset hex D6BBAF raw val 370A1E2 final offset 4475D98
@@ -432,6 +434,7 @@ soundDrawPatchLoc found at index 3372934 offset hex 338786
 allTargetingDebugDraw found at index 3372102 offset hex 338446 raw val 39170FD final offset 3C4F54A
 MapItemManImpl found at index 5841296 offset hex 593190 raw val 36C1BB9 final offset 3C54D50
 Nothing found for ItemSpawnCall
+ItemSpawnCall 1.02.x found at index 5560064 offset hex 54E700
 allChrNoDeath found at index 4380507 offset hex 42E75B raw val 3824D86 final offset 3C534E8
 playerNoDeath found at index 4380585 offset hex 42E7A9 raw val 3824D2E final offset 3C534DE
 torrentDisabledCheckOne found at index 13111890 offset hex C82252 with offset C8225A
@@ -469,7 +472,7 @@ map stay open in combat found at index 10045687 offset hex 9958F7
 enemyRepeatActionOff (1st sect) found at index 31726172 offset hex 1E42A5C with offset 1E42A63
 Nothing found for enemyRepeatActionOff (2nd sect)
 warp call one found at index 6127552 offset hex 5D8FC0
-Nothing found for warp call two
+warp call two found at index 6651808 offset hex 658FA0
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D3C final offset 4539DA8
 steam input flag check found at index 32009238 offset hex 1E87C16 raw val 88B
 csFlipperOff found at index 14102703 offset hex D740AF raw val 3713862 final offset 4487918
@@ -484,6 +487,7 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140466 offset hex C891F2 with offset C891FA
@@ -521,7 +525,7 @@ map stay open in combat found at index 10045703 offset hex 995907
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 9799293 offset hex 523C67D with offset 523C684
 warp call one found at index 6127552 offset hex 5D8FC0
-Nothing found for warp call two
+warp call two found at index 6651808 offset hex 658FA0
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
 steam input flag check found at index 32008630 offset hex 1E879B6 raw val 88B
 csFlipperOff found at index 14102447 offset hex D73FAF raw val 3713952 final offset 4487908
@@ -536,6 +540,7 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845390 offset hex 59418E raw val 36D272B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140482 offset hex C89202 with offset C8920A
@@ -573,7 +578,7 @@ map stay open in combat found at index 10045671 offset hex 9958E7
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 12598646 offset hex 54E7D76 with offset 54E7D7D
 warp call one found at index 6127520 offset hex 5D8FA0
-Nothing found for warp call two
+warp call two found at index 6651776 offset hex 658F80
 usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C final offset 4539D98
 steam input flag check found at index 32008598 offset hex 1E87996 raw val 88B
 csFlipperOff found at index 14102415 offset hex D73F8F raw val 3713972 final offset 4487908
@@ -588,6 +593,7 @@ soundDrawPatchLoc found at index 3374726 offset hex 338E86
 allTargetingDebugDraw found at index 3373894 offset hex 338B46 raw val 392855D final offset 3C610AA
 MapItemManImpl found at index 5845374 offset hex 59417E raw val 36D273B final offset 3C668C0
 ItemSpawnCall found at index 5564050 offset hex 54F692 with offset 54F640
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4383611 offset hex 42F37B raw val 3835CD8 final offset 3C6505A
 playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final offset 3C65050
 torrentDisabledCheckOne found at index 13140450 offset hex C891E2 with offset C891EA
@@ -640,6 +646,7 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856894 offset hex 596E7E raw val 3672CCB final offset 3C09B50
 ItemSpawnCall found at index 5575554 offset hex 552382 with offset 552330
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4393467 offset hex 4319FB raw val 37D68E8 final offset 3C082EA
 playerNoDeath found at index 4393545 offset hex 431A49 raw val 37D6890 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011570 offset hex C69A72 with offset C69A7A
@@ -692,6 +699,7 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
@@ -744,6 +752,7 @@ soundDrawPatchLoc found at index 3383158 offset hex 33AF76
 allTargetingDebugDraw found at index 3382326 offset hex 33AC36 raw val 38C971D final offset 3C0435A
 MapItemManImpl found at index 5856654 offset hex 596D8E raw val 3672DBB final offset 3C09B50
 ItemSpawnCall found at index 5575314 offset hex 552292 with offset 552240
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4393483 offset hex 431A0B raw val 37D68D8 final offset 3C082EA
 playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final offset 3C082E0
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
@@ -796,6 +805,7 @@ soundDrawPatchLoc found at index 3383622 offset hex 33B146
 allTargetingDebugDraw found at index 3382790 offset hex 33AE06 raw val 38E140D final offset 3C1C21A
 MapItemManImpl found at index 5858478 offset hex 5974AE raw val 368A44B final offset 3C21900
 ItemSpawnCall found at index 5576850 offset hex 552892 with offset 552840
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4394555 offset hex 431E3B raw val 37EE252 final offset 3C20094
 playerNoDeath found at index 4394633 offset hex 431E89 raw val 37EE1FA final offset 3C2008A
 torrentDisabledCheckOne found at index 13031282 offset hex C6E772 with offset C6E77A
@@ -848,6 +858,7 @@ soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
@@ -900,6 +911,7 @@ soundDrawPatchLoc found at index 3387350 offset hex 33BFD6
 allTargetingDebugDraw found at index 3386518 offset hex 33BC96 raw val 38F179D final offset 3C2D43A
 MapItemManImpl found at index 5864046 offset hex 598A6E raw val 369A0AB final offset 3C32B20
 ItemSpawnCall found at index 5581362 offset hex 553A32 with offset 5539E0
+Nothing found for ItemSpawnCall 1.02.x
 allChrNoDeath found at index 4398203 offset hex 432C7B raw val 37FE638 final offset 3C312BA
 playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final offset 3C312B0
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
