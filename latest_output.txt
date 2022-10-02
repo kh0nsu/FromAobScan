@@ -298,17 +298,16 @@ logoScreenBase found at index 11181386 offset hex AAAD4A with offset AAAD4A
 targetHookLoc and offset found at index 7272994 offset hex 6F0A22 raw val 6A8
 miscDebugBase found at index 4416418 offset hex 4373A2 raw val 381910D final offset 3C504B6
 noAIUpdate found at index 3930721 offset hex 3C0A61 raw val 388FA27 final offset 3C5048F
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3930714 offset hex 3C0A5A raw val 388BD07 final offset 3C4C768
 chrDbg found at index 5237519 offset hex 4FFB0F raw val 3750962 final offset 3C50478
-Nothing found for newMenuSystem
+CSMenuManImp found at index 7534390 offset hex 730736 raw val 35253F3 final offset 3C55B30
 fontDrawOffset found at index 39707744 offset hex 25DF460
 DbgEventManOff found at index 11106420 offset hex A98874 raw val 31B9A25 final offset 3C522A0
 Event patch func 1 found at index 5706705 offset hex 5723D1 raw val 85E43A final offset DD0810
 Event patch func 2 found at index 5706705 offset hex 5723D1 raw val 85E411 final offset DD07F0
 CS::FieldArea found at index 6596834 offset hex 64B8E2 raw val 3607B87 final offset 3C53470
-free cam patch loc WIP, follow jumps from here found at index 7273291 offset hex 6F0B4B
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7273291 offset hex 6F0B4B raw val 6D0209 final offset DC0D60
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 10234777 offset hex 5290B99
 map open in combat found at index 8142035 offset hex 7C4CD3
 map stay open in combat found at index 10025826 offset hex 990B62
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -351,17 +350,16 @@ logoScreenBase found at index 11181514 offset hex AAADCA with offset AAADCA
 targetHookLoc and offset found at index 7273106 offset hex 6F0A92 raw val 6A8
 miscDebugBase found at index 4416530 offset hex 437412 raw val 38190BD final offset 3C504D6
 noAIUpdate found at index 3930833 offset hex 3C0AD1 raw val 388F9D7 final offset 3C504AF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3930826 offset hex 3C0ACA raw val 388BCB7 final offset 3C4C788
 chrDbg found at index 5237631 offset hex 4FFB7F raw val 3750912 final offset 3C50498
-Nothing found for newMenuSystem
+CSMenuManImp found at index 7534502 offset hex 7307A6 raw val 35253A3 final offset 3C55B50
 fontDrawOffset found at index 39707824 offset hex 25DF4B0
 DbgEventManOff found at index 11106548 offset hex A988F4 raw val 31B99C5 final offset 3C522C0
 Event patch func 1 found at index 5706817 offset hex 572441 raw val 85E41A final offset DD0860
 Event patch func 2 found at index 5706817 offset hex 572441 raw val 85E3F1 final offset DD0840
 CS::FieldArea found at index 6596946 offset hex 64B952 raw val 3607B37 final offset 3C53490
-free cam patch loc WIP, follow jumps from here found at index 7273403 offset hex 6F0BBB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7273403 offset hex 6F0BBB raw val 6D01E9 final offset DC0DB0
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 7479008 offset hex 4FEFEE0
 map open in combat found at index 8142147 offset hex 7C4D43
 map stay open in combat found at index 10025954 offset hex 990BE2
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -404,17 +402,16 @@ logoScreenBase found at index 11181850 offset hex AAAF1A with offset AAAF1A
 targetHookLoc and offset found at index 7273394 offset hex 6F0BB2 raw val 6A8
 miscDebugBase found at index 4416818 offset hex 437532 raw val 381BFA4 final offset 3C534DD
 noAIUpdate found at index 3931121 offset hex 3C0BF1 raw val 38928F5 final offset 3C534ED
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3931114 offset hex 3C0BEA raw val 388EBE7 final offset 3C4F7D8
 chrDbg found at index 5237919 offset hex 4FFC9F raw val 375387A final offset 3C53520
-Nothing found for newMenuSystem
+CSMenuManImp found at index 7534790 offset hex 7308C6 raw val 35282C3 final offset 3C58B90
 fontDrawOffset found at index 39716704 offset hex 25E1760
 DbgEventManOff found at index 11106884 offset hex A98A44 raw val 31BC8B5 final offset 3C55300
 Event patch func 1 found at index 5707105 offset hex 572561 raw val 85F0DA final offset DD1640
 Event patch func 2 found at index 5707105 offset hex 572561 raw val 85F0B1 final offset DD1620
 CS::FieldArea found at index 6597234 offset hex 64BA72 raw val 360AA57 final offset 3C564D0
-free cam patch loc WIP, follow jumps from here found at index 7273691 offset hex 6F0CDB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7273691 offset hex 6F0CDB raw val 6D0EA9 final offset DC1B90
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 9756494 offset hex 521EF4E
 map open in combat found at index 8142355 offset hex 7C4E13
 map stay open in combat found at index 10026194 offset hex 990CD2
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -457,17 +454,16 @@ logoScreenBase found at index 11203101 offset hex AB021D with offset AB021D
 targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
-newMenuSystem found at index 5927913 offset hex 5A83E9 raw val 36C2310 final offset 3C6A700
+CSMenuManImp found at index 7539702 offset hex 731BF6 raw val 3538B03 final offset 3C6A700
 fontDrawOffset found at index 39755728 offset hex 25EAFD0
 DbgEventManOff found at index 11127892 offset hex A9DC54 raw val 31C9205 final offset 3C66E60
 Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8664EA final offset DD99C0
 Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8664C1 final offset DD99A0
 CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final offset 3C68040
-free cam patch loc WIP, follow jumps from here found at index 7278603 offset hex 6F200B
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7278603 offset hex 6F200B raw val 6D7EF9 final offset DC9F10
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 8585595 offset hex 511417B
 map open in combat found at index 8150547 offset hex 7C6E13
 map stay open in combat found at index 10045687 offset hex 9958F7
 enemyRepeatActionOff (1st sect) found at index 31726172 offset hex 1E42A5C with offset 1E42A63
@@ -510,17 +506,16 @@ logoScreenBase found at index 11203117 offset hex AB022D with offset AB022D
 targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
-newMenuSystem found at index 5927913 offset hex 5A83E9 raw val 36C2310 final offset 3C6A700
+CSMenuManImp found at index 7539702 offset hex 731BF6 raw val 3538B03 final offset 3C6A700
 fontDrawOffset found at index 39755120 offset hex 25EAD70
 DbgEventManOff found at index 11127908 offset hex A9DC64 raw val 31C91F5 final offset 3C66E60
 Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8663EA final offset DD98C0
 Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8663C1 final offset DD98A0
 CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final offset 3C68040
-free cam patch loc WIP, follow jumps from here found at index 7278603 offset hex 6F200B
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7278603 offset hex 6F200B raw val 6D7DF9 final offset DC9E10
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 2893629 offset hex 4BA673D
 map open in combat found at index 8150547 offset hex 7C6E13
 map stay open in combat found at index 10045703 offset hex 995907
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -563,17 +558,16 @@ logoScreenBase found at index 11203085 offset hex AB020D with offset AB020D
 targetHookLoc and offset found at index 7278274 offset hex 6F1EC2 raw val 6A8
 miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3932858 offset hex 3C12BA raw val 38A0067 final offset 3C61328
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
-newMenuSystem found at index 5927897 offset hex 5A83D9 raw val 36C2320 final offset 3C6A700
+CSMenuManImp found at index 7539670 offset hex 731BD6 raw val 3538B23 final offset 3C6A700
 fontDrawOffset found at index 39755088 offset hex 25EAD50
 DbgEventManOff found at index 11127876 offset hex A9DC44 raw val 31C9215 final offset 3C66E60
 Event patch func 1 found at index 5711057 offset hex 5734D1 raw val 8663CA final offset DD98A0
 Event patch func 2 found at index 5711057 offset hex 5734D1 raw val 8663A1 final offset DD9880
 CS::FieldArea found at index 6601074 offset hex 64C972 raw val 361B6C7 final offset 3C68040
-free cam patch loc WIP, follow jumps from here found at index 7278571 offset hex 6F1FEB
-free cam patch loc older patch? found at index 2237653 offset hex 2234D5
+free cam patch loc, 1st called addr found at index 7278571 offset hex 6F1FEB raw val 6D7DF9 final offset DC9DF0
 Nothing found for free cam player control patch loc
+free cam player control patch loc (2nd section) found at index 13482474 offset hex 55BF9EA
 map open in combat found at index 8150515 offset hex 7C6DF3
 map stay open in combat found at index 10045671 offset hex 9958E7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -616,17 +610,16 @@ logoScreenBase found at index 11070317 offset hex A8FB6D with offset A8FB6D
 targetHookLoc and offset found at index 7294354 offset hex 6F5D92 raw val 6A0
 miscDebugBase found at index 4429890 offset hex 43A842 raw val 37CDACD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
 chrDbg found at index 5253231 offset hex 50386F raw val 3704A62 final offset 3C082D8
-newMenuSystem found at index 5939417 offset hex 5AB0D9 raw val 36628F0 final offset 3C0D9D0
+CSMenuManImp found at index 7556006 offset hex 735BA6 raw val 34D7E23 final offset 3C0D9D0
 fontDrawOffset found at index 39655952 offset hex 25D2A10
 DbgEventManOff found at index 10994884 offset hex A7D4C4 raw val 318CC25 final offset 3C0A0F0
 Event patch func 1 found at index 5722609 offset hex 5761F1 raw val 8442BA final offset DBA4B0
 Event patch func 2 found at index 5722609 offset hex 5761F1 raw val 844291 final offset DBA490
 CS::FieldArea found at index 6612402 offset hex 64F5B2 raw val 35BBD07 final offset 3C0B2C0
-free cam patch loc WIP, follow jumps from here found at index 7294651 offset hex 6F5EBB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7294651 offset hex 6F5EBB raw val 6B4AC9 final offset DAA990
 free cam player control patch loc found at index 6691014 offset hex 6628C6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8152947 offset hex 7C7773
 map stay open in combat found at index 9906631 offset hex 9739C7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -669,17 +662,16 @@ logoScreenBase found at index 11070077 offset hex A8FA7D with offset A8FA7D
 targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
 miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
 chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
-newMenuSystem found at index 5939177 offset hex 5AAFE9 raw val 36629E0 final offset 3C0D9D0
+CSMenuManImp found at index 7555766 offset hex 735AB6 raw val 34D7F13 final offset 3C0D9D0
 fontDrawOffset found at index 39655712 offset hex 25D2920
 DbgEventManOff found at index 10994644 offset hex A7D3D4 raw val 318CD15 final offset 3C0A0F0
 Event patch func 1 found at index 5722369 offset hex 576101 raw val 8442BA final offset DBA3C0
 Event patch func 2 found at index 5722369 offset hex 576101 raw val 844291 final offset DBA3A0
 CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final offset 3C0B2C0
-free cam patch loc WIP, follow jumps from here found at index 7294411 offset hex 6F5DCB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7294411 offset hex 6F5DCB raw val 6B4AC9 final offset DAA8A0
 free cam player control patch loc found at index 6690774 offset hex 6627D6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8152707 offset hex 7C7683
 map stay open in combat found at index 9906391 offset hex 9738D7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -722,17 +714,16 @@ Nothing found for logoScreenBase
 targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
 miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3942250 offset hex 3C376A raw val 3840E77 final offset 3C045E8
 chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
-newMenuSystem found at index 5939177 offset hex 5AAFE9 raw val 36629E0 final offset 3C0D9D0
+CSMenuManImp found at index 7555766 offset hex 735AB6 raw val 34D7F13 final offset 3C0D9D0
 fontDrawOffset found at index 39655712 offset hex 25D2920
 DbgEventManOff found at index 10994644 offset hex A7D3D4 raw val 318CD15 final offset 3C0A0F0
 Event patch func 1 found at index 5722369 offset hex 576101 raw val 8442BA final offset DBA3C0
 Event patch func 2 found at index 5722369 offset hex 576101 raw val 844291 final offset DBA3A0
 CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final offset 3C0B2C0
-free cam patch loc WIP, follow jumps from here found at index 7294411 offset hex 6F5DCB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7294411 offset hex 6F5DCB raw val 6B4AC9 final offset DAA8A0
 free cam player control patch loc found at index 6690774 offset hex 6627D6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8152707 offset hex 7C7683
 map stay open in combat found at index 9906391 offset hex 9738D7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -775,17 +766,16 @@ logoScreenBase found at index 11088253 offset hex A9417D with offset A9417D
 targetHookLoc and offset found at index 7297874 offset hex 6F6B52 raw val 6A0
 miscDebugBase found at index 4430994 offset hex 43AC92 raw val 37E53F0 final offset 3C20089
 noAIUpdate found at index 3942833 offset hex 3C39B1 raw val 385C6E1 final offset 3C20099
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3942826 offset hex 3C39AA raw val 3858AF7 final offset 3C1C4A8
 chrDbg found at index 5253903 offset hex 503B0F raw val 371C5BA final offset 3C200D0
-newMenuSystem found at index 5941001 offset hex 5AB709 raw val 367A070 final offset 3C25780
+CSMenuManImp found at index 7559558 offset hex 736986 raw val 34EEDF3 final offset 3C25780
 fontDrawOffset found at index 39714240 offset hex 25E0DC0
 DbgEventManOff found at index 11012660 offset hex A81A34 raw val 31A0465 final offset 3C21EA0
 Event patch func 1 found at index 5723921 offset hex 576711 raw val 84BA8A final offset DC21A0
 Event patch func 2 found at index 5723921 offset hex 576711 raw val 84BA61 final offset DC2180
 CS::FieldArea found at index 6615106 offset hex 650042 raw val 35D3027 final offset 3C23070
-free cam patch loc WIP, follow jumps from here found at index 7298171 offset hex 6F6C7B
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7298171 offset hex 6F6C7B raw val 6BB9F9 final offset DB2680
 free cam player control patch loc found at index 6694326 offset hex 6635B6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8160467 offset hex 7C94D3
 map stay open in combat found at index 9923223 offset hex 977A97
 enemyRepeatActionOff (1st sect) found at index 3568602 offset hex 3683DA with offset 3683E1
@@ -828,17 +818,16 @@ logoScreenBase found at index 11104381 offset hex A9807D with offset A9807D
 targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
 miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
 chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
-newMenuSystem found at index 5946793 offset hex 5ACDA9 raw val 3689BF0 final offset 3C369A0
+CSMenuManImp found at index 7567318 offset hex 7387D6 raw val 34FE1C3 final offset 3C369A0
 fontDrawOffset found at index 39755552 offset hex 25EAF20
 DbgEventManOff found at index 11028708 offset hex A858E4 raw val 31AD7D5 final offset 3C330C0
 Event patch func 1 found at index 5728433 offset hex 5778B1 raw val 850DBA final offset DC8670
 Event patch func 2 found at index 5728433 offset hex 5778B1 raw val 850D91 final offset DC8650
 CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final offset 3C34298
-free cam patch loc WIP, follow jumps from here found at index 7305931 offset hex 6F8ACB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7305931 offset hex 6F8ACB raw val 6BFF29 final offset DB8A00
 free cam player control patch loc found at index 6700774 offset hex 664EE6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8168659 offset hex 7CB4D3
 map stay open in combat found at index 9931495 offset hex 979AE7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -881,17 +870,16 @@ Nothing found for logoScreenBase
 targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
 miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
-possibly noAIUpdate 1.03.2/1.04.0 found at index 3946266 offset hex 3C471A raw val 3868F97 final offset 3C2D6B8
 chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
-newMenuSystem found at index 5946793 offset hex 5ACDA9 raw val 3689BF0 final offset 3C369A0
+CSMenuManImp found at index 7567318 offset hex 7387D6 raw val 34FE1C3 final offset 3C369A0
 fontDrawOffset found at index 39755552 offset hex 25EAF20
 DbgEventManOff found at index 11028708 offset hex A858E4 raw val 31AD7D5 final offset 3C330C0
 Event patch func 1 found at index 5728433 offset hex 5778B1 raw val 850DBA final offset DC8670
 Event patch func 2 found at index 5728433 offset hex 5778B1 raw val 850D91 final offset DC8650
 CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final offset 3C34298
-free cam patch loc WIP, follow jumps from here found at index 7305931 offset hex 6F8ACB
-Nothing found for free cam patch loc older patch?
+free cam patch loc, 1st called addr found at index 7305931 offset hex 6F8ACB raw val 6BFF29 final offset DB8A00
 free cam player control patch loc found at index 6700774 offset hex 664EE6
+Nothing found for free cam player control patch loc (2nd section)
 map open in combat found at index 8168659 offset hex 7CB4D3
 map stay open in combat found at index 9931495 offset hex 979AE7
 Nothing found for enemyRepeatActionOff (1st sect)

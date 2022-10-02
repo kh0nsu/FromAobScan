@@ -108,20 +108,22 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "803D ???????? 00 74 09 48 8D4D A0 E8 ???????? 4D 85E4", "miscDebugBase",  2, 7, startIndex: 4000000); //expect debug flags to be re-ordered in new patches
                 findAddr(textSection, header.VirtualAddress, "0FB63D ???????? 48 85C0 75 2E", "noAIUpdate",  3, 7, startIndex: 3000000);
                 //multiple results but may find debug base or nearby address: e8 ?? ?? ?? ?? 80 3d ?? ?? ?? ?? 00 0f 85
-                findAddr(textSection, header.VirtualAddress, "48 8b 05 ?? ?? ?? ?? 0f b6 3d ?? ?? ?? ?? 48 85 c0", "possibly noAIUpdate 1.03.2/1.04.0", 3, 7, startIndex: 3000000); //TODO: work out what this is, maybe remove
+                //findAddr(textSection, header.VirtualAddress, "48 8b 05 ?? ?? ?? ?? 0f b6 3d ?? ?? ?? ?? 48 85 c0", "possibly noAIUpdate 1.03.2/1.04.0", 3, 7, startIndex: 3000000); //TODO: work out what this is, maybe remove
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 41 83 FF 02 ?? ?? 48 85 C0", "chrDbg", 3, 7, startIndex: 5000000);
-                findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 83 79 ?? 00 0F 85 ?? ?? ?? ?? 49 8B 87 ?? ?? ?? ?? 48 8B 88 ?? ?? ?? ?? E8", "newMenuSystem", 3, 7, startIndex: 5000000); //TODO: consider fixing for older patches
+                findAddr(textSection, header.VirtualAddress, "48 8B05 ???????? 33DB 48 897424 ?? 48 8BF1 895C24 ?? 48 85C0 75 ??", "CSMenuManImp", 3, 7, startIndex: 700000); //CSMenuManImp
                 findAddr(textSection, header.VirtualAddress, "48 895C24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D6C24 ?? 48 81EC ???????? 0F29B424 ????????", "fontDrawOffset", startIndex: 39000000);
                 findAddr(textSection, header.VirtualAddress, "48 8B 0D ???????? 48 85 C9 ???? 83 CF 20", "DbgEventManOff", 3, 7, startIndex: 10000000);
                 //findAddr(textSection, header.VirtualAddress, "e8 ?? ?? ?? ?? 84 c0 74 06 e8 ?? ?? ?? ??", "Event patch search WIP, look around first"); //many results, take first? finds both addresses (as calls)
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 1", 1, 1 + 4, startIndex: 5000000);
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 06 E8 ???????? 90 48 8BC7", "Event patch func 2", 1 + 4 + 2 + 1 + 1 + 1, 1 + 4 + 2 + 1 + 1 + 1 + 4, startIndex: 5000000);
                 findAddr(textSection, header.VirtualAddress, "48 8B 0D ?? ?? ?? ?? 48 ?? ?? ?? 44 0F B6 61 ?? E8 ?? ?? ?? ?? 48 63 87 ?? ?? ?? ?? 48 ?? ?? ?? 48 85 C0", "CS::FieldArea", 3, 7, startIndex: 6000000);
-                findAddr(textSection, header.VirtualAddress, "EB 05 E8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 84 C0 75 0C", "free cam patch loc WIP, follow jumps from here", startIndex: 7000000); //follow jumps until an xor al,al followed by actual or obfuscated return. don't scroll up, weird asm. //TODO: find this automatically
-                findAddr(textSection, header.VirtualAddress, "32 C0 48 8D 64 24 08 FF 64 24 F8 48 8D 05 ?? ?? ?? ?? C3 0F 28 C3", "free cam patch loc older patch?", startIndex: 2000000); //only works in 1.03.2
+                findAddr(textSection, header.VirtualAddress, "EB 05 E8 ?? ?? ?? ?? E8 ?? ?? ?? ?? 84 C0 75 0C", "free cam patch loc, 1st called addr", readoffset32: 1 + 1 + 1 + 4 + 1, 1 + 1 + 1 + 4 + 1 + 4, startIndex: 7000000); //generally a jmp followed by an int3-int3 or nop-int3. normally we patch the final destination of the jumps, but it should work here too.
+                //old method: manually follow jumps until an xor al,al followed by actual or obfuscated return. don't scroll up, weird asm.
+                //findAddr(textSection, header.VirtualAddress, "32 C0 48 8D 64 24 08 FF 64 24 F8 48 8D 05 ?? ?? ?? ?? C3 0F 28 C3", "free cam patch loc older patch?", startIndex: 2000000); //only works in 1.03.2 //found at index 2237653 offset hex 2234D5
                 //E9 ?? ?? ?? ?? 48 C7 45 E0 07 00 00 00 may help in some older patches; take 3rd result in 1.04.0.
                 //it's meant to be //LockTgtMan->IsLockMode, but i don't know what to do with this. ask Pav if AOBs break
-                findAddr(textSection, header.VirtualAddress, "8B 83 C8 00 00 00 FF C8 83 F8 01", "free cam player control patch loc", startIndex: 6000000); //(offset C8 may change). weird cmp may change too.
+                findAddr(textSection, header.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc", startIndex: 6000000); //(offset C8 may change). weird cmp may change too.
+                findAddr(textSection2, header2.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc (2nd section)"); //patches before 1.04. not yet confirmed that it still works. start index is pointless for 2nd section as it's so random.
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 38 ???????? C745 3C ???????? C745 40 ???????? 48 8D05 ????????", "map open in combat", startIndex: 8000000); //38/3C/40 likely stable but could change
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? ?? ?? 75 ?? 83 e7 fe", "map stay open in combat", startIndex: 9000000);
                 //for some older patch, maybe 1.03.2: E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 EA 3C 00 00 finds the call
