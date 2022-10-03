@@ -295,8 +295,9 @@ groupMaskMap found at index 6670967 offset hex 65DA77 raw val 33D8D63 final offs
 meshesOff found at index 7250887 offset hex 6EB3C7 raw val 3568F5E final offset 3C5432C
 CS::GameMan found at index 6642368 offset hex 656AC0 raw val 35FD0C1 final offset 3C53B88
 logoScreenBase found at index 11181386 offset hex AAAD4A
-targetHookLoc and offset found at index 7272994 offset hex 6F0A22 raw val 6A8
-miscDebugBase found at index 4416418 offset hex 4373A2 raw val 381910D final offset 3C504B6
+targetHookLoc found at index 7272994 offset hex 6F0A22
+targetHookLoc offset found at index 7272994 offset hex 6F0A22 raw val 6A8
+noGoodsConsume found at index 6493623 offset hex 6325B7 raw val 361DEC5 final offset 3C50483
 noAIUpdate found at index 3930721 offset hex 3C0A61 raw val 388FA27 final offset 3C5048F
 chrDbg found at index 5237519 offset hex 4FFB0F raw val 3750962 final offset 3C50478
 CSMenuManImp found at index 7534390 offset hex 730736 raw val 35253F3 final offset 3C55B30
@@ -348,8 +349,9 @@ groupMaskMap found at index 6671079 offset hex 65DAE7 raw val 33D8D13 final offs
 meshesOff found at index 7250999 offset hex 6EB437 raw val 3568F0E final offset 3C5434C
 CS::GameMan found at index 6642480 offset hex 656B30 raw val 35FD071 final offset 3C53BA8
 logoScreenBase found at index 11181514 offset hex AAADCA
-targetHookLoc and offset found at index 7273106 offset hex 6F0A92 raw val 6A8
-miscDebugBase found at index 4416530 offset hex 437412 raw val 38190BD final offset 3C504D6
+targetHookLoc found at index 7273106 offset hex 6F0A92
+targetHookLoc offset found at index 7273106 offset hex 6F0A92 raw val 6A8
+noGoodsConsume found at index 6493735 offset hex 632627 raw val 361DE75 final offset 3C504A3
 noAIUpdate found at index 3930833 offset hex 3C0AD1 raw val 388F9D7 final offset 3C504AF
 chrDbg found at index 5237631 offset hex 4FFB7F raw val 3750912 final offset 3C50498
 CSMenuManImp found at index 7534502 offset hex 7307A6 raw val 35253A3 final offset 3C55B50
@@ -401,8 +403,9 @@ groupMaskMap found at index 6671367 offset hex 65DC07 raw val 33DBBFB final offs
 meshesOff found at index 7251287 offset hex 6EB557 raw val 356BE2E final offset 3C5738C
 CS::GameMan found at index 6642768 offset hex 656C50 raw val 35FFF91 final offset 3C56BE8
 logoScreenBase found at index 11181850 offset hex AAAF1A
-targetHookLoc and offset found at index 7273394 offset hex 6F0BB2 raw val 6A8
-miscDebugBase found at index 4416818 offset hex 437532 raw val 381BFA4 final offset 3C534DD
+targetHookLoc found at index 7273394 offset hex 6F0BB2
+targetHookLoc offset found at index 7273394 offset hex 6F0BB2 raw val 6A8
+noGoodsConsume found at index 6494023 offset hex 632747 raw val 3620D93 final offset 3C534E1
 noAIUpdate found at index 3931121 offset hex 3C0BF1 raw val 38928F5 final offset 3C534ED
 chrDbg found at index 5237919 offset hex 4FFC9F raw val 375387A final offset 3C53520
 CSMenuManImp found at index 7534790 offset hex 7308C6 raw val 35282C3 final offset 3C58B90
@@ -454,8 +457,9 @@ groupMaskMap found at index 6676343 offset hex 65EF77 raw val 33EB88B final offs
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
 logoScreenBase found at index 11203101 offset hex AB021D
-targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
-miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+targetHookLoc found at index 7278306 offset hex 6F1EE2
+targetHookLoc offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
+noGoodsConsume found at index 6497703 offset hex 6335A7 raw val 3631AA5 final offset 3C65053
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
 CSMenuManImp found at index 7539702 offset hex 731BF6 raw val 3538B03 final offset 3C6A700
@@ -507,8 +511,9 @@ groupMaskMap found at index 6676343 offset hex 65EF77 raw val 33EB88B final offs
 meshesOff found at index 7256343 offset hex 6EC917 raw val 357C5DE final offset 3C68EFC
 CS::GameMan found at index 6647568 offset hex 657F10 raw val 3610841 final offset 3C68758
 logoScreenBase found at index 11203117 offset hex AB022D
-targetHookLoc and offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
-miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+targetHookLoc found at index 7278306 offset hex 6F1EE2
+targetHookLoc offset found at index 7278306 offset hex 6F1EE2 raw val 6A8
+noGoodsConsume found at index 6497703 offset hex 6335A7 raw val 3631AA5 final offset 3C65053
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
 CSMenuManImp found at index 7539702 offset hex 731BF6 raw val 3538B03 final offset 3C6A700
@@ -560,8 +565,9 @@ groupMaskMap found at index 6676311 offset hex 65EF57 raw val 33EB8AB final offs
 meshesOff found at index 7256311 offset hex 6EC8F7 raw val 357C5FE final offset 3C68EFC
 CS::GameMan found at index 6647536 offset hex 657EF0 raw val 3610861 final offset 3C68758
 logoScreenBase found at index 11203085 offset hex AB020D
-targetHookLoc and offset found at index 7278274 offset hex 6F1EC2 raw val 6A8
-miscDebugBase found at index 4419986 offset hex 438192 raw val 382CEED final offset 3C65086
+targetHookLoc found at index 7278274 offset hex 6F1EC2
+targetHookLoc offset found at index 7278274 offset hex 6F1EC2 raw val 6A8
+noGoodsConsume found at index 6497671 offset hex 633587 raw val 3631AC5 final offset 3C65053
 noAIUpdate found at index 3932865 offset hex 3C12C1 raw val 38A3D97 final offset 3C6505F
 chrDbg found at index 5241775 offset hex 500BAF raw val 3764492 final offset 3C65048
 CSMenuManImp found at index 7539670 offset hex 731BD6 raw val 3538B23 final offset 3C6A700
@@ -613,8 +619,9 @@ groupMaskMap found at index 6691575 offset hex 662AF7 raw val 3393D23 final offs
 meshesOff found at index 7271863 offset hex 6F05B7 raw val 351BBF6 final offset 3C0C1B4
 CS::GameMan found at index 6658960 offset hex 65AB90 raw val 35B0E71 final offset 3C0BA08
 logoScreenBase found at index 11070317 offset hex A8FB6D
-targetHookLoc and offset found at index 7294354 offset hex 6F5D92 raw val 6A0
-miscDebugBase found at index 4429890 offset hex 43A842 raw val 37CDACD final offset 3C08316
+targetHookLoc found at index 7294354 offset hex 6F5D92
+targetHookLoc offset found at index 7294354 offset hex 6F5D92 raw val 6A0
+noGoodsConsume found at index 6509415 offset hex 636367 raw val 35D1F75 final offset 3C082E3
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 chrDbg found at index 5253231 offset hex 50386F raw val 3704A62 final offset 3C082D8
 CSMenuManImp found at index 7556006 offset hex 735BA6 raw val 34D7E23 final offset 3C0D9D0
@@ -666,8 +673,9 @@ groupMaskMap found at index 6691335 offset hex 662A07 raw val 3393E13 final offs
 meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
 CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
 logoScreenBase found at index 11070077 offset hex A8FA7D
-targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
-miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
+targetHookLoc found at index 7294114 offset hex 6F5CA2
+targetHookLoc offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
+noGoodsConsume found at index 6509175 offset hex 636277 raw val 35D2065 final offset 3C082E3
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
 CSMenuManImp found at index 7555766 offset hex 735AB6 raw val 34D7F13 final offset 3C0D9D0
@@ -719,8 +727,9 @@ groupMaskMap found at index 6691335 offset hex 662A07 raw val 3393E13 final offs
 meshesOff found at index 7271623 offset hex 6F04C7 raw val 351BCE6 final offset 3C0C1B4
 CS::GameMan found at index 6658720 offset hex 65AAA0 raw val 35B0F61 final offset 3C0BA08
 Nothing found for logoScreenBase
-targetHookLoc and offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
-miscDebugBase found at index 4429906 offset hex 43A852 raw val 37CDABD final offset 3C08316
+targetHookLoc found at index 7294114 offset hex 6F5CA2
+targetHookLoc offset found at index 7294114 offset hex 6F5CA2 raw val 6A0
+noGoodsConsume found at index 6509175 offset hex 636277 raw val 35D2065 final offset 3C082E3
 noAIUpdate found at index 3942257 offset hex 3C3771 raw val 3844B77 final offset 3C082EF
 chrDbg found at index 5252991 offset hex 50377F raw val 3704B52 final offset 3C082D8
 CSMenuManImp found at index 7555766 offset hex 735AB6 raw val 34D7F13 final offset 3C0D9D0
@@ -772,8 +781,9 @@ groupMaskMap found at index 6694887 offset hex 6637E7 raw val 33AA04C final offs
 meshesOff found at index 7275383 offset hex 6F1377 raw val 3532BE6 final offset 3C23F64
 CS::GameMan found at index 6662272 offset hex 65B880 raw val 35C7F31 final offset 3C237B8
 logoScreenBase found at index 11088253 offset hex A9417D
-targetHookLoc and offset found at index 7297874 offset hex 6F6B52 raw val 6A0
-miscDebugBase found at index 4430994 offset hex 43AC92 raw val 37E53F0 final offset 3C20089
+targetHookLoc found at index 7297874 offset hex 6F6B52
+targetHookLoc offset found at index 7297874 offset hex 6F6B52 raw val 6A0
+noGoodsConsume found at index 6512055 offset hex 636DB7 raw val 35E92CF final offset 3C2008D
 noAIUpdate found at index 3942833 offset hex 3C39B1 raw val 385C6E1 final offset 3C20099
 chrDbg found at index 5253903 offset hex 503B0F raw val 371C5BA final offset 3C200D0
 CSMenuManImp found at index 7559558 offset hex 736986 raw val 34EEDF3 final offset 3C25780
@@ -825,8 +835,9 @@ groupMaskMap found at index 6701335 offset hex 665117 raw val 33B9713 final offs
 meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
 CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
 logoScreenBase found at index 11104381 offset hex A9807D
-targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
-miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
+targetHookLoc found at index 7305634 offset hex 6F89A2
+targetHookLoc offset found at index 7305634 offset hex 6F89A2 raw val 6A0
+noGoodsConsume found at index 6518167 offset hex 638597 raw val 35F8D15 final offset 3C312B3
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
 chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
 CSMenuManImp found at index 7567318 offset hex 7387D6 raw val 34FE1C3 final offset 3C369A0
@@ -878,8 +889,9 @@ groupMaskMap found at index 6701335 offset hex 665117 raw val 33B9713 final offs
 meshesOff found at index 7283143 offset hex 6F31C7 raw val 3541FBE final offset 3C3518C
 CS::GameMan found at index 6668656 offset hex 65D170 raw val 35D7861 final offset 3C349D8
 Nothing found for logoScreenBase
-targetHookLoc and offset found at index 7305634 offset hex 6F89A2 raw val 6A0
-miscDebugBase found at index 4434642 offset hex 43BAD2 raw val 37F580E final offset 3C312E7
+targetHookLoc found at index 7305634 offset hex 6F89A2
+targetHookLoc offset found at index 7305634 offset hex 6F89A2 raw val 6A0
+noGoodsConsume found at index 6518167 offset hex 638597 raw val 35F8D15 final offset 3C312B3
 noAIUpdate found at index 3946273 offset hex 3C4721 raw val 386CB97 final offset 3C312BF
 chrDbg found at index 5258367 offset hex 504C7F raw val 372C622 final offset 3C312A8
 CSMenuManImp found at index 7567318 offset hex 7387D6 raw val 34FE1C3 final offset 3C369A0
