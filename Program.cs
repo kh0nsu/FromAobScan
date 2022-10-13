@@ -170,6 +170,9 @@ namespace aobScanExe
                 //findAddr(textSection, header.VirtualAddress, "4C 8DB0 ????0000 49 8B06 49 8BCE FF10 8BE8 33FF 49 BF FFFFFFFFFFFFFF1F 85C0 0F8E ????????", "worldChrManOffTowardsTorrent", 1 + 2); //fixed at 0xB6F0. this value +0x18 eventually gets to torrent.
                 //the 0x18378 offset (which changes with patches) is not found in the game. the following is the closest:
                 //findAddr(textSection, header.VirtualAddress, "48 8D83 ??????00 48 8983 ????0000 48 C783 ????0000 FFFFFFFF C783 ????0000 FFFFFFFF 66 89AB ????0000 40 88AB ????0000 0F2805 ????????", "worldChrManSomeOffset", 1 + 2); //fixed at 0x18370.
+                findAddr(textSection, header.VirtualAddress, "48 8B8CFE ??????00 48 85C9 74 ?? 4C 8B01 8BD0 41 FF50 ?? 48 8B7C24 ?? 48 8B5C24 ?? 48 83C4 ??", "worldChrManChrSetOffset", 4, startIndex: 5000000);
+                findAddr(textSection, header.VirtualAddress, "48 8B81 ????0000 48 C702 FFFFFFFF 48 85C0 74 0A 48 8B80 ????0000 48 8902 48 8BC2", "PGDataOffset", 3, startIndex: 6400000); //patch stable, but just in case
+                findAddr(textSection, header.VirtualAddress, "48 8B81 ????0000 48 C702 FFFFFFFF 48 85C0 74 0A 48 8B80 ????0000 48 8902 48 8BC2", "TorrentIDOffset", 3 + 4 + 3 + 4 + 3 + 2 + 3, startIndex: 6400000); //from this ID, eg. 0x1XX00000, we need the XX. prob should sanity check the rest.
 
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }

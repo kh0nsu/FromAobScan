@@ -335,6 +335,9 @@ playerNoDeath found at index 4380185 offset hex 42E619 raw val 3821E60 final off
 torrentDisabledCheckOne found at index 13111170 offset hex C81F82 with offset C81F8A
 torrentDisabledCheckTwo found at index 7204722 offset hex 6DFF72 with offset 6DFF7F
 mapIDinPlayerIns found at index 6480831 offset hex 62F3BF raw val 6C8
+worldChrManChrSetOffset found at index 5203256 offset hex 4F7538 raw val 18038
+PGDataOffset found at index 6505472 offset hex 635400 raw val 570
+TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.1_maybepatched.exe
@@ -389,6 +392,9 @@ playerNoDeath found at index 4380297 offset hex 42E689 raw val 3821E10 final off
 torrentDisabledCheckOne found at index 13111298 offset hex C82002 with offset C8200A
 torrentDisabledCheckTwo found at index 7204834 offset hex 6DFFE2 with offset 6DFFEF
 mapIDinPlayerIns found at index 6480943 offset hex 62F42F raw val 6C8
+worldChrManChrSetOffset found at index 5203368 offset hex 4F75A8 raw val 18038
+PGDataOffset found at index 6505584 offset hex 635470 raw val 570
+TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.3.exe
@@ -443,6 +449,9 @@ playerNoDeath found at index 4380585 offset hex 42E7A9 raw val 3824D2E final off
 torrentDisabledCheckOne found at index 13111890 offset hex C82252 with offset C8225A
 torrentDisabledCheckTwo found at index 7205122 offset hex 6E0102 with offset 6E010F
 mapIDinPlayerIns found at index 6481231 offset hex 62F54F raw val 6C8
+worldChrManChrSetOffset found at index 5203656 offset hex 4F76C8 raw val 18038
+PGDataOffset found at index 6505872 offset hex 635590 raw val 570
+TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.0.exe
@@ -497,6 +506,9 @@ playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final off
 torrentDisabledCheckOne found at index 13140466 offset hex C891F2 with offset C891FA
 torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
 mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
+worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
+PGDataOffset found at index 6509568 offset hex 636400 raw val 570
+TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.1.exe
@@ -551,6 +563,9 @@ playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final off
 torrentDisabledCheckOne found at index 13140482 offset hex C89202 with offset C8920A
 torrentDisabledCheckTwo found at index 7210242 offset hex 6E1502 with offset 6E150F
 mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
+worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
+PGDataOffset found at index 6509568 offset hex 636400 raw val 570
+TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.2.exe
@@ -605,6 +620,9 @@ playerNoDeath found at index 4383689 offset hex 42F3C9 raw val 3835C80 final off
 torrentDisabledCheckOne found at index 13140450 offset hex C891E2 with offset C891EA
 torrentDisabledCheckTwo found at index 7210210 offset hex 6E14E2 with offset 6E14EF
 mapIDinPlayerIns found at index 6484879 offset hex 63038F raw val 6C8
+worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
+PGDataOffset found at index 6509536 offset hex 6363E0 raw val 570
+TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.0.exe
@@ -659,6 +677,9 @@ playerNoDeath found at index 4393545 offset hex 431A49 raw val 37D6890 final off
 torrentDisabledCheckOne found at index 13011570 offset hex C69A72 with offset C69A7A
 torrentDisabledCheckTwo found at index 7225762 offset hex 6E51A2 with offset 6E51AF
 mapIDinPlayerIns found at index 6496600 offset hex 633158 raw val 6C0
+worldChrManChrSetOffset found at index 5219304 offset hex 4FB3E8 raw val 18038
+PGDataOffset found at index 6521312 offset hex 6391E0 raw val 570
+TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1.exe
@@ -713,6 +734,9 @@ playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final off
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
 torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
 mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
+worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
+PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
+TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
@@ -767,6 +791,9 @@ playerNoDeath found at index 4393561 offset hex 431A59 raw val 37D6880 final off
 torrentDisabledCheckOne found at index 13011330 offset hex C69982 with offset C6998A
 torrentDisabledCheckTwo found at index 7225522 offset hex 6E50B2 with offset 6E50BF
 mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
+worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
+PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
+TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.05.0.exe
@@ -821,6 +848,9 @@ playerNoDeath found at index 4394633 offset hex 431E89 raw val 37EE1FA final off
 torrentDisabledCheckOne found at index 13031282 offset hex C6E772 with offset C6E77A
 torrentDisabledCheckTwo found at index 7229282 offset hex 6E5F62 with offset 6E5F6F
 mapIDinPlayerIns found at index 6499240 offset hex 633BA8 raw val 6C0
+worldChrManChrSetOffset found at index 5219976 offset hex 4FB688 raw val 18038
+PGDataOffset found at index 6523952 offset hex 639C30 raw val 570
+TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0.exe
@@ -875,6 +905,9 @@ playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final off
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
 torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
 mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
+worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
+PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
+TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
@@ -929,6 +962,9 @@ playerNoDeath found at index 4398281 offset hex 432CC9 raw val 37FE5E0 final off
 torrentDisabledCheckOne found at index 13050082 offset hex C730E2 with offset C730EA
 torrentDisabledCheckTwo found at index 7236818 offset hex 6E7CD2 with offset 6E7CDF
 mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
+worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
+PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
+TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.07.0.exe
@@ -983,6 +1019,9 @@ playerNoDeath found at index 4398409 offset hex 432D49 raw val 3818F20 final off
 torrentDisabledCheckOne found at index 13057522 offset hex C74DF2 with offset C74DFA
 torrentDisabledCheckTwo found at index 7242450 offset hex 6E92D2 with offset 6E92DF
 mapIDinPlayerIns found at index 6509016 offset hex 6361D8 raw val 6C0
+worldChrManChrSetOffset found at index 5224360 offset hex 4FC7A8 raw val 1DED8
+PGDataOffset found at index 6533776 offset hex 63C290 raw val 570
+TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
