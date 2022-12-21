@@ -126,12 +126,12 @@ namespace aobScanExe
                 //it's meant to be //LockTgtMan->IsLockMode, but i don't know what to do with this. ask Pav if AOBs break
                 findAddr(textSection, header.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc", startIndex: 6500000); //(offset C8 may change). weird cmp may change too.
                 findAddr(textSection2, header2.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc (2nd section)"); //patches before 1.04. not yet confirmed that it still works. start index is pointless for 2nd section as it's so random.
-                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 38 ???????? C745 3C ???????? C745 40 ???????? 48 8D05 ????????", "map open in combat", startIndex: 8000000); //38/3C/40 likely stable but could change
+                findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 ?? ???????? C745 ?? ???????? C745 ?? ???????? 48 8D05 ????????", "map open in combat", startIndex: 8000000);
                 findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? ?? ?? 75 ?? 83 e7 fe", "map stay open in combat", startIndex: 9800000);
                 //for some older patch, maybe 1.03.2: E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 EA 3C 00 00 finds the call
                 //maybe try E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? 00 00, multiple results, 2nd last? //follow the call, check for x-refs. should be about 5. can use this to find one from the other, and also crafting check etc.
-                findAddr(textSection, header.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (1st sect)", justOffset: 7); //expect obfuscated ret afterwards
-                findAddr(textSection2, header2.VirtualAddress, "48 8B 41 08 0F BE 80 B1 E9 00 00", "enemyRepeatActionOff (2nd sect)", justOffset: 7); //moves between sections across patches, so check both. kinda weird ngl.
+                findAddr(textSection, header.VirtualAddress, "48 8B 41 08 0F BE 80 ?? E9 00 00", "enemyRepeatActionOff (1st sect)", justOffset: 7); //expect obfuscated ret afterwards
+                findAddr(textSection2, header2.VirtualAddress, "48 8B 41 08 0F BE 80 ?? E9 00 00", "enemyRepeatActionOff (2nd sect)", justOffset: 7); //moves between sections across patches, so check both. kinda weird ngl.
                 findAddr(textSection, header.VirtualAddress, "48 83EC 48 48 C74424 28 FEFFFFFF E8 ?? ?? ?? ?? 48", "warp call one", startIndex: 6000000);
                 findAddr(textSection, header.VirtualAddress, "488B05 ???????? 8988 ??0C0000 C3", "warp call two", startIndex: 6500000); //fixed for <1.04 but not tested in game
                 findAddr(textSection, header.VirtualAddress, "48 8905 ???????? 48 8B05 ???????? E8 ???????? 4C 8B08 41 B8 ??000000 48 8D15 ????0000 48 8BC8 41 FF51 ?? 48 8B1D ????????", "usrInputMgrImplOff", 3, 7, startIndex: 1000000);
@@ -165,7 +165,7 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 48 8B48 ?? 8079 36 00 0F95C0 48 83C4 ?? C3", "torrentDisabledCheckTwo", justOffset: 5 + 4 + 4, startIndex: 7000000); //patch from 0F95C0 to 30C090 for torrent everywhere
                 //^+36 is not masked as that's the offset in MSBE and should not change
 
-                findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B ????0000 44 89AB ????0000 C783 ????0000 FFFFFFFF 44 89AB ????0000 C783 ????0000 FFFFFFFF", "mapIDinPlayerIns", readoffset32: 2, startIndex: 6300000); //immediately follows x,y,z,angle
+                findAddr(textSection, header.VirtualAddress, "C783 ????0000 FFFFFFFF 0F280D ???????? 66 0F7F4D ?? F2 0F118B ????0000 66 0F73D9 ?? 66 0F7E8B", "mapIDinPlayerIns", readoffset32: 2, startIndex: 6300000); //immediately follows x,y,z,angle
 
                 //findAddr(textSection, header.VirtualAddress, "4C 8DB0 ????0000 49 8B06 49 8BCE FF10 8BE8 33FF 49 BF FFFFFFFFFFFFFF1F 85C0 0F8E ????????", "worldChrManOffTowardsTorrent", 1 + 2); //fixed at 0xB6F0. this value +0x18 eventually gets to torrent.
                 //the 0x18378 offset (which changes with patches) is not found in the game. the following is the closest:

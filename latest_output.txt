@@ -1050,10 +1050,10 @@ CS::FieldArea found at index 6678626 offset hex 65F862 raw val 367D317 final off
 free cam patch loc, 1st called addr found at index 7367163 offset hex 7079FB raw val 6FAEB9 final offset E028C0
 free cam player control patch loc found at index 6758294 offset hex 672F96
 Nothing found for free cam player control patch loc (2nd section)
-Nothing found for map open in combat
+map open in combat found at index 8236723 offset hex 7DBEB3
 map stay open in combat found at index 10093751 offset hex 9A14B7
 Nothing found for enemyRepeatActionOff (1st sect)
-Nothing found for enemyRepeatActionOff (2nd sect)
+enemyRepeatActionOff (2nd sect) found at index 14653230 offset hex 575772E with offset 5757735
 warp call one found at index 6202160 offset hex 5EB330
 warp call two found at index 6730432 offset hex 66C2C0
 usrInputMgrImplOff found at index 1250341 offset hex 132425 raw val 447F4EC final offset 45B1918
@@ -1075,7 +1075,7 @@ allChrNoDeath found at index 4404827 offset hex 43465B raw val 38A553F final off
 playerNoDeath found at index 4404905 offset hex 4346A9 raw val 38A54E7 final offset 3CD9B97
 torrentDisabledCheckOne found at index 13341426 offset hex CBA2F2 with offset CBA2FA
 torrentDisabledCheckTwo found at index 7297714 offset hex 6F6AB2 with offset 6F6ABF
-Nothing found for mapIDinPlayerIns
+mapIDinPlayerIns found at index 6560802 offset hex 642C22 raw val 6D0
 worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
@@ -1107,10 +1107,10 @@ CS::FieldArea found at index 6678626 offset hex 65F862 raw val 367D317 final off
 free cam patch loc, 1st called addr found at index 7367163 offset hex 7079FB raw val 6FAE99 final offset E028A0
 free cam player control patch loc found at index 6758294 offset hex 672F96
 Nothing found for free cam player control patch loc (2nd section)
-Nothing found for map open in combat
+map open in combat found at index 8236723 offset hex 7DBEB3
 map stay open in combat found at index 10093751 offset hex 9A14B7
 Nothing found for enemyRepeatActionOff (1st sect)
-Nothing found for enemyRepeatActionOff (2nd sect)
+enemyRepeatActionOff (2nd sect) found at index 14010234 offset hex 56BA77A with offset 56BA781
 warp call one found at index 6202160 offset hex 5EB330
 warp call two found at index 6730432 offset hex 66C2C0
 usrInputMgrImplOff found at index 1250341 offset hex 132425 raw val 447F4EC final offset 45B1918
@@ -1132,7 +1132,7 @@ allChrNoDeath found at index 4404827 offset hex 43465B raw val 38A553F final off
 playerNoDeath found at index 4404905 offset hex 4346A9 raw val 38A54E7 final offset 3CD9B97
 torrentDisabledCheckOne found at index 13341394 offset hex CBA2D2 with offset CBA2DA
 torrentDisabledCheckTwo found at index 7297714 offset hex 6F6AB2 with offset 6F6ABF
-Nothing found for mapIDinPlayerIns
+mapIDinPlayerIns found at index 6560802 offset hex 642C22 raw val 6D0
 worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
