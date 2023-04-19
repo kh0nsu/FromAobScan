@@ -1235,6 +1235,63 @@ PGDataOffset found at index 6589424 offset hex 649BF0 raw val 580
 TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
+Processing exe: C:\fromexes\eldenring_1.09.1.exe
+
+CS::WorldChrManImp found at index 1807079 offset hex 1BA2E7 raw val 3B22AE5 final offset 3CDCDD8
+CS::WorldChrManImp offset found at index 1807079 offset hex 1BA2E7 raw val 1E508
+hitboxBase found at index 11338103 offset hex AD1177 raw val 320C02A final offset 3CDD1A8
+hitboxOffset found at index 5378255 offset hex 5220CF raw val A0
+groupMaskBase found at index 6762918 offset hex 6741A6 raw val 344E93B final offset 3AC2AE8
+groupMaskTrees found at index 6763120 offset hex 674270 raw val 344E87A final offset 3AC2AF1
+groupMaskMap found at index 6762951 offset hex 6741C7 raw val 344E91B final offset 3AC2AE9
+meshesOff found at index 7348391 offset hex 7030A7 raw val 35DDE0E final offset 3CE0EBC
+CS::GameMan found at index 6730144 offset hex 66C1A0 raw val 3674561 final offset 3CE0708
+logoScreenBase found at index 11390189 offset hex ADDCED
+targetHookLoc found at index 7371218 offset hex 7089D2
+targetHookLoc offset found at index 7371218 offset hex 7089D2 raw val 6B0
+noGoodsConsume found at index 6577527 offset hex 646D77 raw val 369626D final offset 3CDCFEB
+noAIUpdate found at index 3951265 offset hex 3C5AA1 raw val 391754F final offset 3CDCFF7
+chrDbg found at index 5290335 offset hex 50C95F raw val 37D06AA final offset 3CDD010
+CSMenuManImp found at index 7634166 offset hex 748CF6 raw val 3599883 final offset 3CE2580
+fontDrawOffset found at index 40135680 offset hex 2647C00
+DbgEventManOff found at index 11312084 offset hex ACABD4 raw val 321420D final offset 3CDEDE8
+Event patch func 1 found at index 5769361 offset hex 581891 raw val 893D6A final offset E15600
+Event patch func 2 found at index 5769361 offset hex 581891 raw val 893D41 final offset E155E0
+CS::FieldArea found at index 6682658 offset hex 660822 raw val 367F797 final offset 3CDFFC0
+free cam patch loc, 1st called addr found at index 7371515 offset hex 708AFB raw val 6FCBD9 final offset E056E0
+free cam player control patch loc found at index 6762390 offset hex 673F96
+Nothing found for free cam player control patch loc (2nd section)
+map open in combat found at index 8241171 offset hex 7DD013
+map stay open in combat found at index 10102119 offset hex 9A3567
+enemyRepeatActionOff (1st sect) found at index 24856863 offset hex 17B591F with offset 17B5926
+Nothing found for enemyRepeatActionOff (2nd sect)
+warp call one found at index 6205616 offset hex 5EC0B0
+warp call two found at index 6734464 offset hex 66D280
+usrInputMgrImplOff found at index 1250565 offset hex 132505 raw val 448283C final offset 45B4D48
+steam input flag check found at index 32387718 offset hex 1EE4286 raw val 88B
+csFlipperOff found at index 14341887 offset hex DAE6FF raw val 3752002 final offset 4500708
+csFlipperOff gameSpeedOffset found at index 14341887 offset hex DAE6FF raw val 2D4
+no-death offset in CSChrDataModule found at index 4405074 offset hex 434752 raw val 19B
+GameDataMan found at index 2440480 offset hex 254D20 raw val 3A80061 final offset 3CD4D88
+CS::CSTrophyImp found at index 14368104 offset hex DB4D68 raw val 374B338 final offset 45000A8
+NPC part damage hook found at index 5939844 offset hex 5AB284
+Weapon upgrade rune cost found at index 7819681 offset hex 7761A1
+Weapon upgrade material cost found at index 8737436 offset hex 85629C
+soundDrawPatchLoc found at index 3390838 offset hex 33CD76
+allTargetingDebugDraw found at index 3390006 offset hex 33CA36 raw val 399C67D final offset 3CD90BA
+MapItemManImpl found at index 5915662 offset hex 5A540E raw val 373942B final offset 3CDE840
+ItemSpawnCall found at index 5617010 offset hex 55C572 with offset 55C520
+Nothing found for ItemSpawnCall 1.02.x
+allChrNoDeath found at index 4405147 offset hex 43479B raw val 38A8850 final offset 3CDCFF2
+playerNoDeath found at index 4405225 offset hex 4347E9 raw val 38A87F8 final offset 3CDCFE8
+torrentDisabledCheckOne found at index 13352818 offset hex CBCF72 with offset CBCF7A
+torrentDisabledCheckTwo found at index 7302066 offset hex 6F7BB2 with offset 6F7BBF
+mapIDinPlayerIns found at index 6564354 offset hex 643A02 raw val 6D0
+worldChrManChrSetOffset found at index 5254840 offset hex 503EB8 raw val 1DED8
+PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
+TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
+codeCave_0x60_nops found at index 148543 offset hex 2543F
+
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
 csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
