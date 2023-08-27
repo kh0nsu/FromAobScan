@@ -246,6 +246,7 @@ namespace aobScanExe
                 if (exe.ToLower().Contains("elden")) { doERScan(); }
                 if (exe.ToLower().Contains("darksoulsiii")) { doDS3Scan(); }
                 if (exe.ToLower().Contains("sekiro")) { doSekiroScan(); }
+                if (exe.ToLower().Contains("armor")) { doDS3Scan(); doSekiroScan(); doERScan(); } //try all for the moment
             }
         }
 
@@ -301,6 +302,9 @@ namespace aobScanExe
 
         public bool outputConsole = true;
 
+        const bool DISABLE_START_INDEX = false;
+        const bool DISABLE_SINGLE_MATCH = false;
+
         public int findAddr(byte[] buf, int blockVirtualAddr, string find, string desc, int readoffset32 = -1000, int nextInstOffset = -1000, int justOffset = -1000, int startIndex = 0, bool singleMatch = true)
         {//TODO: for single match and non-zero start index, try zero start index if no match is found?
             int count = 0;
@@ -308,7 +312,8 @@ namespace aobScanExe
             byte[] fb = hs2b(find);
             byte[] fwb = hs2w(find);
 
-            int index = startIndex;
+            int index = DISABLE_START_INDEX ? 0 : startIndex;
+            if (DISABLE_SINGLE_MATCH) { singleMatch = false; }
 
             int result = -1;
 
