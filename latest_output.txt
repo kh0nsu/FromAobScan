@@ -359,6 +359,7 @@ usrInputMgrImplOff found at index 1250741 offset hex 1325B5 raw val 43E3FDC fina
 steam input flag check found at index 31916998 offset hex 1E713C6 raw val 88B
 csFlipperOff found at index 14027983 offset hex D61CCF raw val 3702442 final offset 4464118
 csFlipperOff gameSpeedOffset found at index 14027983 offset hex D61CCF raw val 2D4
+frame time target (1/60.0f) found at index 14625324 offset hex DF3A2C with offset DF3A32
 no-death offset in CSChrDataModule found at index 4355970 offset hex 428782 raw val 197
 GameDataMan found at index 2410608 offset hex 24D870 raw val 39EBB71 final offset 3C393E8
 CS::CSTrophyImp found at index 14053544 offset hex D680A8 raw val 36FBA18 final offset 4463AC8
@@ -416,6 +417,7 @@ usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F35BC fina
 steam input flag check found at index 31964742 offset hex 1E7CE46 raw val 88B
 csFlipperOff found at index 14067983 offset hex D6B90F raw val 3707822 final offset 4473138
 csFlipperOff gameSpeedOffset found at index 14067983 offset hex D6B90F raw val 2D4
+frame time target (1/60.0f) found at index 14671708 offset hex DFEF5C with offset DFEF62
 no-death offset in CSChrDataModule found at index 4380034 offset hex 42E582 raw val 197
 GameDataMan found at index 2423504 offset hex 250AD0 raw val 39F76E1 final offset 3C481B8
 CS::CSTrophyImp found at index 14093496 offset hex D71CB8 raw val 3700E18 final offset 4472AD8
@@ -473,6 +475,7 @@ usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F31DC fina
 steam input flag check found at index 31964822 offset hex 1E7CE96 raw val 88B
 csFlipperOff found at index 14068063 offset hex D6B95F raw val 37073F2 final offset 4472D58
 csFlipperOff gameSpeedOffset found at index 14068063 offset hex D6B95F raw val 2D4
+frame time target (1/60.0f) found at index 14671788 offset hex DFEFAC with offset DFEFB2
 no-death offset in CSChrDataModule found at index 4380146 offset hex 42E5F2 raw val 197
 GameDataMan found at index 2423616 offset hex 250B40 raw val 39F7691 final offset 3C481D8
 CS::CSTrophyImp found at index 14093576 offset hex D71D08 raw val 37009E8 final offset 44726F8
@@ -530,6 +533,7 @@ usrInputMgrImplOff found at index 1249285 offset hex 132005 raw val 43F621C fina
 steam input flag check found at index 31970486 offset hex 1E7E4B6 raw val 88B
 csFlipperOff found at index 14068655 offset hex D6BBAF raw val 370A1E2 final offset 4475D98
 csFlipperOff gameSpeedOffset found at index 14068655 offset hex D6BBAF raw val 2D4
+frame time target (1/60.0f) found at index 14675612 offset hex DFFE9C with offset DFFEA2
 no-death offset in CSChrDataModule found at index 4380434 offset hex 42E712 raw val 197
 GameDataMan found at index 2423904 offset hex 250C60 raw val 39FA5B1 final offset 3C4B218
 CS::CSTrophyImp found at index 14094856 offset hex D72208 raw val 3703528 final offset 4475738
@@ -587,6 +591,7 @@ usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D3C fina
 steam input flag check found at index 32009238 offset hex 1E87C16 raw val 88B
 csFlipperOff found at index 14102703 offset hex D740AF raw val 3713862 final offset 4487918
 csFlipperOff gameSpeedOffset found at index 14102703 offset hex D740AF raw val 2D4
+frame time target (1/60.0f) found at index 14709196 offset hex E081CC with offset E081D2
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128904 offset hex D7A708 raw val 370CBA8 final offset 44872B8
@@ -644,6 +649,7 @@ usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C fina
 steam input flag check found at index 32008630 offset hex 1E879B6 raw val 88B
 csFlipperOff found at index 14102447 offset hex D73FAF raw val 3713952 final offset 4487908
 csFlipperOff gameSpeedOffset found at index 14102447 offset hex D73FAF raw val 2D4
+frame time target (1/60.0f) found at index 14708588 offset hex E07F6C with offset E07F72
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128648 offset hex D7A608 raw val 370CC98 final offset 44872A8
@@ -701,6 +707,7 @@ usrInputMgrImplOff found at index 1249381 offset hex 132065 raw val 4407D2C fina
 steam input flag check found at index 32008598 offset hex 1E87996 raw val 88B
 csFlipperOff found at index 14102415 offset hex D73F8F raw val 3713972 final offset 4487908
 csFlipperOff gameSpeedOffset found at index 14102415 offset hex D73F8F raw val 2D4
+frame time target (1/60.0f) found at index 14708556 offset hex E07F4C with offset E07F52
 no-death offset in CSChrDataModule found at index 4383538 offset hex 42F332 raw val 19B
 GameDataMan found at index 2425648 offset hex 251330 raw val 3A0BA41 final offset 3C5CD78
 CS::CSTrophyImp found at index 14128616 offset hex D7A5E8 raw val 370CCB8 final offset 44872A8
@@ -758,6 +765,7 @@ usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC fina
 steam input flag check found at index 31909382 offset hex 1E6F606 raw val 88B
 csFlipperOff found at index 13972143 offset hex D542AF raw val 36D6852 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13972143 offset hex D542AF raw val 2D4
+frame time target (1/60.0f) found at index 14580828 offset hex DE8C5C with offset DE8C62
 no-death offset in CSChrDataModule found at index 4393394 offset hex 4319B2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998360 offset hex D5A918 raw val 36CFB88 final offset 442A4A8
@@ -815,6 +823,7 @@ usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC fina
 steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
 csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
+frame time target (1/60.0f) found at index 14580588 offset hex DE8B6C with offset DE8B72
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
@@ -872,6 +881,7 @@ usrInputMgrImplOff found at index 1249509 offset hex 1320E5 raw val 43AB5FC fina
 steam input flag check found at index 31909142 offset hex 1E6F516 raw val 88B
 csFlipperOff found at index 13971903 offset hex D541BF raw val 36D6942 final offset 442AB08
 csFlipperOff gameSpeedOffset found at index 13971903 offset hex D541BF raw val 2D4
+frame time target (1/60.0f) found at index 14580588 offset hex DE8B6C with offset DE8B72
 no-death offset in CSChrDataModule found at index 4393410 offset hex 4319C2 raw val 19B
 GameDataMan found at index 2433728 offset hex 2532C0 raw val 39ACD61 final offset 3C00028
 CS::CSTrophyImp found at index 13998120 offset hex D5A828 raw val 36CFC78 final offset 442A4A8
@@ -929,6 +939,7 @@ usrInputMgrImplOff found at index 1249525 offset hex 1320F5 raw val 43C372C fina
 steam input flag check found at index 31967094 offset hex 1E7D776 raw val 88B
 csFlipperOff found at index 14001679 offset hex D5B60F raw val 36E7602 final offset 4442C18
 csFlipperOff gameSpeedOffset found at index 14001679 offset hex D5B60F raw val 2D4
+frame time target (1/60.0f) found at index 14612812 offset hex DF094C with offset DF0952
 no-death offset in CSChrDataModule found at index 4394482 offset hex 431DF2 raw val 19B
 GameDataMan found at index 2434096 offset hex 253430 raw val 39C4AB1 final offset 3C17EE8
 CS::CSTrophyImp found at index 14027896 offset hex D61C78 raw val 36E0938 final offset 44425B8
@@ -986,6 +997,7 @@ usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC fina
 steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
 csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
+frame time target (1/60.0f) found at index 14638972 offset hex DF6F7C with offset DF6F82
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
 GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
@@ -1043,6 +1055,7 @@ usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43D54EC fina
 steam input flag check found at index 32008406 offset hex 1E878D6 raw val 88B
 csFlipperOff found at index 14027151 offset hex D6198F raw val 36F2502 final offset 4453E98
 csFlipperOff gameSpeedOffset found at index 14027151 offset hex D6198F raw val 2D4
+frame time target (1/60.0f) found at index 14638972 offset hex DF6F7C with offset DF6F82
 no-death offset in CSChrDataModule found at index 4398130 offset hex 432C32 raw val 19B
 GameDataMan found at index 2437808 offset hex 2542B0 raw val 39D4E51 final offset 3C29108
 CS::CSTrophyImp found at index 14053368 offset hex D67FF8 raw val 36EB838 final offset 4453838
@@ -1100,6 +1113,7 @@ usrInputMgrImplOff found at index 1249493 offset hex 1320D5 raw val 43EFEAC fina
 steam input flag check found at index 32063142 offset hex 1E94EA6 raw val 88B
 csFlipperOff found at index 14041247 offset hex D6509F raw val 37097B2 final offset 446E858
 csFlipperOff gameSpeedOffset found at index 14041247 offset hex D6509F raw val 2D4
+frame time target (1/60.0f) found at index 14653116 offset hex DFA6BC with offset DFA6C2
 no-death offset in CSChrDataModule found at index 4398258 offset hex 432CB2 raw val 19B
 GameDataMan found at index 2437952 offset hex 254340 raw val 39EF781 final offset 3C43AC8
 CS::CSTrophyImp found at index 14067464 offset hex D6B708 raw val 3702AE8 final offset 446E1F8
@@ -1157,6 +1171,7 @@ usrInputMgrImplOff found at index 1250341 offset hex 132425 raw val 447F4EC fina
 steam input flag check found at index 32375974 offset hex 1EE14A6 raw val 88B
 csFlipperOff found at index 14330079 offset hex DAB8DF raw val 37519E2 final offset 44FD2C8
 csFlipperOff gameSpeedOffset found at index 14330079 offset hex DAB8DF raw val 2D4
+frame time target (1/60.0f) found at index 14943868 offset hex E4167C with offset E41682
 no-death offset in CSChrDataModule found at index 4404754 offset hex 434612 raw val 19B
 GameDataMan found at index 2440176 offset hex 254BF0 raw val 3A7CD51 final offset 3CD1948
 CS::CSTrophyImp found at index 14356296 offset hex DB1F48 raw val 374AD18 final offset 44FCC68
@@ -1214,6 +1229,7 @@ usrInputMgrImplOff found at index 1250341 offset hex 132425 raw val 447F4EC fina
 steam input flag check found at index 32375942 offset hex 1EE1486 raw val 88B
 csFlipperOff found at index 14330047 offset hex DAB8BF raw val 3751A02 final offset 44FD2C8
 csFlipperOff gameSpeedOffset found at index 14330047 offset hex DAB8BF raw val 2D4
+frame time target (1/60.0f) found at index 14943836 offset hex E4165C with offset E41662
 no-death offset in CSChrDataModule found at index 4404754 offset hex 434612 raw val 19B
 GameDataMan found at index 2440176 offset hex 254BF0 raw val 3A7CD51 final offset 3CD1948
 CS::CSTrophyImp found at index 14356264 offset hex DB1F28 raw val 374AD38 final offset 44FCC68
@@ -1271,6 +1287,7 @@ usrInputMgrImplOff found at index 1250565 offset hex 132505 raw val 448283C fina
 steam input flag check found at index 32387446 offset hex 1EE4176 raw val 88B
 csFlipperOff found at index 14341615 offset hex DAE5EF raw val 3752112 final offset 4500708
 csFlipperOff gameSpeedOffset found at index 14341615 offset hex DAE5EF raw val 2D4
+frame time target (1/60.0f) found at index 14955404 offset hex E4438C with offset E44392
 no-death offset in CSChrDataModule found at index 4405074 offset hex 434752 raw val 19B
 GameDataMan found at index 2440480 offset hex 254D20 raw val 3A80061 final offset 3CD4D88
 CS::CSTrophyImp found at index 14367832 offset hex DB4C58 raw val 374B448 final offset 45000A8
@@ -1328,6 +1345,7 @@ usrInputMgrImplOff found at index 1250565 offset hex 132505 raw val 448283C fina
 steam input flag check found at index 32387718 offset hex 1EE4286 raw val 88B
 csFlipperOff found at index 14341887 offset hex DAE6FF raw val 3752002 final offset 4500708
 csFlipperOff gameSpeedOffset found at index 14341887 offset hex DAE6FF raw val 2D4
+frame time target (1/60.0f) found at index 14955676 offset hex E4449C with offset E444A2
 no-death offset in CSChrDataModule found at index 4405074 offset hex 434752 raw val 19B
 GameDataMan found at index 2440480 offset hex 254D20 raw val 3A80061 final offset 3CD4D88
 CS::CSTrophyImp found at index 14368104 offset hex DB4D68 raw val 374B338 final offset 45000A8
@@ -1385,6 +1403,7 @@ usrInputMgrImplOff found at index 1250565 offset hex 132505 raw val 448283C fina
 steam input flag check found at index 32388406 offset hex 1EE4536 raw val 88B
 csFlipperOff found at index 14342575 offset hex DAE9AF raw val 3751D52 final offset 4500708
 csFlipperOff gameSpeedOffset found at index 14342575 offset hex DAE9AF raw val 2D4
+frame time target (1/60.0f) found at index 14956364 offset hex E4474C with offset E44752
 no-death offset in CSChrDataModule found at index 4405234 offset hex 4347F2 raw val 19B
 GameDataMan found at index 2440480 offset hex 254D20 raw val 3A80061 final offset 3CD4D88
 CS::CSTrophyImp found at index 14368792 offset hex DB5018 raw val 374B088 final offset 45000A8
@@ -1442,6 +1461,7 @@ usrInputMgrImplOff found at index 1250565 offset hex 132505 raw val 448283C fina
 steam input flag check found at index 32388630 offset hex 1EE4616 raw val 88B
 csFlipperOff found at index 14342799 offset hex DAEA8F raw val 3751C72 final offset 4500708
 csFlipperOff gameSpeedOffset found at index 14342799 offset hex DAEA8F raw val 2D4
+frame time target (1/60.0f) found at index 14956588 offset hex E4482C with offset E44832
 no-death offset in CSChrDataModule found at index 4405234 offset hex 4347F2 raw val 19B
 GameDataMan found at index 2440480 offset hex 254D20 raw val 3A80061 final offset 3CD4D88
 CS::CSTrophyImp found at index 14369016 offset hex DB50F8 raw val 374AFA8 final offset 45000A8

@@ -138,6 +138,7 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "80B9 ????0000 00 48 8B5C24 40", "steam input flag check", 2, startIndex: 31500000); //in case the offset changes, this should find it
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7, startIndex: 13800000); //identical to sekiro, likely to keep working.
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff gameSpeedOffset", 7 + 4, startIndex: 13800000);
+                findAddr(textSection, header.VirtualAddress, "8973 ?? C743 ?? ??88883C EB ?? 8973 ??", "frame time target (1/60.0f)", justOffset: 6, startIndex: 13000000); //probably need windowed/borderless and your screen hz high enough to work
                 findAddr(textSection, header.VirtualAddress, "4883EC20F681????000001488bd97408", "no-death offset in CSChrDataModule", 4 + 2, startIndex: 4200000);
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? 48 85 C0 74 05 48 8B 40 58 C3 C3", "GameDataMan", 3, 7, startIndex: 2300000); //*ptr + 8 to CS::PlayerGameData
 
