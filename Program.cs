@@ -126,8 +126,9 @@ namespace aobScanExe
                 //it's meant to be //LockTgtMan->IsLockMode, but i don't know what to do with this. ask Pav if AOBs break
                 findAddr(textSection, header.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc", startIndex: 6500000); //(offset C8 may change). weird cmp may change too.
                 findAddr(textSection2, header2.VirtualAddress, "8B 83 ?? 00 00 00 FF C8 83 F8 01", "free cam player control patch loc (2nd section)"); //patches before 1.04. not yet confirmed that it still works. start index is pointless for 2nd section as it's so random.
+                findAddr(textSection, header.VirtualAddress, "8B 93 c8 00 00 00 85 d2 0f ?? ?? ?? 00 00", "free cam player control patch loc 1.12", startIndex: 6500000); //code here changes too much for a stable aob
                 findAddr(textSection, header.VirtualAddress, "E8 ???????? 84C0 74 ?? C745 ?? ???????? C745 ?? ???????? C745 ?? ???????? 48 8D05 ????????", "map open in combat", startIndex: 8000000);
-                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? ?? ?? 75 ?? 83 e7 fe", "map stay open in combat", startIndex: 9800000);
+                findAddr(textSection, header.VirtualAddress, "E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? 00 00 75 ?? 83 ?? fe 89", "map stay open in combat", startIndex: 9800000);
                 //for some older patch, maybe 1.03.2: E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 EA 3C 00 00 finds the call
                 //maybe try E8 ?? ?? ?? ?? 84 C0 75 ?? 38 83 ?? ?? 00 00, multiple results, 2nd last? //follow the call, check for x-refs. should be about 5. can use this to find one from the other, and also crafting check etc.
                 findAddr(textSection, header.VirtualAddress, "48 8B 41 08 0F BE 80 ?? E9 00 00", "enemyRepeatActionOff (1st sect)", justOffset: 7); //expect obfuscated ret afterwards

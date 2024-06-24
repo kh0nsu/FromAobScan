@@ -349,6 +349,7 @@ CS::FieldArea found at index 6556994 offset hex 641D42 raw val 36028E7 final off
 free cam patch loc, 1st called addr found at index 7228377 offset hex 6E5BD9 raw val 6D011B final offset DB5D00
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 4067589 offset hex 4BE7105
+Nothing found for free cam player control patch loc 1.12
 Nothing found for map open in combat
 map stay open in combat found at index 9980898 offset hex 985BE2
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -407,6 +408,7 @@ CS::FieldArea found at index 6596834 offset hex 64B8E2 raw val 3607B87 final off
 free cam patch loc, 1st called addr found at index 7273291 offset hex 6F0B4B raw val 6D0209 final offset DC0D60
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 10234777 offset hex 5290B99
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8142035 offset hex 7C4CD3
 map stay open in combat found at index 10025826 offset hex 990B62
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -465,6 +467,7 @@ CS::FieldArea found at index 6596946 offset hex 64B952 raw val 3607B37 final off
 free cam patch loc, 1st called addr found at index 7273403 offset hex 6F0BBB raw val 6D01E9 final offset DC0DB0
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 7479008 offset hex 4FEFEE0
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8142147 offset hex 7C4D43
 map stay open in combat found at index 10025954 offset hex 990BE2
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -523,6 +526,7 @@ CS::FieldArea found at index 6597234 offset hex 64BA72 raw val 360AA57 final off
 free cam patch loc, 1st called addr found at index 7273691 offset hex 6F0CDB raw val 6D0EA9 final offset DC1B90
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 9756494 offset hex 521EF4E
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8142355 offset hex 7C4E13
 map stay open in combat found at index 10026194 offset hex 990CD2
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -581,6 +585,7 @@ CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final off
 free cam patch loc, 1st called addr found at index 7278603 offset hex 6F200B raw val 6D7EF9 final offset DC9F10
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 8585595 offset hex 511417B
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8150547 offset hex 7C6E13
 map stay open in combat found at index 10045687 offset hex 9958F7
 enemyRepeatActionOff (1st sect) found at index 31726172 offset hex 1E42A5C with offset 1E42A63
@@ -639,6 +644,7 @@ CS::FieldArea found at index 6601106 offset hex 64C992 raw val 361B6A7 final off
 free cam patch loc, 1st called addr found at index 7278603 offset hex 6F200B raw val 6D7DF9 final offset DC9E10
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 2893629 offset hex 4BA673D
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8150547 offset hex 7C6E13
 map stay open in combat found at index 10045703 offset hex 995907
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -697,6 +703,7 @@ CS::FieldArea found at index 6601074 offset hex 64C972 raw val 361B6C7 final off
 free cam patch loc, 1st called addr found at index 7278571 offset hex 6F1FEB raw val 6D7DF9 final offset DC9DF0
 Nothing found for free cam player control patch loc
 free cam player control patch loc (2nd section) found at index 13482474 offset hex 55BF9EA
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8150515 offset hex 7C6DF3
 map stay open in combat found at index 10045671 offset hex 9958E7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -755,6 +762,7 @@ CS::FieldArea found at index 6612402 offset hex 64F5B2 raw val 35BBD07 final off
 free cam patch loc, 1st called addr found at index 7294651 offset hex 6F5EBB raw val 6B4AC9 final offset DAA990
 free cam player control patch loc found at index 6691014 offset hex 6628C6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8152947 offset hex 7C7773
 map stay open in combat found at index 9906631 offset hex 9739C7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -813,6 +821,7 @@ CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final off
 free cam patch loc, 1st called addr found at index 7294411 offset hex 6F5DCB raw val 6B4AC9 final offset DAA8A0
 free cam player control patch loc found at index 6690774 offset hex 6627D6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8152707 offset hex 7C7683
 map stay open in combat found at index 9906391 offset hex 9738D7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -871,6 +880,7 @@ CS::FieldArea found at index 6612162 offset hex 64F4C2 raw val 35BBDF7 final off
 free cam patch loc, 1st called addr found at index 7294411 offset hex 6F5DCB raw val 6B4AC9 final offset DAA8A0
 free cam player control patch loc found at index 6690774 offset hex 6627D6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8152707 offset hex 7C7683
 map stay open in combat found at index 9906391 offset hex 9738D7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -929,6 +939,7 @@ CS::FieldArea found at index 6615106 offset hex 650042 raw val 35D3027 final off
 free cam patch loc, 1st called addr found at index 7298171 offset hex 6F6C7B raw val 6BB9F9 final offset DB2680
 free cam player control patch loc found at index 6694326 offset hex 6635B6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8160467 offset hex 7C94D3
 map stay open in combat found at index 9923223 offset hex 977A97
 enemyRepeatActionOff (1st sect) found at index 3568602 offset hex 3683DA with offset 3683E1
@@ -987,6 +998,7 @@ CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final off
 free cam patch loc, 1st called addr found at index 7305931 offset hex 6F8ACB raw val 6BFF29 final offset DB8A00
 free cam player control patch loc found at index 6700774 offset hex 664EE6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8168659 offset hex 7CB4D3
 map stay open in combat found at index 9931495 offset hex 979AE7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1045,6 +1057,7 @@ CS::FieldArea found at index 6621474 offset hex 651922 raw val 35E296F final off
 free cam patch loc, 1st called addr found at index 7305931 offset hex 6F8ACB raw val 6BFF29 final offset DB8A00
 free cam player control patch loc found at index 6700774 offset hex 664EE6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8168659 offset hex 7CB4D3
 map stay open in combat found at index 9931495 offset hex 979AE7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1103,6 +1116,7 @@ CS::FieldArea found at index 6625042 offset hex 652712 raw val 35FC537 final off
 free cam patch loc, 1st called addr found at index 7311899 offset hex 6FA21B raw val 6C1DC9 final offset DBBFF0
 free cam player control patch loc found at index 6704566 offset hex 665DB6
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8174611 offset hex 7CCC13
 map stay open in combat found at index 9937447 offset hex 97B227
 enemyRepeatActionOff (1st sect) found at index 12051263 offset hex B7F33F with offset B7F346
@@ -1161,6 +1175,7 @@ CS::FieldArea found at index 6678626 offset hex 65F862 raw val 367D317 final off
 free cam patch loc, 1st called addr found at index 7367163 offset hex 7079FB raw val 6FAEB9 final offset E028C0
 free cam player control patch loc found at index 6758294 offset hex 672F96
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8236723 offset hex 7DBEB3
 map stay open in combat found at index 10093751 offset hex 9A14B7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1219,6 +1234,7 @@ CS::FieldArea found at index 6678626 offset hex 65F862 raw val 367D317 final off
 free cam patch loc, 1st called addr found at index 7367163 offset hex 7079FB raw val 6FAE99 final offset E028A0
 free cam player control patch loc found at index 6758294 offset hex 672F96
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8236723 offset hex 7DBEB3
 map stay open in combat found at index 10093751 offset hex 9A14B7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1277,6 +1293,7 @@ CS::FieldArea found at index 6682562 offset hex 6607C2 raw val 367F7F7 final off
 free cam patch loc, 1st called addr found at index 7371419 offset hex 708A9B raw val 6FCB29 final offset E055D0
 free cam player control patch loc found at index 6762294 offset hex 673F36
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8241075 offset hex 7DCFB3
 map stay open in combat found at index 10102023 offset hex 9A3507
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1335,6 +1352,7 @@ CS::FieldArea found at index 6682658 offset hex 660822 raw val 367F797 final off
 free cam patch loc, 1st called addr found at index 7371515 offset hex 708AFB raw val 6FCBD9 final offset E056E0
 free cam player control patch loc found at index 6762390 offset hex 673F96
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8241171 offset hex 7DD013
 map stay open in combat found at index 10102119 offset hex 9A3567
 enemyRepeatActionOff (1st sect) found at index 24856863 offset hex 17B591F with offset 17B5926
@@ -1367,7 +1385,7 @@ PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
 TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
-Processing exe: C:\fromexes\eldenring_2.00.0.exe
+Processing exe: C:\fromexes\eldenring_1.10.0.exe
 
 CS::WorldChrManImp found at index 1807079 offset hex 1BA2E7 raw val 3B22AE5 final offset 3CDCDD8
 CS::WorldChrManImp offset found at index 1807079 offset hex 1BA2E7 raw val 1E508
@@ -1393,6 +1411,7 @@ CS::FieldArea found at index 6683282 offset hex 660A92 raw val 367F527 final off
 free cam patch loc, 1st called addr found at index 7372171 offset hex 708D8B raw val 6FCBF9 final offset E05990
 free cam player control patch loc found at index 6763014 offset hex 674206
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8241827 offset hex 7DD2A3
 map stay open in combat found at index 10102775 offset hex 9A37F7
 enemyRepeatActionOff (1st sect) found at index 31045360 offset hex 1D9C6F0 with offset 1D9C6F7
@@ -1425,7 +1444,7 @@ PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
-Processing exe: C:\fromexes\eldenring_2.01.0.exe
+Processing exe: C:\fromexes\eldenring_1.10.1.exe
 
 CS::WorldChrManImp found at index 1807079 offset hex 1BA2E7 raw val 3B22AE5 final offset 3CDCDD8
 CS::WorldChrManImp offset found at index 1807079 offset hex 1BA2E7 raw val 1E508
@@ -1451,6 +1470,7 @@ CS::FieldArea found at index 6683282 offset hex 660A92 raw val 367F527 final off
 free cam patch loc, 1st called addr found at index 7372171 offset hex 708D8B raw val 6FCCD9 final offset E05A70
 free cam player control patch loc found at index 6763014 offset hex 674206
 Nothing found for free cam player control patch loc (2nd section)
+Nothing found for free cam player control patch loc 1.12
 map open in combat found at index 8241827 offset hex 7DD2A3
 map stay open in combat found at index 10102775 offset hex 9A37F7
 Nothing found for enemyRepeatActionOff (1st sect)
@@ -1483,7 +1503,7 @@ PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
-Processing exe: C:\fromexes\eldenring_2.20.0.exe
+Processing exe: C:\fromexes\eldenring_1.12.1.exe
 
 CS::WorldChrManImp found at index 1809655 offset hex 1BACF7 raw val 3BAB285 final offset 3D65F88
 CS::WorldChrManImp offset found at index 1809655 offset hex 1BACF7 raw val 1E508
@@ -1509,8 +1529,9 @@ CS::FieldArea found at index 6736338 offset hex 66D9D2 raw val 36FB7FF final off
 free cam patch loc, 1st called addr found at index 7430338 offset hex 7170C2 raw val 72BDF2 final offset E42EC0
 Nothing found for free cam player control patch loc
 Nothing found for free cam player control patch loc (2nd section)
+free cam player control patch loc 1.12 found at index 6817637 offset hex 681765
 map open in combat found at index 8313203 offset hex 7EE973
-Nothing found for map stay open in combat
+map stay open in combat found at index 10233195 offset hex 9C356B
 Nothing found for enemyRepeatActionOff (1st sect)
 enemyRepeatActionOff (2nd sect) found at index 15285123 offset hex 5AA1B83 with offset 5AA1B8A
 warp call one found at index 6252624 offset hex 5F7850
@@ -1539,6 +1560,7 @@ mapIDinPlayerIns found at index 6614370 offset hex 64FD62 raw val 6D0
 worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
+codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
