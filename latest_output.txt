@@ -380,6 +380,7 @@ mapIDinPlayerIns found at index 6440767 offset hex 62573F raw val 6C8
 Nothing found for worldChrManChrSetOffset
 PGDataOffset found at index 6465088 offset hex 62B640 raw val 570
 TorrentIDOffset found at index 6465088 offset hex 62B640 raw val 930
+GLOBAL_CSEventFlagMan found at index 2718904 offset hex 298CB8 raw val 39AAC08 final offset 3C438C8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.0.exe
@@ -439,6 +440,7 @@ mapIDinPlayerIns found at index 6480831 offset hex 62F3BF raw val 6C8
 worldChrManChrSetOffset found at index 5203256 offset hex 4F7538 raw val 18038
 PGDataOffset found at index 6505472 offset hex 635400 raw val 570
 TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
+GLOBAL_CSEventFlagMan found at index 2733736 offset hex 29C6A8 raw val 39B6038 final offset 3C526E8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.1_maybepatched.exe
@@ -498,6 +500,7 @@ mapIDinPlayerIns found at index 6480943 offset hex 62F42F raw val 6C8
 worldChrManChrSetOffset found at index 5203368 offset hex 4F75A8 raw val 18038
 PGDataOffset found at index 6505584 offset hex 635470 raw val 570
 TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
+GLOBAL_CSEventFlagMan found at index 2733848 offset hex 29C718 raw val 39B5FE8 final offset 3C52708
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.02.3.exe
@@ -557,6 +560,7 @@ mapIDinPlayerIns found at index 6481231 offset hex 62F54F raw val 6C8
 worldChrManChrSetOffset found at index 5203656 offset hex 4F76C8 raw val 18038
 PGDataOffset found at index 6505872 offset hex 635590 raw val 570
 TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
+GLOBAL_CSEventFlagMan found at index 2734136 offset hex 29C838 raw val 39B8F08 final offset 3C55748
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.0.exe
@@ -616,6 +620,7 @@ mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
 worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
+GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.1.exe
@@ -675,6 +680,7 @@ mapIDinPlayerIns found at index 6484911 offset hex 6303AF raw val 6C8
 worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
+GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.03.2.exe
@@ -734,6 +740,7 @@ mapIDinPlayerIns found at index 6484879 offset hex 63038F raw val 6C8
 worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509536 offset hex 6363E0 raw val 570
 TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.0.exe
@@ -793,6 +800,7 @@ mapIDinPlayerIns found at index 6496600 offset hex 633158 raw val 6C0
 worldChrManChrSetOffset found at index 5219304 offset hex 4FB3E8 raw val 18038
 PGDataOffset found at index 6521312 offset hex 6391E0 raw val 570
 TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1.exe
@@ -852,6 +860,7 @@ mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
 worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
@@ -911,6 +920,7 @@ mapIDinPlayerIns found at index 6496360 offset hex 633068 raw val 6C0
 worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.05.0.exe
@@ -970,6 +980,7 @@ mapIDinPlayerIns found at index 6499240 offset hex 633BA8 raw val 6C0
 worldChrManChrSetOffset found at index 5219976 offset hex 4FB688 raw val 18038
 PGDataOffset found at index 6523952 offset hex 639C30 raw val 570
 TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
+GLOBAL_CSEventFlagMan found at index 2744632 offset hex 29F138 raw val 39831A8 final offset 3C222E8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0.exe
@@ -1029,6 +1040,7 @@ mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
 worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
+GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
@@ -1088,6 +1100,7 @@ mapIDinPlayerIns found at index 6505304 offset hex 635358 raw val 6C0
 worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
+GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.07.0.exe
@@ -1147,6 +1160,7 @@ mapIDinPlayerIns found at index 6509016 offset hex 6361D8 raw val 6C0
 worldChrManChrSetOffset found at index 5224360 offset hex 4FC7A8 raw val 1DED8
 PGDataOffset found at index 6533776 offset hex 63C290 raw val 570
 TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
+GLOBAL_CSEventFlagMan found at index 2748408 offset hex 29FFF8 raw val 39ADEC8 final offset 3C4DEC8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.08.0.exe
@@ -1206,6 +1220,7 @@ mapIDinPlayerIns found at index 6560802 offset hex 642C22 raw val 6D0
 worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.08.1.exe
@@ -1265,6 +1280,7 @@ mapIDinPlayerIns found at index 6560802 offset hex 642C22 raw val 6D0
 worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.09.0.exe
@@ -1324,6 +1340,7 @@ mapIDinPlayerIns found at index 6564258 offset hex 6439A2 raw val 6D0
 worldChrManChrSetOffset found at index 5254744 offset hex 503E58 raw val 1DED8
 PGDataOffset found at index 6589424 offset hex 649BF0 raw val 580
 TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.09.1.exe
@@ -1383,6 +1400,7 @@ mapIDinPlayerIns found at index 6564354 offset hex 643A02 raw val 6D0
 worldChrManChrSetOffset found at index 5254840 offset hex 503EB8 raw val 1DED8
 PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
 TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.10.0.exe
@@ -1442,6 +1460,7 @@ mapIDinPlayerIns found at index 6564978 offset hex 643C72 raw val 6D0
 worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.10.1.exe
@@ -1501,6 +1520,7 @@ mapIDinPlayerIns found at index 6564978 offset hex 643C72 raw val 6D0
 worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
+GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\eldenring_1.12.1.exe
@@ -1560,9 +1580,69 @@ mapIDinPlayerIns found at index 6614370 offset hex 64FD62 raw val 6D0
 worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
+GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D38 final offset 3D68448
+codeCave_0x60_nops found at index 148543 offset hex 2543F
+
+Processing exe: C:\fromexes\eldenring_1.12.3.exe
+
+CS::WorldChrManImp found at index 1809655 offset hex 1BACF7 raw val 3BAB2A5 final offset 3D65FA8
+CS::WorldChrManImp offset found at index 1809655 offset hex 1BACF7 raw val 1E508
+hitboxBase found at index 11526279 offset hex AFF087 raw val 326730A final offset 3D66398
+hitboxOffset found at index 5394415 offset hex 525FEF raw val A0
+groupMaskBase found at index 6818406 offset hex 681A66 raw val 34B2293 final offset 3B33D00
+groupMaskTrees found at index 6818608 offset hex 681B30 raw val 34B21D2 final offset 3B33D09
+groupMaskMap found at index 6818439 offset hex 681A87 raw val 34B2273 final offset 3B33D01
+meshesOff found at index 7407015 offset hex 7115A7 raw val 3658B5E final offset 3D6A10C
+CS::GameMan found at index 6784416 offset hex 6795A0 raw val 36F0391 final offset 3D69938
+logoScreenBase found at index 11578749 offset hex B0BD7D
+targetHookLoc found at index 7430062 offset hex 716FAE
+targetHookLoc offset found at index 7430062 offset hex 716FAE raw val 6B0
+noGoodsConsume found at index 6627559 offset hex 6530E7 raw val 37130D5 final offset 3D661C3
+noAIUpdate found at index 3959185 offset hex 3C7991 raw val 399E837 final offset 3D661CF
+chrDbg found at index 5306495 offset hex 51087F raw val 3855932 final offset 3D661B8
+CSMenuManImp found at index 7695734 offset hex 757D76 raw val 3613A53 final offset 3D6B7D0
+fontDrawOffset found at index 40417936 offset hex 268CA90
+DbgEventManOff found at index 11498864 offset hex AF8570 raw val 326FAA1 final offset 3D68018
+Event patch func 1 found at index 5786817 offset hex 585CC1 raw val 8CD4EA final offset E531B0
+Event patch func 2 found at index 5786817 offset hex 585CC1 raw val 8CD4C1 final offset E53190
+CS::FieldArea found at index 6736338 offset hex 66D9D2 raw val 36FB81F final offset 3D691F8
+free cam patch loc, 1st called addr found at index 7430338 offset hex 7170C2 raw val 72BE12 final offset E42EE0
+Nothing found for free cam player control patch loc
+Nothing found for free cam player control patch loc (2nd section)
+free cam player control patch loc 1.12 found at index 6817637 offset hex 681765
+map open in combat found at index 8313203 offset hex 7EE973
+map stay open in combat found at index 10233195 offset hex 9C356B
+Nothing found for enemyRepeatActionOff (1st sect)
+enemyRepeatActionOff (2nd sect) found at index 14906583 offset hex 5A454D7 with offset 5A454DE
+warp call one found at index 6252624 offset hex 5F7850
+warp call two found at index 6788976 offset hex 67A770
+usrInputMgrImplOff found at index 1251797 offset hex 1329D5 raw val 472B1AC final offset 485DB88
+steam input flag check found at index 32668998 offset hex 1F28D46 raw val 88B
+csFlipperOff found at index 14581647 offset hex DE8F8F raw val 37A0B62 final offset 4589AF8
+csFlipperOff gameSpeedOffset found at index 14581647 offset hex DE8F8F raw val 2CC
+frame time target (1/60.0f) found at index 15210202 offset hex E826DA with offset E826E0
+no-death offset in CSChrDataModule found at index 4416850 offset hex 437552 raw val 19B
+GameDataMan found at index 2446912 offset hex 256640 raw val 3B07911 final offset 3D5DF58
+CS::CSTrophyImp found at index 14607704 offset hex DEF558 raw val 3799F38 final offset 4589498
+NPC part damage hook found at index 5965204 offset hex 5B1594
+Weapon upgrade rune cost found at index 7887057 offset hex 7868D1
+Weapon upgrade material cost found at index 8824796 offset hex 86B7DC
+soundDrawPatchLoc found at index 3397062 offset hex 33E5C6
+allTargetingDebugDraw found at index 3396230 offset hex 33E286 raw val 3A23FFE final offset 3D6228B
+MapItemManImpl found at index 5941422 offset hex 5AB8AE raw val 37BC1BB final offset 3D67A70
+ItemSpawnCall found at index 5633330 offset hex 560532 with offset 5604E0
+Nothing found for ItemSpawnCall 1.02.x
+allChrNoDeath found at index 4416923 offset hex 43759B raw val 392EC28 final offset 3D661CA
+playerNoDeath found at index 4417001 offset hex 4375E9 raw val 392EBD0 final offset 3D661C0
+torrentDisabledCheckOne found at index 13557986 offset hex CEF0E2 with offset CEF0EA
+torrentDisabledCheckTwo found at index 7360146 offset hex 705E92 with offset 705E9F
+mapIDinPlayerIns found at index 6614370 offset hex 64FD62 raw val 6D0
+worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
+PGDataOffset found at index 6639904 offset hex 656120 raw val 580
+TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
+GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D58 final offset 3D68468
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
 csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
-

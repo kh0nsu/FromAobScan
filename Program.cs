@@ -176,6 +176,8 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B81 ????0000 48 C702 FFFFFFFF 48 85C0 74 0A 48 8B80 ????0000 48 8902 48 8BC2", "PGDataOffset", 3, startIndex: 6400000); //patch stable, but just in case
                 findAddr(textSection, header.VirtualAddress, "48 8B81 ????0000 48 C702 FFFFFFFF 48 85C0 74 0A 48 8B80 ????0000 48 8902 48 8BC2", "TorrentIDOffset", 3 + 4 + 3 + 4 + 3 + 2 + 3, startIndex: 6400000); //from this ID, eg. 0x1XX00000, we need the XX. prob should sanity check the rest.
 
+                findAddr(textSection, header.VirtualAddress, "48 833D ???????? 00 0F84 ????0000 44 8BE6 85 C0 0F 84 ????0000", "GLOBAL_CSEventFlagMan", 1 + 2, 1 + 2 + 4 + 1, startIndex: 2000000); //singleton, type CS::CSFD4VirtualMemoryFlag
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F
