@@ -1,5 +1,10 @@
 Enter test AOB, or blank to run all:
 Enter exe folder (default C:\fromexes):
+Processing exe: C:\fromexes\armoredcore6_1.01.exe
+
+alt stutter fix, patch in 4885C990909090 found at index 43339746 offset hex 2955FE2 with offset 2955FE6
+alt stutter fix, patch in 4885C990909090 found at index 43339826 offset hex 2956032 with offset 2956036
+
 Processing exe: C:\fromexes\DarkSoulsIII_1.04_crashfix.exe
 
 NS_SPRJ::GameDataMan found at index 4625728 offset hex 46A540 raw val 4232BD1 final offset 469D118
@@ -38,6 +43,7 @@ NPC part damage hook found at index 4607853 offset hex 465F6D
 Global Speed found at index 9957906 offset hex 980212 with offset 980218
 debugMenuFirstPatchLoc found at index 15167716 offset hex E780E4
 noLogoPatchLoc found at index 12296399 offset hex BBB0CF
+alt stutter fix, patch in 4885C990909090 found at index 23884171 offset hex 16C818B with offset 16C818F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.08_crashfix.exe
 
@@ -76,6 +82,7 @@ NPC part damage hook found at index 4615629 offset hex 467DCD
 Global Speed found at index 10016098 offset hex 98E562 with offset 98E568
 debugMenuFirstPatchLoc found at index 15394260 offset hex EAF5D4
 noLogoPatchLoc found at index 12409551 offset hex BD6ACF
+alt stutter fix, patch in 4885C990909090 found at index 24833867 offset hex 17AFF4B with offset 17AFF4F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.12_crashfix.exe
 
@@ -116,6 +123,7 @@ NPC part damage hook found at index 4616653 offset hex 4681CD
 Global Speed found at index 10055346 offset hex 997EB2 with offset 997EB8
 debugMenuFirstPatchLoc found at index 15506740 offset hex ECAD34
 noLogoPatchLoc found at index 12479903 offset hex BE7D9F
+alt stutter fix, patch in 4885C990909090 found at index 24945947 offset hex 17CB51B with offset 17CB51F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.1.exe
 
@@ -158,6 +166,7 @@ NPC part damage hook found at index 4617069 offset hex 46836D
 Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
 debugMenuFirstPatchLoc found at index 15575908 offset hex EDBB64
 noLogoPatchLoc found at index 12530367 offset hex BF42BF
+alt stutter fix, patch in 4885C990909090 found at index 25015147 offset hex 17DC36B with offset 17DC36F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.1_livetext1.exe
 
@@ -200,6 +209,7 @@ NPC part damage hook found at index 4617069 offset hex 46836D
 Global Speed found at index 10104130 offset hex 9A3D42 with offset 9A3D48
 debugMenuFirstPatchLoc found at index 15575908 offset hex EDBB64
 noLogoPatchLoc found at index 12530367 offset hex BF42BF
+alt stutter fix, patch in 4885C990909090 found at index 25015147 offset hex 17DC36B with offset 17DC36F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.2.exe
 
@@ -240,6 +250,7 @@ NPC part damage hook found at index 4617069 offset hex 46836D
 Global Speed found at index 10104434 offset hex 9A3E72 with offset 9A3E78
 debugMenuFirstPatchLoc found at index 15576212 offset hex EDBC94
 noLogoPatchLoc found at index 12530671 offset hex BF43EF
+alt stutter fix, patch in 4885C990909090 found at index 25015451 offset hex 17DC49B with offset 17DC49F
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15.exe
 
@@ -281,6 +292,7 @@ NPC part damage hook found at index 4616797 offset hex 46825D
 Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
 debugMenuFirstPatchLoc found at index 15518948 offset hex ECDCE4
 noLogoPatchLoc found at index 12487951 offset hex BE9D0F
+alt stutter fix, patch in 4885C990909090 found at index 24958155 offset hex 17CE4CB with offset 17CE4CF
 
 Processing exe: C:\fromexes\DarkSoulsIII_1.15_livetext1.exe
 
@@ -322,6 +334,7 @@ NPC part damage hook found at index 4616797 offset hex 46825D
 Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
 debugMenuFirstPatchLoc found at index 15518948 offset hex ECDCE4
 noLogoPatchLoc found at index 12487951 offset hex BE9D0F
+alt stutter fix, patch in 4885C990909090 found at index 24958155 offset hex 17CE4CB with offset 17CE4CF
 
 Processing exe: C:\fromexes\eldenring_1.01.0.exe
 
@@ -382,6 +395,7 @@ PGDataOffset found at index 6465088 offset hex 62B640 raw val 570
 TorrentIDOffset found at index 6465088 offset hex 62B640 raw val 930
 GLOBAL_CSEventFlagMan found at index 2718904 offset hex 298CB8 raw val 39AAC08 final offset 3C438C8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31916994 offset hex 1E713C2 with offset 1E713C6
 
 Processing exe: C:\fromexes\eldenring_1.02.0.exe
 
@@ -442,6 +456,7 @@ PGDataOffset found at index 6505472 offset hex 635400 raw val 570
 TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733736 offset hex 29C6A8 raw val 39B6038 final offset 3C526E8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31964738 offset hex 1E7CE42 with offset 1E7CE46
 
 Processing exe: C:\fromexes\eldenring_1.02.1_maybepatched.exe
 
@@ -502,6 +517,7 @@ PGDataOffset found at index 6505584 offset hex 635470 raw val 570
 TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733848 offset hex 29C718 raw val 39B5FE8 final offset 3C52708
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31964818 offset hex 1E7CE92 with offset 1E7CE96
 
 Processing exe: C:\fromexes\eldenring_1.02.3.exe
 
@@ -562,6 +578,7 @@ PGDataOffset found at index 6505872 offset hex 635590 raw val 570
 TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
 GLOBAL_CSEventFlagMan found at index 2734136 offset hex 29C838 raw val 39B8F08 final offset 3C55748
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31970482 offset hex 1E7E4B2 with offset 1E7E4B6
 
 Processing exe: C:\fromexes\eldenring_1.03.0.exe
 
@@ -622,6 +639,7 @@ PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32009234 offset hex 1E87C12 with offset 1E87C16
 
 Processing exe: C:\fromexes\eldenring_1.03.1.exe
 
@@ -682,6 +700,7 @@ PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32008626 offset hex 1E879B2 with offset 1E879B6
 
 Processing exe: C:\fromexes\eldenring_1.03.2.exe
 
@@ -742,6 +761,7 @@ PGDataOffset found at index 6509536 offset hex 6363E0 raw val 570
 TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32008594 offset hex 1E87992 with offset 1E87996
 
 Processing exe: C:\fromexes\eldenring_1.04.0.exe
 
@@ -802,6 +822,7 @@ PGDataOffset found at index 6521312 offset hex 6391E0 raw val 570
 TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31909378 offset hex 1E6F602 with offset 1E6F606
 
 Processing exe: C:\fromexes\eldenring_1.04.1.exe
 
@@ -862,6 +883,7 @@ PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
 Processing exe: C:\fromexes\eldenring_1.04.1_deob.exe
 
@@ -922,6 +944,7 @@ PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
 Processing exe: C:\fromexes\eldenring_1.05.0.exe
 
@@ -982,6 +1005,7 @@ PGDataOffset found at index 6523952 offset hex 639C30 raw val 570
 TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744632 offset hex 29F138 raw val 39831A8 final offset 3C222E8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 31967090 offset hex 1E7D772 with offset 1E7D776
 
 Processing exe: C:\fromexes\eldenring_1.06.0.exe
 
@@ -1042,6 +1066,7 @@ PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
 Processing exe: C:\fromexes\eldenring_1.06.0_deob.exe
 
@@ -1102,6 +1127,7 @@ PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
 Processing exe: C:\fromexes\eldenring_1.07.0.exe
 
@@ -1162,6 +1188,7 @@ PGDataOffset found at index 6533776 offset hex 63C290 raw val 570
 TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748408 offset hex 29FFF8 raw val 39ADEC8 final offset 3C4DEC8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32063138 offset hex 1E94EA2 with offset 1E94EA6
 
 Processing exe: C:\fromexes\eldenring_1.08.0.exe
 
@@ -1222,6 +1249,7 @@ PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32375970 offset hex 1EE14A2 with offset 1EE14A6
 
 Processing exe: C:\fromexes\eldenring_1.08.1.exe
 
@@ -1282,6 +1310,7 @@ PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32375938 offset hex 1EE1482 with offset 1EE1486
 
 Processing exe: C:\fromexes\eldenring_1.09.0.exe
 
@@ -1342,6 +1371,7 @@ PGDataOffset found at index 6589424 offset hex 649BF0 raw val 580
 TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32387442 offset hex 1EE4172 with offset 1EE4176
 
 Processing exe: C:\fromexes\eldenring_1.09.1.exe
 
@@ -1402,6 +1432,7 @@ PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
 TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32387714 offset hex 1EE4282 with offset 1EE4286
 
 Processing exe: C:\fromexes\eldenring_1.10.0.exe
 
@@ -1462,6 +1493,7 @@ PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32388402 offset hex 1EE4532 with offset 1EE4536
 
 Processing exe: C:\fromexes\eldenring_1.10.1.exe
 
@@ -1522,6 +1554,7 @@ PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32388626 offset hex 1EE4612 with offset 1EE4616
 
 Processing exe: C:\fromexes\eldenring_1.12.1.exe
 
@@ -1582,6 +1615,7 @@ PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D38 final offset 3D68448
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32668962 offset hex 1F28D22 with offset 1F28D26
 
 Processing exe: C:\fromexes\eldenring_1.12.3.exe
 
@@ -1642,7 +1676,15 @@ PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D58 final offset 3D68468
 codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32668994 offset hex 1F28D42 with offset 1F28D46
+
+Processing exe: C:\fromexes\pc_armoredcore6_runtime_1.01.0.exe
+
+alt stutter fix, patch in 4885C990909090 found at index 43339746 offset hex 2955FE2 with offset 2955FE6
+alt stutter fix, patch in 4885C990909090 found at index 43339826 offset hex 2956032 with offset 2956036
 
 Processing exe: C:\fromexes\sekiro_1.06.unpacked.exe
 
 csFlipperOff found at index 18427783 offset hex 1193F87 raw val 2D0B7BA final offset 3E9F748
+alt stutter fix, patch in 4885C990909090 found at index 27461250 offset hex 1A31682 with offset 1A31686
+

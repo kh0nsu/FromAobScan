@@ -240,6 +240,12 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B 05 ?? ?? ?? ?? F3 0F 10 88 ?? ?? ?? ?? F3 0F", "csFlipperOff", 3, 7);
             };
 
+            Action doAllGameScans = () =>
+            {
+                findAddr(textSection, header.VirtualAddress, "48 ?? ?? ?? 80 b9 ?? ?? 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 ?? 8b ?? ?? 44 24 20 01", "alt stutter fix, patch in 4885C990909090", justOffset: 4, singleMatch: false);
+                //if there's multiple matches, patch them all. patch seems complicated but it just sets the zero flag with test rcx,rcx. easier than patching the JNZ as it's in different places in different games.
+            };
+
             if (!string.IsNullOrEmpty(testAob))
             {
                 findAddr(textSection, header.VirtualAddress, testAob, "Test AOB (section 1)", singleMatch: false);
@@ -250,7 +256,8 @@ namespace aobScanExe
                 if (exe.ToLower().Contains("elden")) { doERScan(); }
                 if (exe.ToLower().Contains("darksoulsiii")) { doDS3Scan(); }
                 if (exe.ToLower().Contains("sekiro")) { doSekiroScan(); }
-                if (exe.ToLower().Contains("armor")) { doDS3Scan(); doSekiroScan(); doERScan(); } //try all for the moment
+                //if (exe.ToLower().Contains("armor")) { doDS3Scan(); doSekiroScan(); doERScan(); } //try all for the moment
+                doAllGameScans();
             }
         }
 
