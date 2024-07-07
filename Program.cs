@@ -178,6 +178,8 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "48 833D ???????? 00 0F84 ????0000 44 8BE6 85 C0 0F 84 ????0000", "GLOBAL_CSEventFlagMan", 1 + 2, 1 + 2 + 4 + 1, startIndex: 2000000); //singleton, type CS::CSFD4VirtualMemoryFlag
 
+                findAddr(textSection, header.VirtualAddress, "80 b9 ?? ?? 00 00 00 74 08 0f b6 81 ?? ?? 00 00 c3 0f b6 81 ?? ?? 00 00 c3", "CS::PlayerGameData::GetScadutreeBlessing", startIndex: 2000000); //if scan fails, can assume .exe is pre-dlc
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F

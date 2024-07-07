@@ -394,6 +394,7 @@ Nothing found for worldChrManChrSetOffset
 PGDataOffset found at index 6465088 offset hex 62B640 raw val 570
 TorrentIDOffset found at index 6465088 offset hex 62B640 raw val 930
 GLOBAL_CSEventFlagMan found at index 2718904 offset hex 298CB8 raw val 39AAC08 final offset 3C438C8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31916994 offset hex 1E713C2 with offset 1E713C6
 
@@ -455,6 +456,7 @@ worldChrManChrSetOffset found at index 5203256 offset hex 4F7538 raw val 18038
 PGDataOffset found at index 6505472 offset hex 635400 raw val 570
 TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733736 offset hex 29C6A8 raw val 39B6038 final offset 3C526E8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964738 offset hex 1E7CE42 with offset 1E7CE46
 
@@ -516,6 +518,7 @@ worldChrManChrSetOffset found at index 5203368 offset hex 4F75A8 raw val 18038
 PGDataOffset found at index 6505584 offset hex 635470 raw val 570
 TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733848 offset hex 29C718 raw val 39B5FE8 final offset 3C52708
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964818 offset hex 1E7CE92 with offset 1E7CE96
 
@@ -577,6 +580,7 @@ worldChrManChrSetOffset found at index 5203656 offset hex 4F76C8 raw val 18038
 PGDataOffset found at index 6505872 offset hex 635590 raw val 570
 TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
 GLOBAL_CSEventFlagMan found at index 2734136 offset hex 29C838 raw val 39B8F08 final offset 3C55748
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31970482 offset hex 1E7E4B2 with offset 1E7E4B6
 
@@ -638,6 +642,7 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32009234 offset hex 1E87C12 with offset 1E87C16
 
@@ -699,6 +704,7 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008626 offset hex 1E879B2 with offset 1E879B6
 
@@ -760,6 +766,7 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509536 offset hex 6363E0 raw val 570
 TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008594 offset hex 1E87992 with offset 1E87996
 
@@ -821,6 +828,7 @@ worldChrManChrSetOffset found at index 5219304 offset hex 4FB3E8 raw val 18038
 PGDataOffset found at index 6521312 offset hex 6391E0 raw val 570
 TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909378 offset hex 1E6F602 with offset 1E6F606
 
@@ -882,6 +890,7 @@ worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -943,6 +952,7 @@ worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -1004,6 +1014,7 @@ worldChrManChrSetOffset found at index 5219976 offset hex 4FB688 raw val 18038
 PGDataOffset found at index 6523952 offset hex 639C30 raw val 570
 TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744632 offset hex 29F138 raw val 39831A8 final offset 3C222E8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31967090 offset hex 1E7D772 with offset 1E7D776
 
@@ -1065,6 +1076,7 @@ worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1126,6 +1138,7 @@ worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1187,6 +1200,7 @@ worldChrManChrSetOffset found at index 5224360 offset hex 4FC7A8 raw val 1DED8
 PGDataOffset found at index 6533776 offset hex 63C290 raw val 570
 TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748408 offset hex 29FFF8 raw val 39ADEC8 final offset 3C4DEC8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32063138 offset hex 1E94EA2 with offset 1E94EA6
 
@@ -1248,6 +1262,7 @@ worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375970 offset hex 1EE14A2 with offset 1EE14A6
 
@@ -1309,6 +1324,7 @@ worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375938 offset hex 1EE1482 with offset 1EE1486
 
@@ -1370,6 +1386,7 @@ worldChrManChrSetOffset found at index 5254744 offset hex 503E58 raw val 1DED8
 PGDataOffset found at index 6589424 offset hex 649BF0 raw val 580
 TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387442 offset hex 1EE4172 with offset 1EE4176
 
@@ -1431,6 +1448,7 @@ worldChrManChrSetOffset found at index 5254840 offset hex 503EB8 raw val 1DED8
 PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
 TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387714 offset hex 1EE4282 with offset 1EE4286
 
@@ -1492,6 +1510,7 @@ worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388402 offset hex 1EE4532 with offset 1EE4536
 
@@ -1553,6 +1572,7 @@ worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+Nothing found for CS::PlayerGameData::GetScadutreeBlessing
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388626 offset hex 1EE4612 with offset 1EE4616
 
@@ -1614,6 +1634,7 @@ worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D38 final offset 3D68448
+CS::PlayerGameData::GetScadutreeBlessing found at index 2483872 offset hex 25F6A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668962 offset hex 1F28D22 with offset 1F28D26
 
@@ -1675,6 +1696,7 @@ worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D58 final offset 3D68468
+CS::PlayerGameData::GetScadutreeBlessing found at index 2483872 offset hex 25F6A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668994 offset hex 1F28D42 with offset 1F28D46
 
