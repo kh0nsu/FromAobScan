@@ -180,6 +180,8 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "80 b9 ?? ?? 00 00 00 74 08 0f b6 81 ?? ?? 00 00 c3 0f b6 81 ?? ?? 00 00 c3", "CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)", readoffset32: 20, startIndex: 2000000); //if scan fails, can assume .exe is pre-dlc
 
+                findAddr(textSection, header.VirtualAddress, "0f b6 48 04 0f 29 74 24 70 0f 57 f6 0f 29 7c 24 60", "Music volume read (patch 31C99090 to mute)", startIndex: 13000000); //patch is xor ecx,ecx. actual setting unaffected
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F
