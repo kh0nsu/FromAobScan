@@ -396,6 +396,15 @@ TorrentIDOffset found at index 6465088 offset hex 62B640 raw val 930
 GLOBAL_CSEventFlagMan found at index 2718904 offset hex 298CB8 raw val 39AAC08 final offset 3C438C8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13853098 offset hex D371AA
+bonfire menu (6 matches) found at index 8306992 offset hex 7ED130
+bonfire menu (6 matches) found at index 8307760 offset hex 7ED430
+bonfire menu (6 matches) found at index 8309024 offset hex 7ED920
+bonfire menu (6 matches) found at index 8312896 offset hex 7EE840
+bonfire menu (6 matches) found at index 8314192 offset hex 7EED50
+bonfire menu (6 matches) found at index 8314720 offset hex 7EEF60
+three more menus found at index 8317280 offset hex 7EF960
+three more menus found at index 8318144 offset hex 7EFCC0
+three more menus found at index 8319936 offset hex 7F03C0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31916994 offset hex 1E713C2 with offset 1E713C6
 
@@ -459,6 +468,15 @@ TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733736 offset hex 29C6A8 raw val 39B6038 final offset 3C526E8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13932890 offset hex D4A95A
+bonfire menu (6 matches) found at index 8351200 offset hex 7F7DE0
+bonfire menu (6 matches) found at index 8351968 offset hex 7F80E0
+bonfire menu (6 matches) found at index 8353232 offset hex 7F85D0
+bonfire menu (6 matches) found at index 8357104 offset hex 7F94F0
+bonfire menu (6 matches) found at index 8358400 offset hex 7F9A00
+bonfire menu (6 matches) found at index 8358928 offset hex 7F9C10
+three more menus found at index 8361488 offset hex 7FA610
+three more menus found at index 8362352 offset hex 7FA970
+three more menus found at index 8364144 offset hex 7FB070
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964738 offset hex 1E7CE42 with offset 1E7CE46
 
@@ -522,6 +540,15 @@ TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733848 offset hex 29C718 raw val 39B5FE8 final offset 3C52708
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13933018 offset hex D4A9DA
+bonfire menu (6 matches) found at index 8351312 offset hex 7F7E50
+bonfire menu (6 matches) found at index 8352080 offset hex 7F8150
+bonfire menu (6 matches) found at index 8353344 offset hex 7F8640
+bonfire menu (6 matches) found at index 8357216 offset hex 7F9560
+bonfire menu (6 matches) found at index 8358512 offset hex 7F9A70
+bonfire menu (6 matches) found at index 8359040 offset hex 7F9C80
+three more menus found at index 8361600 offset hex 7FA680
+three more menus found at index 8362464 offset hex 7FA9E0
+three more menus found at index 8364256 offset hex 7FB0E0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964818 offset hex 1E7CE92 with offset 1E7CE96
 
@@ -585,6 +612,15 @@ TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
 GLOBAL_CSEventFlagMan found at index 2734136 offset hex 29C838 raw val 39B8F08 final offset 3C55748
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13933610 offset hex D4AC2A
+bonfire menu (6 matches) found at index 8351520 offset hex 7F7F20
+bonfire menu (6 matches) found at index 8352288 offset hex 7F8220
+bonfire menu (6 matches) found at index 8353552 offset hex 7F8710
+bonfire menu (6 matches) found at index 8357424 offset hex 7F9630
+bonfire menu (6 matches) found at index 8358720 offset hex 7F9B40
+bonfire menu (6 matches) found at index 8359248 offset hex 7F9D50
+three more menus found at index 8361808 offset hex 7FA750
+three more menus found at index 8362672 offset hex 7FAAB0
+three more menus found at index 8364464 offset hex 7FB1B0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31970482 offset hex 1E7E4B2 with offset 1E7E4B6
 
@@ -648,6 +684,15 @@ TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967802 offset hex D531BA
+bonfire menu (6 matches) found at index 8362496 offset hex 7FAA00
+bonfire menu (6 matches) found at index 8363264 offset hex 7FAD00
+bonfire menu (6 matches) found at index 8364528 offset hex 7FB1F0
+bonfire menu (6 matches) found at index 8368768 offset hex 7FC280
+bonfire menu (6 matches) found at index 8370064 offset hex 7FC790
+bonfire menu (6 matches) found at index 8370592 offset hex 7FC9A0
+three more menus found at index 8373152 offset hex 7FD3A0
+three more menus found at index 8374016 offset hex 7FD700
+three more menus found at index 8375808 offset hex 7FDE00
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32009234 offset hex 1E87C12 with offset 1E87C16
 
@@ -711,6 +756,15 @@ TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967818 offset hex D531CA
+bonfire menu (6 matches) found at index 8362496 offset hex 7FAA00
+bonfire menu (6 matches) found at index 8363264 offset hex 7FAD00
+bonfire menu (6 matches) found at index 8364528 offset hex 7FB1F0
+bonfire menu (6 matches) found at index 8368768 offset hex 7FC280
+bonfire menu (6 matches) found at index 8370064 offset hex 7FC790
+bonfire menu (6 matches) found at index 8370592 offset hex 7FC9A0
+three more menus found at index 8373152 offset hex 7FD3A0
+three more menus found at index 8374016 offset hex 7FD700
+three more menus found at index 8375808 offset hex 7FDE00
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008626 offset hex 1E879B2 with offset 1E879B6
 
@@ -774,6 +828,15 @@ TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967786 offset hex D531AA
+bonfire menu (6 matches) found at index 8362464 offset hex 7FA9E0
+bonfire menu (6 matches) found at index 8363232 offset hex 7FACE0
+bonfire menu (6 matches) found at index 8364496 offset hex 7FB1D0
+bonfire menu (6 matches) found at index 8368736 offset hex 7FC260
+bonfire menu (6 matches) found at index 8370032 offset hex 7FC770
+bonfire menu (6 matches) found at index 8370560 offset hex 7FC980
+three more menus found at index 8373120 offset hex 7FD380
+three more menus found at index 8373984 offset hex 7FD6E0
+three more menus found at index 8375776 offset hex 7FDDE0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008594 offset hex 1E87992 with offset 1E87996
 
@@ -837,6 +900,15 @@ TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837370 offset hex D3343A
+bonfire menu (6 matches) found at index 8265344 offset hex 7E2E80
+bonfire menu (6 matches) found at index 8266112 offset hex 7E3180
+bonfire menu (6 matches) found at index 8267376 offset hex 7E3670
+bonfire menu (6 matches) found at index 8271616 offset hex 7E4700
+bonfire menu (6 matches) found at index 8272912 offset hex 7E4C10
+bonfire menu (6 matches) found at index 8273440 offset hex 7E4E20
+three more menus found at index 8276000 offset hex 7E5820
+three more menus found at index 8276864 offset hex 7E5B80
+three more menus found at index 8278656 offset hex 7E6280
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909378 offset hex 1E6F602 with offset 1E6F606
 
@@ -900,6 +972,15 @@ TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837130 offset hex D3334A
+bonfire menu (6 matches) found at index 8265104 offset hex 7E2D90
+bonfire menu (6 matches) found at index 8265872 offset hex 7E3090
+bonfire menu (6 matches) found at index 8267136 offset hex 7E3580
+bonfire menu (6 matches) found at index 8271376 offset hex 7E4610
+bonfire menu (6 matches) found at index 8272672 offset hex 7E4B20
+bonfire menu (6 matches) found at index 8273200 offset hex 7E4D30
+three more menus found at index 8275760 offset hex 7E5730
+three more menus found at index 8276624 offset hex 7E5A90
+three more menus found at index 8278416 offset hex 7E6190
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -963,6 +1044,15 @@ TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837130 offset hex D3334A
+bonfire menu (6 matches) found at index 8265104 offset hex 7E2D90
+bonfire menu (6 matches) found at index 8265872 offset hex 7E3090
+bonfire menu (6 matches) found at index 8267136 offset hex 7E3580
+bonfire menu (6 matches) found at index 8271376 offset hex 7E4610
+bonfire menu (6 matches) found at index 8272672 offset hex 7E4B20
+bonfire menu (6 matches) found at index 8273200 offset hex 7E4D30
+three more menus found at index 8275760 offset hex 7E5730
+three more menus found at index 8276624 offset hex 7E5A90
+three more menus found at index 8278416 offset hex 7E6190
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -1026,6 +1116,15 @@ TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744632 offset hex 29F138 raw val 39831A8 final offset 3C222E8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13859434 offset hex D38A6A
+bonfire menu (6 matches) found at index 8278000 offset hex 7E5FF0
+bonfire menu (6 matches) found at index 8278768 offset hex 7E62F0
+bonfire menu (6 matches) found at index 8280032 offset hex 7E67E0
+bonfire menu (6 matches) found at index 8284304 offset hex 7E7890
+bonfire menu (6 matches) found at index 8285600 offset hex 7E7DA0
+bonfire menu (6 matches) found at index 8286128 offset hex 7E7FB0
+three more menus found at index 8288688 offset hex 7E89B0
+three more menus found at index 8289552 offset hex 7E8D10
+three more menus found at index 8291344 offset hex 7E9410
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31967090 offset hex 1E7D772 with offset 1E7D776
 
@@ -1089,6 +1188,15 @@ TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13884858 offset hex D3EDBA
+bonfire menu (6 matches) found at index 8286192 offset hex 7E7FF0
+bonfire menu (6 matches) found at index 8286960 offset hex 7E82F0
+bonfire menu (6 matches) found at index 8288224 offset hex 7E87E0
+bonfire menu (6 matches) found at index 8292496 offset hex 7E9890
+bonfire menu (6 matches) found at index 8293792 offset hex 7E9DA0
+bonfire menu (6 matches) found at index 8294320 offset hex 7E9FB0
+three more menus found at index 8296880 offset hex 7EA9B0
+three more menus found at index 8297744 offset hex 7EAD10
+three more menus found at index 8299536 offset hex 7EB410
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1152,6 +1260,15 @@ TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13884858 offset hex D3EDBA
+bonfire menu (6 matches) found at index 8286192 offset hex 7E7FF0
+bonfire menu (6 matches) found at index 8286960 offset hex 7E82F0
+bonfire menu (6 matches) found at index 8288224 offset hex 7E87E0
+bonfire menu (6 matches) found at index 8292496 offset hex 7E9890
+bonfire menu (6 matches) found at index 8293792 offset hex 7E9DA0
+bonfire menu (6 matches) found at index 8294320 offset hex 7E9FB0
+three more menus found at index 8296880 offset hex 7EA9B0
+three more menus found at index 8297744 offset hex 7EAD10
+three more menus found at index 8299536 offset hex 7EB410
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1215,6 +1332,15 @@ TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748408 offset hex 29FFF8 raw val 39ADEC8 final offset 3C4DEC8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13898954 offset hex D424CA
+bonfire menu (6 matches) found at index 8292144 offset hex 7E9730
+bonfire menu (6 matches) found at index 8292912 offset hex 7E9A30
+bonfire menu (6 matches) found at index 8294176 offset hex 7E9F20
+bonfire menu (6 matches) found at index 8298448 offset hex 7EAFD0
+bonfire menu (6 matches) found at index 8299744 offset hex 7EB4E0
+bonfire menu (6 matches) found at index 8300272 offset hex 7EB6F0
+three more menus found at index 8302832 offset hex 7EC0F0
+three more menus found at index 8303696 offset hex 7EC450
+three more menus found at index 8305488 offset hex 7ECB50
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32063138 offset hex 1E94EA2 with offset 1E94EA6
 
@@ -1278,6 +1404,15 @@ TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14187786 offset hex D88D0A
+bonfire menu (6 matches) found at index 8361392 offset hex 7FA5B0
+bonfire menu (6 matches) found at index 8362768 offset hex 7FAB10
+bonfire menu (6 matches) found at index 8364032 offset hex 7FB000
+bonfire menu (6 matches) found at index 8368304 offset hex 7FC0B0
+bonfire menu (6 matches) found at index 8369600 offset hex 7FC5C0
+bonfire menu (6 matches) found at index 8370128 offset hex 7FC7D0
+three more menus found at index 8373040 offset hex 7FD330
+three more menus found at index 8373904 offset hex 7FD690
+three more menus found at index 8375696 offset hex 7FDD90
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375970 offset hex 1EE14A2 with offset 1EE14A6
 
@@ -1341,6 +1476,15 @@ TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14187754 offset hex D88CEA
+bonfire menu (6 matches) found at index 8361392 offset hex 7FA5B0
+bonfire menu (6 matches) found at index 8362768 offset hex 7FAB10
+bonfire menu (6 matches) found at index 8364032 offset hex 7FB000
+bonfire menu (6 matches) found at index 8368304 offset hex 7FC0B0
+bonfire menu (6 matches) found at index 8369600 offset hex 7FC5C0
+bonfire menu (6 matches) found at index 8370128 offset hex 7FC7D0
+three more menus found at index 8373040 offset hex 7FD330
+three more menus found at index 8373904 offset hex 7FD690
+three more menus found at index 8375696 offset hex 7FDD90
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375938 offset hex 1EE1482 with offset 1EE1486
 
@@ -1404,6 +1548,15 @@ TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14199322 offset hex D8BA1A
+bonfire menu (6 matches) found at index 8365744 offset hex 7FB6B0
+bonfire menu (6 matches) found at index 8367120 offset hex 7FBC10
+bonfire menu (6 matches) found at index 8368384 offset hex 7FC100
+bonfire menu (6 matches) found at index 8372656 offset hex 7FD1B0
+bonfire menu (6 matches) found at index 8373952 offset hex 7FD6C0
+bonfire menu (6 matches) found at index 8374480 offset hex 7FD8D0
+three more menus found at index 8377392 offset hex 7FE430
+three more menus found at index 8378256 offset hex 7FE790
+three more menus found at index 8380048 offset hex 7FEE90
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387442 offset hex 1EE4172 with offset 1EE4176
 
@@ -1467,6 +1620,15 @@ TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14199594 offset hex D8BB2A
+bonfire menu (6 matches) found at index 8365840 offset hex 7FB710
+bonfire menu (6 matches) found at index 8367216 offset hex 7FBC70
+bonfire menu (6 matches) found at index 8368480 offset hex 7FC160
+bonfire menu (6 matches) found at index 8372752 offset hex 7FD210
+bonfire menu (6 matches) found at index 8374048 offset hex 7FD720
+bonfire menu (6 matches) found at index 8374576 offset hex 7FD930
+three more menus found at index 8377488 offset hex 7FE490
+three more menus found at index 8378352 offset hex 7FE7F0
+three more menus found at index 8380144 offset hex 7FEEF0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387714 offset hex 1EE4282 with offset 1EE4286
 
@@ -1530,6 +1692,15 @@ TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14200282 offset hex D8BDDA
+bonfire menu (6 matches) found at index 8366496 offset hex 7FB9A0
+bonfire menu (6 matches) found at index 8367872 offset hex 7FBF00
+bonfire menu (6 matches) found at index 8369136 offset hex 7FC3F0
+bonfire menu (6 matches) found at index 8373408 offset hex 7FD4A0
+bonfire menu (6 matches) found at index 8374704 offset hex 7FD9B0
+bonfire menu (6 matches) found at index 8375232 offset hex 7FDBC0
+three more menus found at index 8378144 offset hex 7FE720
+three more menus found at index 8379008 offset hex 7FEA80
+three more menus found at index 8380800 offset hex 7FF180
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388402 offset hex 1EE4532 with offset 1EE4536
 
@@ -1593,6 +1764,15 @@ TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14200282 offset hex D8BDDA
+bonfire menu (6 matches) found at index 8366496 offset hex 7FB9A0
+bonfire menu (6 matches) found at index 8367872 offset hex 7FBF00
+bonfire menu (6 matches) found at index 8369136 offset hex 7FC3F0
+bonfire menu (6 matches) found at index 8373408 offset hex 7FD4A0
+bonfire menu (6 matches) found at index 8374704 offset hex 7FD9B0
+bonfire menu (6 matches) found at index 8375232 offset hex 7FDBC0
+three more menus found at index 8378144 offset hex 7FE720
+three more menus found at index 8379008 offset hex 7FEA80
+three more menus found at index 8380800 offset hex 7FF180
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388626 offset hex 1EE4612 with offset 1EE4616
 
@@ -1656,6 +1836,15 @@ TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D38 final offset 3D68448
 CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata) found at index 2483872 offset hex 25F6A0 raw val FC
 Music volume read (patch 31C99090 to mute) found at index 14429818 offset hex DC3E7A
+bonfire menu (6 matches) found at index 8438752 offset hex 80D3E0
+bonfire menu (6 matches) found at index 8440128 offset hex 80D940
+bonfire menu (6 matches) found at index 8441392 offset hex 80DE30
+bonfire menu (6 matches) found at index 8445664 offset hex 80EEE0
+bonfire menu (6 matches) found at index 8446960 offset hex 80F3F0
+bonfire menu (6 matches) found at index 8447488 offset hex 80F600
+three more menus found at index 8450400 offset hex 810160
+three more menus found at index 8451264 offset hex 8104C0
+three more menus found at index 8453056 offset hex 810BC0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668962 offset hex 1F28D22 with offset 1F28D26
 
@@ -1719,6 +1908,15 @@ TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D58 final offset 3D68468
 CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata) found at index 2483872 offset hex 25F6A0 raw val FC
 Music volume read (patch 31C99090 to mute) found at index 14429850 offset hex DC3E9A
+bonfire menu (6 matches) found at index 8438752 offset hex 80D3E0
+bonfire menu (6 matches) found at index 8440128 offset hex 80D940
+bonfire menu (6 matches) found at index 8441392 offset hex 80DE30
+bonfire menu (6 matches) found at index 8445664 offset hex 80EEE0
+bonfire menu (6 matches) found at index 8446960 offset hex 80F3F0
+bonfire menu (6 matches) found at index 8447488 offset hex 80F600
+three more menus found at index 8450400 offset hex 810160
+three more menus found at index 8451264 offset hex 8104C0
+three more menus found at index 8453056 offset hex 810BC0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668994 offset hex 1F28D42 with offset 1F28D46
 
