@@ -394,6 +394,8 @@ Nothing found for worldChrManChrSetOffset
 PGDataOffset found at index 6465088 offset hex 62B640 raw val 570
 TorrentIDOffset found at index 6465088 offset hex 62B640 raw val 930
 GLOBAL_CSEventFlagMan found at index 2718904 offset hex 298CB8 raw val 39AAC08 final offset 3C438C8
+GetEventFlag found at index 6087184 offset hex 5CF210
+SetEventFlag found at index 6089216 offset hex 5CFA00
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13853098 offset hex D371AA
 bonfire menu (6 matches) found at index 8306992 offset hex 7ED130
@@ -466,6 +468,8 @@ worldChrManChrSetOffset found at index 5203256 offset hex 4F7538 raw val 18038
 PGDataOffset found at index 6505472 offset hex 635400 raw val 570
 TorrentIDOffset found at index 6505472 offset hex 635400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733736 offset hex 29C6A8 raw val 39B6038 final offset 3C526E8
+GetEventFlag found at index 6129232 offset hex 5D9650
+SetEventFlag found at index 6131264 offset hex 5D9E40
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13932890 offset hex D4A95A
 bonfire menu (6 matches) found at index 8351200 offset hex 7F7DE0
@@ -538,6 +542,8 @@ worldChrManChrSetOffset found at index 5203368 offset hex 4F75A8 raw val 18038
 PGDataOffset found at index 6505584 offset hex 635470 raw val 570
 TorrentIDOffset found at index 6505584 offset hex 635470 raw val 930
 GLOBAL_CSEventFlagMan found at index 2733848 offset hex 29C718 raw val 39B5FE8 final offset 3C52708
+GetEventFlag found at index 6129344 offset hex 5D96C0
+SetEventFlag found at index 6131376 offset hex 5D9EB0
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13933018 offset hex D4A9DA
 bonfire menu (6 matches) found at index 8351312 offset hex 7F7E50
@@ -610,6 +616,8 @@ worldChrManChrSetOffset found at index 5203656 offset hex 4F76C8 raw val 18038
 PGDataOffset found at index 6505872 offset hex 635590 raw val 570
 TorrentIDOffset found at index 6505872 offset hex 635590 raw val 930
 GLOBAL_CSEventFlagMan found at index 2734136 offset hex 29C838 raw val 39B8F08 final offset 3C55748
+GetEventFlag found at index 6129632 offset hex 5D97E0
+SetEventFlag found at index 6131664 offset hex 5D9FD0
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13933610 offset hex D4AC2A
 bonfire menu (6 matches) found at index 8351520 offset hex 7F7F20
@@ -682,6 +690,8 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+GetEventFlag found at index 6133872 offset hex 5DA870
+SetEventFlag found at index 6135904 offset hex 5DB060
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967802 offset hex D531BA
 bonfire menu (6 matches) found at index 8362496 offset hex 7FAA00
@@ -754,6 +764,8 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509568 offset hex 636400 raw val 570
 TorrentIDOffset found at index 6509568 offset hex 636400 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+GetEventFlag found at index 6133872 offset hex 5DA870
+SetEventFlag found at index 6135904 offset hex 5DB060
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967818 offset hex D531CA
 bonfire menu (6 matches) found at index 8362496 offset hex 7FAA00
@@ -826,6 +838,8 @@ worldChrManChrSetOffset found at index 5207512 offset hex 4F85D8 raw val 18038
 PGDataOffset found at index 6509536 offset hex 6363E0 raw val 570
 TorrentIDOffset found at index 6509536 offset hex 6363E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2735896 offset hex 29CF18 raw val 39CA388 final offset 3C672A8
+GetEventFlag found at index 6133840 offset hex 5DA850
+SetEventFlag found at index 6135872 offset hex 5DB040
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13967786 offset hex D531AA
 bonfire menu (6 matches) found at index 8362464 offset hex 7FA9E0
@@ -898,6 +912,8 @@ worldChrManChrSetOffset found at index 5219304 offset hex 4FB3E8 raw val 18038
 PGDataOffset found at index 6521312 offset hex 6391E0 raw val 570
 TorrentIDOffset found at index 6521312 offset hex 6391E0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+GetEventFlag found at index 6145360 offset hex 5DD550
+SetEventFlag found at index 6147392 offset hex 5DDD40
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837370 offset hex D3343A
 bonfire menu (6 matches) found at index 8265344 offset hex 7E2E80
@@ -970,6 +986,8 @@ worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+GetEventFlag found at index 6145120 offset hex 5DD460
+SetEventFlag found at index 6147152 offset hex 5DDC50
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837130 offset hex D3334A
 bonfire menu (6 matches) found at index 8265104 offset hex 7E2D90
@@ -1042,6 +1060,8 @@ worldChrManChrSetOffset found at index 5219064 offset hex 4FB2F8 raw val 18038
 PGDataOffset found at index 6521072 offset hex 6390F0 raw val 570
 TorrentIDOffset found at index 6521072 offset hex 6390F0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744264 offset hex 29EFC8 raw val 396B568 final offset 3C0A538
+GetEventFlag found at index 6145120 offset hex 5DD460
+SetEventFlag found at index 6147152 offset hex 5DDC50
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13837130 offset hex D3334A
 bonfire menu (6 matches) found at index 8265104 offset hex 7E2D90
@@ -1114,6 +1134,8 @@ worldChrManChrSetOffset found at index 5219976 offset hex 4FB688 raw val 18038
 PGDataOffset found at index 6523952 offset hex 639C30 raw val 570
 TorrentIDOffset found at index 6523952 offset hex 639C30 raw val 930
 GLOBAL_CSEventFlagMan found at index 2744632 offset hex 29F138 raw val 39831A8 final offset 3C222E8
+GetEventFlag found at index 6147904 offset hex 5DDF40
+SetEventFlag found at index 6149936 offset hex 5DE730
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13859434 offset hex D38A6A
 bonfire menu (6 matches) found at index 8278000 offset hex 7E5FF0
@@ -1186,6 +1208,8 @@ worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
+GetEventFlag found at index 6153952 offset hex 5DF6E0
+SetEventFlag found at index 6155984 offset hex 5DFED0
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13884858 offset hex D3EDBA
 bonfire menu (6 matches) found at index 8286192 offset hex 7E7FF0
@@ -1258,6 +1282,8 @@ worldChrManChrSetOffset found at index 5224440 offset hex 4FC7F8 raw val 18038
 PGDataOffset found at index 6530064 offset hex 63B410 raw val 570
 TorrentIDOffset found at index 6530064 offset hex 63B410 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748360 offset hex 29FFC8 raw val 3993538 final offset 3C33508
+GetEventFlag found at index 6153952 offset hex 5DF6E0
+SetEventFlag found at index 6155984 offset hex 5DFED0
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13884858 offset hex D3EDBA
 bonfire menu (6 matches) found at index 8286192 offset hex 7E7FF0
@@ -1330,6 +1356,8 @@ worldChrManChrSetOffset found at index 5224360 offset hex 4FC7A8 raw val 1DED8
 PGDataOffset found at index 6533776 offset hex 63C290 raw val 570
 TorrentIDOffset found at index 6533776 offset hex 63C290 raw val 930
 GLOBAL_CSEventFlagMan found at index 2748408 offset hex 29FFF8 raw val 39ADEC8 final offset 3C4DEC8
+GetEventFlag found at index 6157664 offset hex 5E0560
+SetEventFlag found at index 6159696 offset hex 5E0D50
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 13898954 offset hex D424CA
 bonfire menu (6 matches) found at index 8292144 offset hex 7E9730
@@ -1402,6 +1430,8 @@ worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
+GetEventFlag found at index 6208608 offset hex 5ECC60
+SetEventFlag found at index 6210640 offset hex 5ED450
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14187786 offset hex D88D0A
 bonfire menu (6 matches) found at index 8361392 offset hex 7FA5B0
@@ -1474,6 +1504,8 @@ worldChrManChrSetOffset found at index 5253944 offset hex 503B38 raw val 1DED8
 PGDataOffset found at index 6585968 offset hex 648E70 raw val 580
 TorrentIDOffset found at index 6585968 offset hex 648E70 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751304 offset hex 2A0B48 raw val 3A3B2A8 final offset 3CDBDF8
+GetEventFlag found at index 6208608 offset hex 5ECC60
+SetEventFlag found at index 6210640 offset hex 5ED450
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14187754 offset hex D88CEA
 bonfire menu (6 matches) found at index 8361392 offset hex 7FA5B0
@@ -1546,6 +1578,8 @@ worldChrManChrSetOffset found at index 5254744 offset hex 503E58 raw val 1DED8
 PGDataOffset found at index 6589424 offset hex 649BF0 raw val 580
 TorrentIDOffset found at index 6589424 offset hex 649BF0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+GetEventFlag found at index 6211968 offset hex 5ED980
+SetEventFlag found at index 6214000 offset hex 5EE170
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14199322 offset hex D8BA1A
 bonfire menu (6 matches) found at index 8365744 offset hex 7FB6B0
@@ -1618,6 +1652,8 @@ worldChrManChrSetOffset found at index 5254840 offset hex 503EB8 raw val 1DED8
 PGDataOffset found at index 6589520 offset hex 649C50 raw val 580
 TorrentIDOffset found at index 6589520 offset hex 649C50 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+GetEventFlag found at index 6212064 offset hex 5ED9E0
+SetEventFlag found at index 6214096 offset hex 5EE1D0
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14199594 offset hex D8BB2A
 bonfire menu (6 matches) found at index 8365840 offset hex 7FB710
@@ -1690,6 +1726,8 @@ worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+GetEventFlag found at index 6212640 offset hex 5EDC20
+SetEventFlag found at index 6214672 offset hex 5EE410
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14200282 offset hex D8BDDA
 bonfire menu (6 matches) found at index 8366496 offset hex 7FB9A0
@@ -1762,6 +1800,8 @@ worldChrManChrSetOffset found at index 5255416 offset hex 5040F8 raw val 1DED8
 PGDataOffset found at index 6590144 offset hex 649EC0 raw val 580
 TorrentIDOffset found at index 6590144 offset hex 649EC0 raw val 930
 GLOBAL_CSEventFlagMan found at index 2751608 offset hex 2A0C78 raw val 3A3E5B8 final offset 3CDF238
+GetEventFlag found at index 6212640 offset hex 5EDC20
+SetEventFlag found at index 6214672 offset hex 5EE410
 Nothing found for CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)
 Music volume read (patch 31C99090 to mute) found at index 14200282 offset hex D8BDDA
 bonfire menu (6 matches) found at index 8366496 offset hex 7FB9A0
@@ -1834,6 +1874,8 @@ worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D38 final offset 3D68448
+GetEventFlag found at index 6259072 offset hex 5F9180
+SetEventFlag found at index 6261104 offset hex 5F9970
 CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata) found at index 2483872 offset hex 25F6A0 raw val FC
 Music volume read (patch 31C99090 to mute) found at index 14429818 offset hex DC3E7A
 bonfire menu (6 matches) found at index 8438752 offset hex 80D3E0
@@ -1906,6 +1948,8 @@ worldChrManChrSetOffset found at index 5270392 offset hex 507B78 raw val 1DED8
 PGDataOffset found at index 6639904 offset hex 656120 raw val 580
 TorrentIDOffset found at index 6639904 offset hex 656120 raw val 950
 GLOBAL_CSEventFlagMan found at index 2758408 offset hex 2A2708 raw val 3AC5D58 final offset 3D68468
+GetEventFlag found at index 6259072 offset hex 5F9180
+SetEventFlag found at index 6261104 offset hex 5F9970
 CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata) found at index 2483872 offset hex 25F6A0 raw val FC
 Music volume read (patch 31C99090 to mute) found at index 14429850 offset hex DC3E9A
 bonfire menu (6 matches) found at index 8438752 offset hex 80D3E0

@@ -177,6 +177,8 @@ namespace aobScanExe
                 findAddr(textSection, header.VirtualAddress, "48 8B81 ????0000 48 C702 FFFFFFFF 48 85C0 74 0A 48 8B80 ????0000 48 8902 48 8BC2", "TorrentIDOffset", 3 + 4 + 3 + 4 + 3 + 2 + 3, startIndex: 6400000); //from this ID, eg. 0x1XX00000, we need the XX. prob should sanity check the rest.
 
                 findAddr(textSection, header.VirtualAddress, "48 833D ???????? 00 0F84 ????0000 44 8BE6 85 C0 0F 84 ????0000", "GLOBAL_CSEventFlagMan", 1 + 2, 1 + 2 + 4 + 1, startIndex: 2000000); //singleton, type CS::CSFD4VirtualMemoryFlag
+                findAddr(textSection, header.VirtualAddress, "44 8b 41 1c 44 8b da 33 d2 41 8b c3", "GetEventFlag", startIndex: 5500000);
+                findAddr(textSection, header.VirtualAddress, "48 89 5c 24 08 44 8b 49 1c 44 8b d2 33 d2", "SetEventFlag", startIndex: 5500000);
 
                 findAddr(textSection, header.VirtualAddress, "80 b9 ?? ?? 00 00 00 74 08 0f b6 81 ?? ?? 00 00 c3 0f b6 81 ?? ?? 00 00 c3", "CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata)", readoffset32: 20, startIndex: 2000000); //if scan fails, can assume .exe is pre-dlc
 
