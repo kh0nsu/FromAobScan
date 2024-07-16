@@ -188,6 +188,8 @@ namespace aobScanExe
                 //findAddr(textSection, header.VirtualAddress, "4c 8b dc 57 48 81 ec 90 00 00 00 49 c7 43 a0 fe ff ff ff 49 89 5b 08", "other menu funcs", startIndex: 7500000, singleMatch: false); //more general menu funcs? includes the main bonfire menu opener
                 findAddr(textSection, header.VirtualAddress, "4c 8b dc 53 48 81 ec 90 00 00 00 49 c7 43 88 fe ff ff ff 48 8b 05 ?? ?? ?? ?? 48 33 c4 48 89 84 24 80 00 00 00 48 8b d9 49 c7 43 e0 00 00 00 00 49 8d 43 a8 49 89 43 90 49 8d 43 a8 49 89 43 98 48 8d 05 ?? ?? ?? ?? 49 89 43 a8 48 8d 05 ?? ?? ?? ?? 49 89 43 a8 48 8d 05 ?? ?? ?? ?? 49 89 43 b0", "three more menus", startIndex: 7500000, singleMatch: false);
 
+                findAddr(textSection, header.VirtualAddress, "8982????0000 c744243000000000 e8???????? 33c9 e8", "ClearCount in GameDataMan", readoffset32: 2);
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F
