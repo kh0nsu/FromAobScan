@@ -190,6 +190,8 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "8982????0000 c744243000000000 e8???????? 33c9 e8", "ClearCount in GameDataMan", readoffset32: 2);
 
+                findAddr(textSection, header.VirtualAddress, "44 8b ?? 6c 45 33 ?? 44 89 ?? 24 10 45 8d ?? ?? 44", "AddRunes", startIndex: 2000000);
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F

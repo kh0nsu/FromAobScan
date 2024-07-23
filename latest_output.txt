@@ -408,6 +408,7 @@ three more menus found at index 8317280 offset hex 7EF960
 three more menus found at index 8318144 offset hex 7EFCC0
 three more menus found at index 8319936 offset hex 7F03C0
 ClearCount in GameDataMan found at index 11134768 offset hex A9F730 raw val 120
+AddRunes found at index 2441232 offset hex 255010
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31916994 offset hex 1E713C2 with offset 1E713C6
 
@@ -483,6 +484,7 @@ three more menus found at index 8361488 offset hex 7FA610
 three more menus found at index 8362352 offset hex 7FA970
 three more menus found at index 8364144 offset hex 7FB070
 ClearCount in GameDataMan found at index 11190608 offset hex AAD150 raw val 120
+AddRunes found at index 2454128 offset hex 258270
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964738 offset hex 1E7CE42 with offset 1E7CE46
 
@@ -558,6 +560,7 @@ three more menus found at index 8361600 offset hex 7FA680
 three more menus found at index 8362464 offset hex 7FA9E0
 three more menus found at index 8364256 offset hex 7FB0E0
 ClearCount in GameDataMan found at index 11190736 offset hex AAD1D0 raw val 120
+AddRunes found at index 2454240 offset hex 2582E0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31964818 offset hex 1E7CE92 with offset 1E7CE96
 
@@ -633,6 +636,7 @@ three more menus found at index 8361808 offset hex 7FA750
 three more menus found at index 8362672 offset hex 7FAAB0
 three more menus found at index 8364464 offset hex 7FB1B0
 ClearCount in GameDataMan found at index 11191072 offset hex AAD320 raw val 120
+AddRunes found at index 2454528 offset hex 258400
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31970482 offset hex 1E7E4B2 with offset 1E7E4B6
 
@@ -708,6 +712,7 @@ three more menus found at index 8373152 offset hex 7FD3A0
 three more menus found at index 8374016 offset hex 7FD700
 three more menus found at index 8375808 offset hex 7FDE00
 ClearCount in GameDataMan found at index 11212336 offset hex AB2630 raw val 120
+AddRunes found at index 2456432 offset hex 258B70
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32009234 offset hex 1E87C12 with offset 1E87C16
 
@@ -783,6 +788,7 @@ three more menus found at index 8373152 offset hex 7FD3A0
 three more menus found at index 8374016 offset hex 7FD700
 three more menus found at index 8375808 offset hex 7FDE00
 ClearCount in GameDataMan found at index 11212352 offset hex AB2640 raw val 120
+AddRunes found at index 2456432 offset hex 258B70
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008626 offset hex 1E879B2 with offset 1E879B6
 
@@ -858,6 +864,7 @@ three more menus found at index 8373120 offset hex 7FD380
 three more menus found at index 8373984 offset hex 7FD6E0
 three more menus found at index 8375776 offset hex 7FDDE0
 ClearCount in GameDataMan found at index 11212320 offset hex AB2620 raw val 120
+AddRunes found at index 2456432 offset hex 258B70
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008594 offset hex 1E87992 with offset 1E87996
 
@@ -933,6 +940,7 @@ three more menus found at index 8276000 offset hex 7E5820
 three more menus found at index 8276864 offset hex 7E5B80
 three more menus found at index 8278656 offset hex 7E6280
 ClearCount in GameDataMan found at index 11079552 offset hex A91F80 raw val 120
+AddRunes found at index 2464576 offset hex 25AB40
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909378 offset hex 1E6F602 with offset 1E6F606
 
@@ -1008,6 +1016,7 @@ three more menus found at index 8275760 offset hex 7E5730
 three more menus found at index 8276624 offset hex 7E5A90
 three more menus found at index 8278416 offset hex 7E6190
 ClearCount in GameDataMan found at index 11079312 offset hex A91E90 raw val 120
+AddRunes found at index 2464576 offset hex 25AB40
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -1083,6 +1092,7 @@ three more menus found at index 8275760 offset hex 7E5730
 three more menus found at index 8276624 offset hex 7E5A90
 three more menus found at index 8278416 offset hex 7E6190
 ClearCount in GameDataMan found at index 11079312 offset hex A91E90 raw val 120
+AddRunes found at index 2464576 offset hex 25AB40
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31909138 offset hex 1E6F512 with offset 1E6F516
 
@@ -1158,6 +1168,7 @@ three more menus found at index 8288688 offset hex 7E89B0
 three more menus found at index 8289552 offset hex 7E8D10
 three more menus found at index 8291344 offset hex 7E9410
 ClearCount in GameDataMan found at index 11097488 offset hex A96590 raw val 120
+AddRunes found at index 2464944 offset hex 25ACB0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 31967090 offset hex 1E7D772 with offset 1E7D776
 
@@ -1233,6 +1244,7 @@ three more menus found at index 8296880 offset hex 7EA9B0
 three more menus found at index 8297744 offset hex 7EAD10
 three more menus found at index 8299536 offset hex 7EB410
 ClearCount in GameDataMan found at index 11113616 offset hex A9A490 raw val 120
+AddRunes found at index 2468656 offset hex 25BB30
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1308,6 +1320,7 @@ three more menus found at index 8296880 offset hex 7EA9B0
 three more menus found at index 8297744 offset hex 7EAD10
 three more menus found at index 8299536 offset hex 7EB410
 ClearCount in GameDataMan found at index 11113616 offset hex A9A490 raw val 120
+AddRunes found at index 2468656 offset hex 25BB30
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32008402 offset hex 1E878D2 with offset 1E878D6
 
@@ -1383,6 +1396,7 @@ three more menus found at index 8302832 offset hex 7EC0F0
 three more menus found at index 8303696 offset hex 7EC450
 three more menus found at index 8305488 offset hex 7ECB50
 ClearCount in GameDataMan found at index 11119424 offset hex A9BB40 raw val 120
+AddRunes found at index 2469056 offset hex 25BCC0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32063138 offset hex 1E94EA2 with offset 1E94EA6
 
@@ -1458,6 +1472,7 @@ three more menus found at index 8373040 offset hex 7FD330
 three more menus found at index 8373904 offset hex 7FD690
 three more menus found at index 8375696 offset hex 7FDD90
 ClearCount in GameDataMan found at index 11388432 offset hex ADD610 raw val 120
+AddRunes found at index 2471536 offset hex 25C670
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375970 offset hex 1EE14A2 with offset 1EE14A6
 
@@ -1533,6 +1548,7 @@ three more menus found at index 8373040 offset hex 7FD330
 three more menus found at index 8373904 offset hex 7FD690
 three more menus found at index 8375696 offset hex 7FDD90
 ClearCount in GameDataMan found at index 11388432 offset hex ADD610 raw val 120
+AddRunes found at index 2471536 offset hex 25C670
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32375938 offset hex 1EE1482 with offset 1EE1486
 
@@ -1608,6 +1624,7 @@ three more menus found at index 8377392 offset hex 7FE430
 three more menus found at index 8378256 offset hex 7FE790
 three more menus found at index 8380048 offset hex 7FEE90
 ClearCount in GameDataMan found at index 11399584 offset hex AE01A0 raw val 120
+AddRunes found at index 2471840 offset hex 25C7A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387442 offset hex 1EE4172 with offset 1EE4176
 
@@ -1683,6 +1700,7 @@ three more menus found at index 8377488 offset hex 7FE490
 three more menus found at index 8378352 offset hex 7FE7F0
 three more menus found at index 8380144 offset hex 7FEEF0
 ClearCount in GameDataMan found at index 11399680 offset hex AE0200 raw val 120
+AddRunes found at index 2471840 offset hex 25C7A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32387714 offset hex 1EE4282 with offset 1EE4286
 
@@ -1758,6 +1776,7 @@ three more menus found at index 8378144 offset hex 7FE720
 three more menus found at index 8379008 offset hex 7FEA80
 three more menus found at index 8380800 offset hex 7FF180
 ClearCount in GameDataMan found at index 11400336 offset hex AE0490 raw val 120
+AddRunes found at index 2471840 offset hex 25C7A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388402 offset hex 1EE4532 with offset 1EE4536
 
@@ -1833,6 +1852,7 @@ three more menus found at index 8378144 offset hex 7FE720
 three more menus found at index 8379008 offset hex 7FEA80
 three more menus found at index 8380800 offset hex 7FF180
 ClearCount in GameDataMan found at index 11400336 offset hex AE0490 raw val 120
+AddRunes found at index 2471840 offset hex 25C7A0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32388626 offset hex 1EE4612 with offset 1EE4616
 
@@ -1908,6 +1928,7 @@ three more menus found at index 8450400 offset hex 810160
 three more menus found at index 8451264 offset hex 8104C0
 three more menus found at index 8453056 offset hex 810BC0
 ClearCount in GameDataMan found at index 11588240 offset hex B0E290 raw val 120
+AddRunes found at index 2478512 offset hex 25E1B0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668962 offset hex 1F28D22 with offset 1F28D26
 
@@ -1983,6 +2004,7 @@ three more menus found at index 8450400 offset hex 810160
 three more menus found at index 8451264 offset hex 8104C0
 three more menus found at index 8453056 offset hex 810BC0
 ClearCount in GameDataMan found at index 11588240 offset hex B0E290 raw val 120
+AddRunes found at index 2478512 offset hex 25E1B0
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32668994 offset hex 1F28D42 with offset 1F28D46
 
