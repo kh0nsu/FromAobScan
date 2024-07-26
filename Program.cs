@@ -192,6 +192,8 @@ namespace aobScanExe
 
                 findAddr(textSection, header.VirtualAddress, "44 8b ?? 6c 45 33 ?? 44 89 ?? 24 10 45 8d ?? ?? 44", "AddRunes", startIndex: 2000000);
 
+                findAddr(textSection, header.VirtualAddress, "48 8b 05 ?? ?? ?? ?? 0f b6 80 ?? ?? 00 00 c3 ?? 48 8b 05 ?? ?? ?? ?? 8b 90", "Trigger NG+ offset in GameMan", readoffset32: 3 + 4 + 3, startIndex: 6000000);
+
                 var cave = "";
                 for (int i = 0; i < 0xA0; i++) { cave += "90"; }
                 findAddr(textSection, header.VirtualAddress, cave, "codeCave_0x60_nops", startIndex: 100000); //this seems fixed at 0x2543F
