@@ -5,6 +5,14 @@ Processing exe: C:\fromexes\armoredcore6_1.01.exe
 alt stutter fix, patch in 4885C990909090 found at index 43339746 offset hex 2955FE2 with offset 2955FE6
 alt stutter fix, patch in 4885C990909090 found at index 43339826 offset hex 2956032 with offset 2956036
 
+Processing exe: C:\fromexes\DARKSOULS.exe
+
+Nothing found for alt stutter fix, patch in 4885C990909090
+
+Processing exe: C:\fromexes\DarkSoulsII.exe
+
+alt stutter fix, patch in 4885C990909090 found at index 15686043 offset hex EF699B with offset EF699F
+
 Processing exe: C:\fromexes\DarkSoulsIII_1.04_crashfix.exe
 
 NS_SPRJ::GameDataMan found at index 4625728 offset hex 46A540 raw val 4232BD1 final offset 469D118
@@ -335,6 +343,10 @@ Global Speed found at index 10062882 offset hex 999C22 with offset 999C28
 debugMenuFirstPatchLoc found at index 15518948 offset hex ECDCE4
 noLogoPatchLoc found at index 12487951 offset hex BE9D0F
 alt stutter fix, patch in 4885C990909090 found at index 24958155 offset hex 17CE4CB with offset 17CE4CF
+
+Processing exe: C:\fromexes\DarkSoulsRemastered.exe
+
+Nothing found for alt stutter fix, patch in 4885C990909090
 
 Processing exe: C:\fromexes\eldenring_1.01.0.exe
 
