@@ -2273,6 +2273,83 @@ Trigger NG+ offset in GameMan found at index 6783920 offset hex 6793B0 raw val B
 codeCave_0x60_nops found at index 148543 offset hex 2543F
 alt stutter fix, patch in 4885C990909090 found at index 32671122 offset hex 1F29592 with offset 1F29596
 
+Processing exe: C:\fromexes\eldenring_1.16.0.exe
+
+CS::WorldChrManImp found at index 1809655 offset hex 1BACF7 raw val 3BAB285 final offset 3D65F88
+CS::WorldChrManImp offset found at index 1809655 offset hex 1BACF7 raw val 1E508
+hitboxBase found at index 11527991 offset hex AFF737 raw val 3266C3A final offset 3D66378
+hitboxOffset found at index 5394815 offset hex 52617F raw val A0
+groupMaskBase found at index 6819270 offset hex 681DC6 raw val 34B1F33 final offset 3B33D00
+groupMaskTrees found at index 6819472 offset hex 681E90 raw val 34B1E72 final offset 3B33D09
+groupMaskMap found at index 6819303 offset hex 681DE7 raw val 34B1F13 final offset 3B33D01
+meshesOff found at index 7407991 offset hex 711977 raw val 365876E final offset 3D6A0EC
+CS::GameMan found at index 6785280 offset hex 679900 raw val 36F0011 final offset 3D69918
+logoScreenBase found at index 11580397 offset hex B0C3ED
+targetHookLoc found at index 7431038 offset hex 71737E
+targetHookLoc offset found at index 7431038 offset hex 71737E raw val 6B0
+noGoodsConsume found at index 6628423 offset hex 653447 raw val 3712D55 final offset 3D661A3
+noAIUpdate found at index 3959169 offset hex 3C7981 raw val 399E827 final offset 3D661AF
+chrDbg found at index 5306895 offset hex 510A0F raw val 3855782 final offset 3D66198
+CSMenuManImp found at index 7696710 offset hex 758146 raw val 3613663 final offset 3D6B7B0
+fontDrawOffset found at index 40420144 offset hex 268D330
+DbgEventManOff found at index 11500576 offset hex AF8C20 raw val 326F3D1 final offset 3D67FF8
+Event patch func 1 found at index 5787217 offset hex 585E51 raw val 8CD77A final offset E535D0
+Event patch func 2 found at index 5787217 offset hex 585E51 raw val 8CD751 final offset E535B0
+CS::FieldArea found at index 6737202 offset hex 66DD32 raw val 36FB49F final offset 3D691D8
+free cam patch loc, 1st called addr found at index 7431314 offset hex 717492 raw val 72BE62 final offset E43300
+Nothing found for free cam player control patch loc
+Nothing found for free cam player control patch loc (2nd section)
+free cam player control patch loc 1.12 found at index 6818501 offset hex 681AC5
+map open in combat found at index 8314179 offset hex 7EED43
+map stay open in combat found at index 10234091 offset hex 9C38EB
+enemyRepeatActionOff (1st sect) found at index 5486805 offset hex 53C8D5 with offset 53C8DC
+Nothing found for enemyRepeatActionOff (2nd sect)
+warp call one found at index 6253488 offset hex 5F7BB0
+warp call two found at index 6789840 offset hex 67AAD0
+usrInputMgrImplOff found at index 1251797 offset hex 1329D5 raw val 472B23C final offset 485DC18
+steam input flag check found at index 32671078 offset hex 1F29566 raw val 88B
+csFlipperOff found at index 14583135 offset hex DE955F raw val 37A0572 final offset 4589AD8
+csFlipperOff gameSpeedOffset found at index 14583135 offset hex DE955F raw val 2CC
+frame time target (1/60.0f) found at index 15211258 offset hex E82AFA with offset E82B00
+no-death offset in CSChrDataModule found at index 4416898 offset hex 437582 raw val 19B
+GameDataMan found at index 2446912 offset hex 256640 raw val 3B078F1 final offset 3D5DF38
+CS::CSTrophyImp found at index 14609192 offset hex DEFB28 raw val 3799948 final offset 4589478
+NPC part damage hook found at index 5965636 offset hex 5B1744
+Weapon upgrade rune cost found at index 7888033 offset hex 786CA1
+Weapon upgrade material cost found at index 8825772 offset hex 86BBAC
+soundDrawPatchLoc found at index 3397014 offset hex 33E596
+allTargetingDebugDraw found at index 3396182 offset hex 33E256 raw val 3A2400E final offset 3D6226B
+MapItemManImpl found at index 5941854 offset hex 5ABA5E raw val 37BBFEB final offset 3D67A50
+ItemSpawnCall found at index 5633730 offset hex 5606C2 with offset 560670
+Nothing found for ItemSpawnCall 1.02.x
+allChrNoDeath found at index 4416971 offset hex 4375CB raw val 392EBD8 final offset 3D661AA
+playerNoDeath found at index 4417049 offset hex 437619 raw val 392EB80 final offset 3D661A0
+torrentDisabledCheckOne found at index 13560610 offset hex CEFB22 with offset CEFB2A
+torrentDisabledCheckTwo found at index 7361122 offset hex 706262 with offset 70626F
+mapIDinPlayerIns found at index 6615234 offset hex 6500C2 raw val 6D0
+worldChrManChrSetOffset found at index 5270792 offset hex 507D08 raw val 1DED8
+PGDataOffset found at index 6640768 offset hex 656480 raw val 580
+TorrentIDOffset found at index 6640768 offset hex 656480 raw val 950
+GLOBAL_CSEventFlagMan found at index 2758360 offset hex 2A26D8 raw val 3AC5D68 final offset 3D68448
+GetEventFlag found at index 6259936 offset hex 5F94E0
+SetEventFlag found at index 6261968 offset hex 5F9CD0
+CS::PlayerGameData::GetScadutreeBlessing (scadu offset in pgdata) found at index 2483872 offset hex 25F6A0 raw val FC
+Music volume read (patch 31C99090 to mute) found at index 14432474 offset hex DC48DA
+bonfire menu (6 matches) found at index 8439728 offset hex 80D7B0
+bonfire menu (6 matches) found at index 8441104 offset hex 80DD10
+bonfire menu (6 matches) found at index 8442368 offset hex 80E200
+bonfire menu (6 matches) found at index 8446640 offset hex 80F2B0
+bonfire menu (6 matches) found at index 8447936 offset hex 80F7C0
+bonfire menu (6 matches) found at index 8448464 offset hex 80F9D0
+three more menus found at index 8451376 offset hex 810530
+three more menus found at index 8452240 offset hex 810890
+three more menus found at index 8454032 offset hex 810F90
+ClearCount in GameDataMan found at index 11589888 offset hex B0E900 raw val 120
+AddRunes found at index 2478512 offset hex 25E1B0
+Trigger NG+ offset in GameMan found at index 6784304 offset hex 679530 raw val B7D
+codeCave_0x60_nops found at index 148543 offset hex 2543F
+alt stutter fix, patch in 4885C990909090 found at index 32671074 offset hex 1F29562 with offset 1F29566
+
 Processing exe: C:\fromexes\pc_armoredcore6_runtime_1.01.0.exe
 
 alt stutter fix, patch in 4885C990909090 found at index 43339746 offset hex 2955FE2 with offset 2955FE6
